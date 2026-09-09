@@ -95,9 +95,9 @@ for i in range(1,5):
     summary['external_water_path_lengths_m'][str(i)]=common+sum(lengths[n] for n in names)
 assert water_area+reserve_area+future_area+road_area+green_target+extra==120000
 with (OUT/'构筑物坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
-    w=csv.writer(f);w.writerow(['编号','名称','西边x_m','南边y_m','东西宽_m','南北长_m','类别','依据状态']);w.writerows(units)
+    w=csv.writer(f,lineterminator='\n');w.writerow(['编号','名称','西边x_m','南边y_m','东西宽_m','南北长_m','类别','依据状态']);w.writerows(units)
 with (OUT/'管线平面长度.csv').open('w',encoding='utf-8-sig',newline='') as f:
-    w=csv.writer(f);w.writerow(['管段','类型','折点坐标_m','平面长度_m','说明'])
+    w=csv.writer(f,lineterminator='\n');w.writerow(['管段','类型','折点坐标_m','平面长度_m','说明'])
     for n,k,p,l,note in routes:w.writerow([n,k,json.dumps(p),round(l,2),note])
 (OUT/'面积校核.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 # SVG是坐标数据的图示；蓝色外包为已有单体的占地预留，橙色为未定型设施。
