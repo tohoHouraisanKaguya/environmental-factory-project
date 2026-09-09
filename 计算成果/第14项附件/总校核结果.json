@@ -1,0 +1,849 @@
+{
+  "scope": "课程计算数值总校核；不等于全厂达标、实测固体生成平衡或施工验证",
+  "inputs": {
+    "q_m3_d": 108000.0,
+    "q_average_m3_s": 1.25,
+    "q_peak_m3_s": 1.625,
+    "peak_hour_m3_h": 5850.0,
+    "kz": 1.3
+  },
+  "quality_nominal": {
+    "BOD5": {
+      "incoming_kg_d": 18000.0,
+      "incoming_mg_L": 166.66666666666666,
+      "primary_capture_kg_d": 4500.0,
+      "after_primary_kg_d": 13500.0,
+      "after_primary_mg_L": 125.0,
+      "allowed_kg_d_nominal": 2160.0,
+      "remaining_removal_kg_d": 11340.0,
+      "total_removal_percent": 88.0
+    },
+    "SS": {
+      "incoming_kg_d": 30000.0,
+      "incoming_mg_L": 277.77777777777777,
+      "primary_capture_kg_d": 15000.0,
+      "after_primary_kg_d": 15000.0,
+      "after_primary_mg_L": 138.88888888888889,
+      "allowed_kg_d_nominal": 2160.0,
+      "remaining_removal_kg_d": 12840.0,
+      "total_removal_percent": 92.80000000000001
+    },
+    "TN": {
+      "incoming_kg_d": 4800.0,
+      "incoming_mg_L": 44.44444444444444,
+      "primary_capture_kg_d": 0.0,
+      "after_primary_kg_d": 4800.0,
+      "after_primary_mg_L": 44.44444444444444,
+      "allowed_kg_d_nominal": 2160.0,
+      "remaining_removal_kg_d": 2640.0,
+      "total_removal_percent": 55.00000000000001
+    },
+    "TP": {
+      "incoming_kg_d": 600.0,
+      "incoming_mg_L": 5.555555555555555,
+      "primary_capture_kg_d": 45.0,
+      "after_primary_kg_d": 555.0,
+      "after_primary_mg_L": 5.138888888888889,
+      "allowed_kg_d_nominal": 108.0,
+      "remaining_removal_kg_d": 447.0,
+      "total_removal_percent": 82.0
+    }
+  },
+  "secondary": {
+    "return_concentration_kg_m3": 8.026666666666667,
+    "waste_m3_d": 1146.5445462114903,
+    "effluent_m3_d": 106853.45545378851,
+    "waste_solids_kg_d": 9202.93089092423,
+    "effluent_solids_kg_d": 2137.0691090757705,
+    "area_per_tank_m2": 989.6016858807849,
+    "area_total_m2": 5937.6101152847095,
+    "settling_volume_total_m3": 17812.830345854127,
+    "surface_load_avg_peak_m_h": [
+      0.7578806813899778,
+      0.9852448858069711
+    ],
+    "solids_load_avg_peak_kg_m2_d": [
+      111.40846016432673,
+      144.83099821362475
+    ],
+    "nominal_settling_time_avg_peak_h": [
+      3.958406743523139,
+      3.044928264248569
+    ],
+    "mixed_flow_time_avg_peak_h": [
+      2.261946710584651,
+      1.7399590081420393
+    ],
+    "weir_length_m": 213.62830044410595,
+    "weir_head_peak_m": 0.03185672530009672,
+    "trough_gradient": 0.0003607393104349326,
+    "trough_loss_upper_m": 0.035492452909763286,
+    "feedwell_port_velocity_m_s": 0.10532407407407407,
+    "feedwell_port_loss_m": 0.001470865351613147,
+    "sludge_volume_required_available_m3": [
+      2072.3684210526317,
+      2302.8502469343903
+    ],
+    "hopper_m3": 40.903536349739106,
+    "slope_volume_m3": 282.7433388230814,
+    "five_tank_capacity_m3_h": 5048.988193269311,
+    "two_tank_line_capacity_m3_h": 2019.5952773077242,
+    "mlss_ceiling_peak_kg_m3": 3.6249146002959156,
+    "balance_residuals": [
+      0.0,
+      -1.1641532182693481e-10,
+      0.0
+    ]
+  },
+  "hydraulics": {
+    "incoming_D1200": {
+      "peak_depth_ratio": 0.75,
+      "peak_velocity_m_s": 1.7859756867234655,
+      "required_gradient": 0.0020892344171694415,
+      "average_depth_ratio_at_same_gradient": 0.6173359259367113
+    },
+    "fine_to_grit_channel": {
+      "width_m": 1.5,
+      "gradient": 0.0003,
+      "average_depth_m": 0.6365860461559238,
+      "peak_depth_m": 0.7737706169733289,
+      "peak_velocity_m_s": 0.7000351974923046,
+      "loss_A_B_m": [
+        0.06281554111071024,
+        0.04841554111071024
+      ]
+    },
+    "pipe_segments": {
+      "pump_internal": {
+        "name": "单泵内部出水支管",
+        "flow_m3_s": 0.625,
+        "diameter_m": 0.8,
+        "length_m": 12.0,
+        "local_k": 4.3,
+        "velocity_m_s": 1.2433979929054322,
+        "friction_m": 0.02363973346729751,
+        "local_m": 0.33883617969793095,
+        "loss_m": 0.3624759131652285
+      },
+      "pump_to_fine": {
+        "name": "泵站至细格栅单线总管",
+        "flow_m3_s": 0.8125,
+        "diameter_m": 1.0,
+        "length_m": 22.0,
+        "local_k": 2.0,
+        "velocity_m_s": 1.0345071300973196,
+        "friction_m": 0.024000519927510944,
+        "local_m": 0.10909327239777702,
+        "loss_m": 0.13309379232528798
+      },
+      "grit_to_primary_a": {
+        "name": "沉砂A至初沉配水井",
+        "flow_m3_s": 0.8125,
+        "diameter_m": 1.2,
+        "length_m": 111.5,
+        "local_k": 3.0,
+        "velocity_m_s": 0.7184077292342498,
+        "friction_m": 0.04888398546952216,
+        "local_m": 0.07891585098218824,
+        "loss_m": 0.1277998364517104
+      },
+      "grit_to_primary_b": {
+        "name": "沉砂B至初沉配水井",
+        "flow_m3_s": 0.8125,
+        "diameter_m": 1.2,
+        "length_m": 39.5,
+        "local_k": 2.5,
+        "velocity_m_s": 0.7184077292342498,
+        "friction_m": 0.017317645076646866,
+        "local_m": 0.06576320915182354,
+        "loss_m": 0.0830808542284704
+      },
+      "primary_branch": {
+        "name": "初沉配水井至单池",
+        "flow_m3_s": 0.40625,
+        "diameter_m": 0.9,
+        "length_m": 50.0,
+        "local_k": 2.0,
+        "velocity_m_s": 0.638584648208222,
+        "friction_m": 0.023093801842066976,
+        "local_m": 0.041568843315720555,
+        "loss_m": 0.06466264515778752
+      },
+      "primary_to_bio": {
+        "name": "初沉池至单系列生物池",
+        "flow_m3_s": 0.40625,
+        "diameter_m": 0.9,
+        "length_m": 17.0,
+        "local_k": 1.5,
+        "velocity_m_s": 0.638584648208222,
+        "friction_m": 0.007851892626302771,
+        "local_m": 0.031176632486790416,
+        "loss_m": 0.03902852511309319
+      },
+      "bio_to_secondary": {
+        "name": "单系列生物池至二沉配水井",
+        "flow_m3_s": 0.7109375,
+        "diameter_m": 1.0,
+        "length_m": 50.0,
+        "local_k": 2.5,
+        "velocity_m_s": 0.9051937388351547,
+        "friction_m": 0.04176226833977402,
+        "local_m": 0.10440567084943506,
+        "loss_m": 0.14616793918920906
+      },
+      "mixed_header": {
+        "name": "单线混合液汇流管",
+        "flow_m3_s": 1.421875,
+        "diameter_m": 1.4,
+        "length_m": 20.0,
+        "local_k": 1.5,
+        "velocity_m_s": 0.9236670804440357,
+        "friction_m": 0.012424069833930518,
+        "local_m": 0.0652263666281352,
+        "loss_m": 0.07765043646206572
+      },
+      "secondary_branch": {
+        "name": "二沉配水井至单池中心",
+        "flow_m3_s": 0.4739583333333333,
+        "diameter_m": 1.0,
+        "length_m": 60.0,
+        "local_k": 2.0,
+        "velocity_m_s": 0.6034624925567699,
+        "friction_m": 0.022273209781212815,
+        "local_m": 0.03712201630202136,
+        "loss_m": 0.05939522608323418
+      },
+      "secondary_outlet": {
+        "name": "单座二沉池出水支管",
+        "flow_m3_s": 0.2708333333333333,
+        "diameter_m": 0.8,
+        "length_m": 60.0,
+        "local_k": 2.0,
+        "velocity_m_s": 0.5388057969256873,
+        "friction_m": 0.02219508308874044,
+        "local_m": 0.02959344411832059,
+        "loss_m": 0.05178852720706103
+      },
+      "effluent_header_a": {
+        "name": "A线二沉出水干管",
+        "flow_m3_s": 0.8125,
+        "diameter_m": 1.2,
+        "length_m": 261.0,
+        "local_k": 3.0,
+        "velocity_m_s": 0.7184077292342498,
+        "friction_m": 0.11442798392417294,
+        "local_m": 0.07891585098218824,
+        "loss_m": 0.1933438349063612
+      },
+      "effluent_header_b": {
+        "name": "B线二沉出水干管",
+        "flow_m3_s": 0.8125,
+        "diameter_m": 1.2,
+        "length_m": 101.0,
+        "local_k": 2.5,
+        "velocity_m_s": 0.7184077292342498,
+        "friction_m": 0.04428056082889451,
+        "local_m": 0.06576320915182354,
+        "loss_m": 0.11004376998071805
+      },
+      "final_outlet": {
+        "name": "消毒预留至东厂界总管",
+        "flow_m3_s": 1.625,
+        "diameter_m": 1.5,
+        "length_m": 28.0,
+        "local_k": 1.0,
+        "velocity_m_s": 0.9195618934198397,
+        "friction_m": 0.01609013531990259,
+        "local_m": 0.043098576749739076,
+        "loss_m": 0.059188712069641665
+      }
+    },
+    "distribution_weir_head_avg_peak_m": {
+      "primary": [
+        0.23404208570487425,
+        0.2787765213961924
+      ],
+      "secondary": [
+        0.25937323146421115,
+        0.3089494224643903
+      ]
+    },
+    "connector_distribution_loss_A_B_m": [
+      1.7026609599367446,
+      1.5602419127878617
+    ],
+    "unit_internal_losses": {
+      "fine_screen_blocked_m": 0.121,
+      "grit_allowance_m": 0.25,
+      "primary_trough_and_velocity_m": 0.06965835533925652,
+      "primary_notch_head_m": 0.04170396166522414,
+      "bio_stage_allowance_m": 0.3,
+      "secondary_trough_m": 0.0355,
+      "secondary_notch_head_m": 0.03185672530009672
+    },
+    "unit_internal_total_m": 0.8497190423045774,
+    "preliminary_total_A_B_m": [
+      2.552380002241322,
+      2.4099609550924392
+    ],
+    "return_sludge": {
+      "branch": {
+        "name": "单池回流污泥支管",
+        "flow_m3_s": 0.203125,
+        "diameter_m": 0.5,
+        "length_m": 35.0,
+        "local_k": 4.0,
+        "velocity_m_s": 1.0345071300973196,
+        "friction_m": 0.07636529067844393,
+        "local_m": 0.21818654479555405,
+        "loss_m": 0.294551835473998
+      },
+      "header": {
+        "name": "单线回流污泥干管",
+        "flow_m3_s": 0.609375,
+        "diameter_m": 0.9,
+        "length_m": 165.0,
+        "local_k": 3.0,
+        "velocity_m_s": 0.9578769723123329,
+        "friction_m": 0.17147147867734727,
+        "local_m": 0.14029484619055685,
+        "loss_m": 0.3117663248679041
+      },
+      "to_bio": {
+        "name": "回流污泥至单系列厌氧段",
+        "flow_m3_s": 0.3046875,
+        "diameter_m": 0.7,
+        "length_m": 25.0,
+        "local_k": 2.0,
+        "velocity_m_s": 0.791714640380602,
+        "friction_m": 0.022819720103137688,
+        "local_m": 0.06389521628878553,
+        "loss_m": 0.08671493639192321
+      },
+      "worst_loss_m": 0.6930330967338253
+    },
+    "internal_recycle": {
+      "name": "单系列内回流",
+      "flow_m3_s": 1.015625,
+      "diameter_m": 1.2,
+      "length_m": 80.0,
+      "local_k": 4.0,
+      "velocity_m_s": 0.8980096615428123,
+      "friction_m": 0.05480267429318628,
+      "local_m": 0.16440802287955883,
+      "loss_m": 0.2192106971727451
+    },
+    "waste_sludge_2h_per_day": {
+      "branch": {
+        "name": "单池剩余污泥间歇排放",
+        "flow_m3_s": 0.02654038301415487,
+        "diameter_m": 0.2,
+        "length_m": 35.0,
+        "local_k": 4.0,
+        "velocity_m_s": 0.8448066296509847,
+        "friction_m": 0.12731620006411296,
+        "local_m": 0.14550422864470053,
+        "loss_m": 0.2728204287088135
+      },
+      "header": {
+        "name": "单线剩余污泥共用管",
+        "flow_m3_s": 0.02654038301415487,
+        "diameter_m": 0.25,
+        "length_m": 100.0,
+        "local_k": 2.0,
+        "velocity_m_s": 0.5406762429766303,
+        "friction_m": 0.1191970641057387,
+        "local_m": 0.029799266026434675,
+        "loss_m": 0.14899633013217337
+      }
+    },
+    "maintenance_cross_connect": {
+      "name": "两线检修联络管",
+      "flow_m3_s": 1.625,
+      "diameter_m": 1.5,
+      "length_m": 20.0,
+      "local_k": 3.0,
+      "velocity_m_s": 0.9195618934198397,
+      "friction_m": 0.01149295379993042,
+      "local_m": 0.12929573024921723,
+      "loss_m": 0.14078868404914766
+    },
+    "air_network": {
+      "main": {
+        "flow_m3_s": 8.333333333333334,
+        "diameter_m": 1.0,
+        "length_m": 20.0,
+        "velocity_m_s": 10.61032953945969
+      },
+      "half_ring": {
+        "flow_m3_s": 4.166666666666667,
+        "diameter_m": 1.0,
+        "length_m": 110.0,
+        "velocity_m_s": 5.305164769729845
+      },
+      "series_branch": {
+        "flow_m3_s": 2.0833333333333335,
+        "diameter_m": 0.75,
+        "length_m": 30.0,
+        "velocity_m_s": 4.71570201753764
+      },
+      "friction_and_local_loss_kPa": 0.29708371746981754
+    }
+  },
+  "elevation": {
+    "flood_design_m": 25.0,
+    "profile": [
+      {
+        "reach": "细格栅堵塞工况",
+        "downstream_m": 29.95,
+        "upstream_m": 30.1,
+        "design_drop_m": 0.15,
+        "baseline_A_m": 0.121,
+        "baseline_B_m": 0.121,
+        "spare_A_m": 0.028999999999999998,
+        "spare_B_m": 0.028999999999999998
+      },
+      {
+        "reach": "细栅至沉砂连接渠",
+        "downstream_m": 29.8,
+        "upstream_m": 29.95,
+        "design_drop_m": 0.15,
+        "baseline_A_m": 0.06281554111071024,
+        "baseline_B_m": 0.04841554111071024,
+        "spare_A_m": 0.08718445888928976,
+        "spare_B_m": 0.10158445888928976
+      },
+      {
+        "reach": "曝气沉砂池内部",
+        "downstream_m": 29.55,
+        "upstream_m": 29.8,
+        "design_drop_m": 0.25,
+        "baseline_A_m": 0.25,
+        "baseline_B_m": 0.25,
+        "spare_A_m": 0.0,
+        "spare_B_m": 0.0
+      },
+      {
+        "reach": "沉砂出口至初沉配水",
+        "downstream_m": 29.3,
+        "upstream_m": 29.55,
+        "design_drop_m": 0.25,
+        "baseline_A_m": 0.1277998364517104,
+        "baseline_B_m": 0.0830808542284704,
+        "spare_A_m": 0.12220016354828961,
+        "spare_B_m": 0.1669191457715296
+      },
+      {
+        "reach": "初沉配水自由堰",
+        "downstream_m": 28.85,
+        "upstream_m": 29.3,
+        "design_drop_m": 0.45,
+        "baseline_A_m": 0.37877652139619244,
+        "baseline_B_m": 0.37877652139619244,
+        "spare_A_m": 0.07122347860380757,
+        "spare_B_m": 0.07122347860380757
+      },
+      {
+        "reach": "初沉支管及池内进水",
+        "downstream_m": 28.7,
+        "upstream_m": 28.85,
+        "design_drop_m": 0.15,
+        "baseline_A_m": 0.08466264515778753,
+        "baseline_B_m": 0.08466264515778753,
+        "spare_A_m": 0.06533735484221247,
+        "spare_B_m": 0.06533735484221247
+      },
+      {
+        "reach": "初沉锯齿堰及环槽",
+        "downstream_m": 28.5,
+        "upstream_m": 28.7,
+        "design_drop_m": 0.2,
+        "baseline_A_m": 0.161362317,
+        "baseline_B_m": 0.161362317,
+        "spare_A_m": 0.038637683000000006,
+        "spare_B_m": 0.038637683000000006
+      },
+      {
+        "reach": "初沉出水至生物入口",
+        "downstream_m": 28.3,
+        "upstream_m": 28.5,
+        "design_drop_m": 0.2,
+        "baseline_A_m": 0.03902852511309319,
+        "baseline_B_m": 0.03902852511309319,
+        "spare_A_m": 0.16097147488690683,
+        "spare_B_m": 0.16097147488690683
+      },
+      {
+        "reach": "生物池内部",
+        "downstream_m": 28.0,
+        "upstream_m": 28.3,
+        "design_drop_m": 0.3,
+        "baseline_A_m": 0.3,
+        "baseline_B_m": 0.3,
+        "spare_A_m": 0.0,
+        "spare_B_m": 0.0
+      },
+      {
+        "reach": "生物出口支管及混合液总管",
+        "downstream_m": 27.65,
+        "upstream_m": 28.0,
+        "design_drop_m": 0.35,
+        "baseline_A_m": 0.22381837565127477,
+        "baseline_B_m": 0.22381837565127477,
+        "spare_A_m": 0.1261816243487252,
+        "spare_B_m": 0.1261816243487252
+      },
+      {
+        "reach": "二沉配水自由堰",
+        "downstream_m": 27.15,
+        "upstream_m": 27.65,
+        "design_drop_m": 0.5,
+        "baseline_A_m": 0.40894942246439026,
+        "baseline_B_m": 0.40894942246439026,
+        "spare_A_m": 0.09105057753560974,
+        "spare_B_m": 0.09105057753560974
+      },
+      {
+        "reach": "二沉进水支管及中心挡板",
+        "downstream_m": 27.0,
+        "upstream_m": 27.15,
+        "design_drop_m": 0.15,
+        "baseline_A_m": 0.06089522608323418,
+        "baseline_B_m": 0.06089522608323418,
+        "spare_A_m": 0.08910477391676581,
+        "spare_B_m": 0.08910477391676581
+      },
+      {
+        "reach": "二沉锯齿堰及环槽",
+        "downstream_m": 26.8,
+        "upstream_m": 27.0,
+        "design_drop_m": 0.2,
+        "baseline_A_m": 0.1673567253,
+        "baseline_B_m": 0.1673567253,
+        "spare_A_m": 0.0326432747,
+        "spare_B_m": 0.0326432747
+      },
+      {
+        "reach": "二沉出水支管及干管",
+        "downstream_m": 26.5,
+        "upstream_m": 26.8,
+        "design_drop_m": 0.3,
+        "baseline_A_m": 0.24513236211342224,
+        "baseline_B_m": 0.16183229718777908,
+        "spare_A_m": 0.05486763788657775,
+        "spare_B_m": 0.1381677028122209
+      },
+      {
+        "reach": "消毒计量预留",
+        "downstream_m": 26.0,
+        "upstream_m": 26.5,
+        "design_drop_m": 0.5,
+        "baseline_A_m": 0.5,
+        "baseline_B_m": 0.5,
+        "spare_A_m": 0.0,
+        "spare_B_m": 0.0
+      }
+    ],
+    "fine_screen_inlet_m": 30.099999999999994,
+    "flood_ceiling_with_0_1m_reserve_m": 25.654050788681488,
+    "max_external_length_at_flood25_m": 1238.1770083952633,
+    "external_assumed_m": 100,
+    "external_loss_m": 0.18676049924886934,
+    "internal_outfall_loss_m": 0.059188712069641665,
+    "inlet_average_peak_m": [
+      24.040803111124053,
+      24.2
+    ],
+    "wet_well_low_high_bottom_m": [
+      22.6,
+      23.8,
+      20.4
+    ],
+    "inlet_margin_average_peak_m": [
+      0.06328831822464309,
+      0.09999999999999787
+    ],
+    "effective_storage_m3": 191.9999999999999,
+    "pump_loss_m": 0.4955697054905165,
+    "pump_required_head_m": 8.795569705490509,
+    "pump_selected_head_m": 9.0,
+    "electrical_power_per_pump_kW": 70.8360077021823,
+    "motor_selected_kW": 90,
+    "ras_head_with_0_5m_margin": 2.493033096733826,
+    "internal_recycle_head_with_0_3m_margin": 0.8192106971727451,
+    "flood_scenarios": [
+      {
+        "group": 6,
+        "water_level_m": 21.0,
+        "sufficient": true,
+        "required_profile_raise_m": 0
+      },
+      {
+        "group": 14,
+        "water_level_m": 25.0,
+        "sufficient": true,
+        "required_profile_raise_m": 0
+      },
+      {
+        "group": 15,
+        "water_level_m": 25.5,
+        "sufficient": true,
+        "required_profile_raise_m": 0
+      },
+      {
+        "group": 16,
+        "water_level_m": 26.0,
+        "sufficient": false,
+        "required_profile_raise_m": 0.3459492113185121
+      },
+      {
+        "group": 18,
+        "water_level_m": 27.0,
+        "sufficient": false,
+        "required_profile_raise_m": 1.345949211318512
+      }
+    ]
+  },
+  "water_balance": {
+    "primary_sludge_m3_d": 374.99999999999966,
+    "nominal_secondary_q_m3_d": 108000.0,
+    "nominal_secondary_effluent_m3_d": 106853.45545378851,
+    "nominal_interface_excess_m3_d": 374.99999999999966,
+    "no_side_return_sensitivity": {
+      "bio_feed_m3_d": 107625.0,
+      "return_concentration_kg_m3": 8.026178861788617,
+      "waste_m3_d": 1147.55117998294,
+      "effluent_m3_d": 106477.44882001706
+    }
+  },
+  "biological": {
+    "kd15_per_d": 0.0493156264055611,
+    "net_biological_vss_kg_d": 3259.118180777829,
+    "net_biological_mlss_equivalent_kg_d": 4345.490907703772,
+    "total_solid_loss_kg_d": 11340.0,
+    "implied_unresolved_ss_conversion_kg_d": 8005.490907703774,
+    "inventory_kg": 170100.0,
+    "oxic_srt_inventory_proxy_d": 8.75,
+    "denitrification_required_kgN_d": 2248.9058183066604,
+    "nitrogen_assimilation_assumption_kg_d": 391.09418169333946,
+    "nitrification_scenario_kgN_d": 3936.0,
+    "denit_rate_required_kgN_kgMLVSS_d": 0.06346118711271,
+    "nitrification_rate_required_kgN_m3_d": 0.13883597883597884,
+    "nitrogen_balance_residual_kg_d": 0.0,
+    "tp_biological_estimate_kg_d": [
+      130.36472723111316,
+      228.13827265444806
+    ],
+    "tp_unresolved_removal_kg_d": [
+      218.86172734555194,
+      316.6352727688868
+    ],
+    "bod_tn_ratio": 2.8125,
+    "bod_equivalent_screening_gap_kg_d": 5700,
+    "net_alkalinity_consumption_kgCaCO3_d": 20074.446228645218,
+    "influent_alkalinity_boundary_mg_L": 255.87450211708537
+  },
+  "oxygen": {
+    "transfer_factor": 0.6639454185299161,
+    "scenarios": {
+      "assumed_denitrification": {
+        "aor_average_kg_h": 1001.2353899851232,
+        "aor_design_kg_h": 1431.7666076787264,
+        "sor_kg_h": 2156.45227411749,
+        "required_air_m3_h": 28752.6969882332,
+        "installed_air_m3_h": 30000,
+        "field_capacity_kg_h": 1493.877191692311,
+        "capacity_margin_percent": 4.3380383143788,
+        "capacity_sufficient": true,
+        "working_6000_m3_h_units": 5
+      },
+      "no_denitrification_credit": {
+        "aor_average_kg_h": 1269.2300000000002,
+        "aor_design_kg_h": 1814.9989000000007,
+        "sor_kg_h": 2733.656787659904,
+        "required_air_m3_h": 36448.75716879872,
+        "installed_air_m3_h": 30000,
+        "field_capacity_kg_h": 1493.877191692311,
+        "capacity_margin_percent": -17.692666827935245,
+        "capacity_sufficient": false,
+        "working_6000_m3_h_units": 7
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "粗格栅峰值流速 m/s",
+      "actual": 0.8592232363868816,
+      "criterion": "0.6–1.0",
+      "status": "通过",
+      "source": "04"
+    },
+    {
+      "name": "粗格栅25%栅隙受阻所需水深 m",
+      "actual": 0.9165047854793403,
+      "criterion": "≤1.00（1.50平台减0.50）",
+      "status": "通过",
+      "source": "04"
+    },
+    {
+      "name": "细格栅峰值流速 m/s",
+      "actual": 0.8751347778014535,
+      "criterion": "0.6–1.0",
+      "status": "通过",
+      "source": "04"
+    },
+    {
+      "name": "细格栅25%栅隙受阻所需水深 m",
+      "actual": 0.9334770963215504,
+      "criterion": "≤1.00（1.50平台减0.50）",
+      "status": "通过",
+      "source": "04"
+    },
+    {
+      "name": "提升工作泵总流量 m³/s",
+      "actual": 1.875,
+      "criterion": "≥1.625；扬程另核",
+      "status": "通过",
+      "source": "05"
+    },
+    {
+      "name": "湿井两格有效容积 m³",
+      "actual": 192.0,
+      "criterion": "≥187.5",
+      "status": "通过",
+      "source": "05"
+    },
+    {
+      "name": "湿井单格检修有效容积 m³",
+      "actual": 96,
+      "criterion": "≥187.5",
+      "status": "不通过/受限",
+      "source": "05"
+    },
+    {
+      "name": "沉砂峰值停留 min",
+      "actual": 5.0769230769230775,
+      "criterion": "≥5",
+      "status": "通过",
+      "source": "06"
+    },
+    {
+      "name": "沉砂峰值水平流速 m/s",
+      "actual": 0.09848484848484848,
+      "criterion": "≤0.10",
+      "status": "通过",
+      "source": "06"
+    },
+    {
+      "name": "沉砂鼓风运行容量 m³/h",
+      "actual": 1300,
+      "criterion": "≥1296",
+      "status": "通过",
+      "source": "06"
+    },
+    {
+      "name": "初沉峰值表面负荷/毛面积",
+      "actual": 2.3751439211418055,
+      "criterion": "1.5–4.5 m³/(m²·h)",
+      "status": "通过",
+      "source": "07"
+    },
+    {
+      "name": "初沉峰值停留/毛面积",
+      "actual": 1.473594913068443,
+      "criterion": "0.5–2.0 h",
+      "status": "通过",
+      "source": "07"
+    },
+    {
+      "name": "初沉峰值表面负荷/扣D4.5井净面积敏感性",
+      "actual": 2.4381182771524395,
+      "criterion": "1.5–4.5 m³/(m²·h)",
+      "status": "通过",
+      "source": "07"
+    },
+    {
+      "name": "初沉峰值停留/扣D4.5井净面积敏感性",
+      "actual": 1.435533309765336,
+      "criterion": "0.5–2.0 h",
+      "status": "通过",
+      "source": "07"
+    },
+    {
+      "name": "生物4系列平均HRT h",
+      "actual": 10.8,
+      "criterion": "10–23",
+      "status": "通过",
+      "source": "08"
+    },
+    {
+      "name": "生物4系列平均进水污泥负荷",
+      "actual": 0.07936507936507936,
+      "criterion": "0.05–0.10 kgBOD5/(kgMLSS·d)",
+      "status": "通过",
+      "source": "08"
+    },
+    {
+      "name": "生物3系列平均HRT h",
+      "actual": 8.100000000000001,
+      "criterion": "10–23",
+      "status": "不通过/受限",
+      "source": "08"
+    },
+    {
+      "name": "生物3系列平均进水污泥负荷",
+      "actual": 0.10582010582010581,
+      "criterion": "0.05–0.10 kgBOD5/(kgMLSS·d)",
+      "status": "不通过/受限",
+      "source": "08"
+    },
+    {
+      "name": "二沉六池峰值固体负荷",
+      "actual": 144.83099821362475,
+      "criterion": "≤150 kg/(m²·d)",
+      "status": "通过",
+      "source": "10"
+    },
+    {
+      "name": "二沉五池外来水能力 m³/h",
+      "actual": 5048.988193269311,
+      "criterion": "≥5850（全厂峰值）",
+      "status": "不通过/受限",
+      "source": "10"
+    },
+    {
+      "name": "Kz=1.5对照：沉砂停留 min",
+      "actual": 4.4,
+      "criterion": "≥5",
+      "status": "不通过/受限",
+      "source": "01/06"
+    },
+    {
+      "name": "Kz=1.5对照：二沉固体负荷",
+      "actual": 167.1126902464901,
+      "criterion": "≤150 kg/(m²·d)",
+      "status": "不通过/受限",
+      "source": "01/10"
+    }
+  ],
+  "source_fingerprint_encoding": "UTF-8 text with LF newlines",
+  "source_sha256": {
+    "计算成果/01_设计水量与流量分配_待审核.md": "a0401b547526336cce3b2d7929e90a19533cef17b4edbf328cea903aee7d0da6",
+    "计算成果/02_设计水质与处理程度_待审核.md": "fbe9fe54340bd08699c9df94d377c383de58ce39d77ada424a7ef6babf75bc8a",
+    "计算成果/03_工艺方案与设计参数确定_待审核.md": "c3d06fbe473abf06494f26be29f92e265049fd6c86741c80b1dae9e23dd0d92a",
+    "计算成果/04_格栅及进出水渠道_待审核.md": "2516cf2ed4416432a8f586a41eea9807edcb1bc74ee637607bbc721c2a2ac181",
+    "计算成果/05_进水提升设施基本工艺计算_待审核.md": "68a12960023cdaf4c215f97b69ecf8b9caf57f79501ed424f5a6c4fc465ce6a1",
+    "计算成果/06_曝气沉砂池计算_待审核.md": "fabd6a85789b620e85836627a54b63feb6238917fe6ef74cd52c032b4a94a3d9",
+    "计算成果/07_初次沉淀池计算_已审核.md": "cf84d4fd8fdc43d5cc452a9111d6dec761da4ba1edab763d680559eb8bbde8c2",
+    "计算成果/08_生物反应池及回流系统计算_已审核.md": "f9acacf3d382c46f72af38f19f533f30b2bc821997529b3d6f364f39c2e5cd7c",
+    "计算成果/09_需氧量与曝气鼓风系统计算_已审核.md": "be7f1188dd241418b1e189b645ecdcf76607589e8ee99ede095d4bf0a64d1b40",
+    "计算成果/10_二次沉淀池计算_已审核.md": "8a9d34aaac4f479eccf60e750d816bd19f14e3c45bcc1fb262167d22f898bd12",
+    "计算成果/11_水线连接管渠及配水设施计算_已审核.md": "229893d575529c038dcd92f4a4b7f54acbea616e40d23104be2d9bde8cbff156",
+    "计算成果/12_平面尺寸与占地初校_待审核.md": "2e22d89d7095698e20598e2057e6c01552d95a2625a797701b05268dca8c7b24",
+    "计算成果/13_全厂水力高程及出厂方式_已审核.md": "5158dc3e759059b625b5c8fb6ea9c37570322cad2b39c21822d468279b9f20fa",
+    "scripts/check_calculation_10.py": "40317b36337386baae35233d0e62452454fc20fa7698f409cfdb4512eacee94a",
+    "scripts/check_calculation_11.py": "fe480d8c31ab3245e04c546ef86fc3440fbf7f3ff66564a44a4139eff7aa335a",
+    "scripts/check_calculation_13.py": "a0eda27e68a3c815787e906ef6c4d8852dc5959e1747498b4333c362967a1442"
+  },
+  "missing_calculation_13": false
+}
