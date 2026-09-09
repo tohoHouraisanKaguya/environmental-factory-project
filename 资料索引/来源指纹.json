@@ -1,0 +1,25 @@
+{
+  "indexed_on": "2026-09-09",
+  "sources": [
+    {
+      "file": "设计任务书6(2).doc",
+      "bytes": 574976,
+      "sha256": "6c0e8af0db69d120ac17e5c0fbb38c94522f0e6ecafcec1c07f7107acfac1cfb"
+    },
+    {
+      "file": "环境工程设计教案(2).pdf",
+      "bytes": 1273088,
+      "sha256": "64517b9d651dabd9a991e40d5fea0a198a58010b50c3adc4a7197a7b6b14d724"
+    },
+    {
+      "file": "第1册 常用资料(2).pdf",
+      "bytes": 31844914,
+      "sha256": "bf5d12806768fc39a4deefed2a4340c0e25243b6d64c5ba0fe12a3ba7691ee0b"
+    },
+    {
+      "file": "第5册 城市排水(2).pdf",
+      "bytes": 25467766,
+      "sha256": "3790cace8bb96951e332ef392bddff5555df4278a07bee293f3a91ddaddc7b00"
+    }
+  ]
+}
