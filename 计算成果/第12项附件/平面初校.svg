@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1440" viewBox="0 0 480 480">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#147aab"/></marker></defs>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#20333c;font-size:3.5px}.small{font-size:3px}</style>
+<rect width="480" height="480" fill="#fff"/><text x="25" y="12" style="font-size:7px">第12项：污水厂平面初校 · 400 m × 300 m</text>
+<text x="25" y="21">两条水线各2系列；全部尺寸为平面占地包络，非施工图。北向为本次布置约定。</text>
+<rect x="25" y="35" width="400" height="300" fill="#f0f5e9" stroke="#1c3932" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="42" y="35" width="6" height="283" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="402" y="82" width="6" height="236" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="42" y="312" width="383" height="6" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="42" y="82" width="366" height="6" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="42" y="132" width="366" height="6" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="142" y="82" width="6" height="236" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="302" y="82" width="6" height="236" fill="#d9dfe1" stroke="#d9dfe1" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="373" y="43" width="24" height="8" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="385.0" y="46.0" text-anchor="middle">G1</text>
+<rect x="373" y="57" width="24" height="20" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="385.0" y="66.0" text-anchor="middle">P</text>
+<text class="small" x="385.0" y="71.0" text-anchor="middle">24 × 20 m</text>
+<rect x="329" y="63" width="24" height="12" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="341.0" y="68.0" text-anchor="middle">G2</text>
+<text class="small" x="341.0" y="73.0" text-anchor="middle">24 × 12 m</text>
+<rect x="237" y="62" width="32" height="7" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="253.0" y="64.5" text-anchor="middle">SA</text>
+<rect x="285" y="62" width="32" height="7" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="301.0" y="64.5" text-anchor="middle">SB</text>
+<rect x="375" y="240" width="22" height="30" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="386.0" y="254.0" text-anchor="middle">DIS</text>
+<text class="small" x="386.0" y="259.0" text-anchor="middle">22 × 30 m</text>
+<rect x="375" y="205" width="22" height="20" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="386.0" y="214.0" text-anchor="middle">CHEM</text>
+<text class="small" x="386.0" y="219.0" text-anchor="middle">22 × 20 m</text>
+<rect x="205" y="207" width="40" height="18" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="225.0" y="215.0" text-anchor="middle">AIR 鼓风机房</text>
+<text class="small" x="225.0" y="220.0" text-anchor="middle">40 × 18 m</text>
+<rect x="315" y="285" width="75" height="20" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="352.5" y="294.0" text-anchor="middle">ADMIN 管理及生活预留</text>
+<text class="small" x="352.5" y="299.0" text-anchor="middle">75 × 20 m</text>
+<rect x="60" y="90" width="25" height="35" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="72.5" y="106.5" text-anchor="middle">SL</text>
+<text class="small" x="72.5" y="111.5" text-anchor="middle">25 × 35 m</text>
+<rect x="60" y="205" width="20" height="20" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="70.0" y="214.0" text-anchor="middle">MAINT</text>
+<text class="small" x="70.0" y="219.0" text-anchor="middle">20 × 20 m</text>
+<rect x="65" y="50" width="120" height="25" fill="#e5e0f4" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<text x="125.0" y="61.5" text-anchor="middle">FUT 连续发展用地</text>
+<text class="small" x="125.0" y="66.5" text-anchor="middle">120 × 25 m</text>
+<rect x="90" y="95" width="30" height="30" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="105.0" cy="110.0" r="15.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="105.0" y="109.0" text-anchor="middle">C1</text>
+<text class="small" x="105.0" y="114.0" text-anchor="middle">30 × 30 m</text>
+<rect x="80.5" y="142" width="49" height="58" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="105.0" y="170.0" text-anchor="middle">B1 A²/O 1</text>
+<text class="small" x="105.0" y="175.0" text-anchor="middle">49 × 58 m</text>
+<rect x="82" y="232" width="46" height="46" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<circle cx="105.0" cy="255.0" r="23.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="105.0" y="254.0" text-anchor="middle">T1 二沉预留1</text>
+<text class="small" x="105.0" y="259.0" text-anchor="middle">46 × 46 m</text>
+<rect x="170" y="95" width="30" height="30" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="185.0" cy="110.0" r="15.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="185.0" y="109.0" text-anchor="middle">C2</text>
+<text class="small" x="185.0" y="114.0" text-anchor="middle">30 × 30 m</text>
+<rect x="160.5" y="142" width="49" height="58" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="185.0" y="170.0" text-anchor="middle">B2 A²/O 2</text>
+<text class="small" x="185.0" y="175.0" text-anchor="middle">49 × 58 m</text>
+<rect x="162" y="232" width="46" height="46" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<circle cx="185.0" cy="255.0" r="23.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="185.0" y="254.0" text-anchor="middle">T2 二沉预留2</text>
+<text class="small" x="185.0" y="259.0" text-anchor="middle">46 × 46 m</text>
+<rect x="250" y="95" width="30" height="30" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="265.0" cy="110.0" r="15.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="265.0" y="109.0" text-anchor="middle">C3</text>
+<text class="small" x="265.0" y="114.0" text-anchor="middle">30 × 30 m</text>
+<rect x="240.5" y="142" width="49" height="58" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="265.0" y="170.0" text-anchor="middle">B3 A²/O 3</text>
+<text class="small" x="265.0" y="175.0" text-anchor="middle">49 × 58 m</text>
+<rect x="242" y="232" width="46" height="46" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<circle cx="265.0" cy="255.0" r="23.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="265.0" y="254.0" text-anchor="middle">T3 二沉预留3</text>
+<text class="small" x="265.0" y="259.0" text-anchor="middle">46 × 46 m</text>
+<rect x="330" y="95" width="30" height="30" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="345.0" cy="110.0" r="15.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="345.0" y="109.0" text-anchor="middle">C4</text>
+<text class="small" x="345.0" y="114.0" text-anchor="middle">30 × 30 m</text>
+<rect x="320.5" y="142" width="49" height="58" fill="#d8edf6" stroke="#4b6873" stroke-width="0.45" stroke-dasharray=""/>
+<text x="345.0" y="170.0" text-anchor="middle">B4 A²/O 4</text>
+<text class="small" x="345.0" y="175.0" text-anchor="middle">49 × 58 m</text>
+<rect x="322" y="232" width="46" height="46" fill="#fff0d1" stroke="#4b6873" stroke-width="0.45" stroke-dasharray="2 1"/>
+<circle cx="345.0" cy="255.0" r="23.0" fill="none" stroke="#58788a" stroke-width=".5"/>
+<text x="345.0" y="254.0" text-anchor="middle">T4 二沉预留4</text>
+<text class="small" x="345.0" y="259.0" text-anchor="middle">46 × 46 m</text>
+<polyline points="385,35 385,43" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="385,51 385,57" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="373,67 373,69 353,69" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="329,69 325,69 325,55" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="325,55 269,55 269,65.5" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="325,55 317,55 317,65.5" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="237,65.5 237,85 145,85" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="285,65.5 285,85 305,85" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="145,85 105,85 105,95" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="105,125 105,142" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="105,200 105,232" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="105,278 105,282 375,282 375,255" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="145,85 185,85 185,95" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="185,125 185,142" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="185,200 185,232" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="185,278 185,282 375,282 375,255" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="305,85 265,85 265,95" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="265,125 265,142" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="265,200 265,232" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="265,278 265,282 375,282 375,255" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="305,85 345,85 345,95" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="345,125 345,142" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="345,200 345,232" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="345,278 345,282 375,282 375,255" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<polyline points="397,255 425,255" fill="none" stroke="#147aab" stroke-width=".55" marker-end="url(#arrow)"/>
+<text x="380" y="31">进水 (360,300)</text>
+<text x="8" y="39" transform="rotate(-90 8 39)">物流门</text>
+<text x="425" y="318">管理门</text>
+<path d="M445 55 L445 34" stroke="#243e43" stroke-width="1" marker-end="url(#arrow)"/><text x="443" y="29">N</text>
+<path d="M453 320 L432 298" stroke="#789" stroke-width=".8" marker-end="url(#arrow)"/><text x="430" y="326">夏季东南风</text>
+<path d="M447 125 Q433 210 444 290" fill="none" stroke="#39aaca" stroke-width="2"/><text x="444" y="205">河道</text>
+<text x="430" y="214" class="small">位置示意</text>
+<text x="25" y="345">西南角(0,0)；x向东、y向北；坐标表/管线长度表另附。二沉D44仅为占地筛查假定。</text>
+<text x="25" y="353">灰：6m道路预留；蓝：已算单体的外包；橙：二沉及辅助预留；紫：发展用地；浅绿：未分配用地。</text>
+<text x="25" y="361">主流程蓝线；RAS/空气概念路径见CSV。穿路管线按地下敷设预留，标高及交叉尚未校核。</text>
+<text x="25" y="369">环路转弯、消防、绿化详图、除臭及施工吊装条件待专项复核。图中未分配用地不等于实际绿地。</text>
+<path d="M350 376 h50 M350 374 v4 M375 374 v4 M400 374 v4" stroke="#263c44" fill="none"/><text x="345" y="382">0</text><text x="372" y="382">25</text><text x="397" y="382">50 m</text>
+<text x="25" y="398">编号：G1 粗格栅 · P 提升泵站 · G2 细格栅 · SA/SB 曝气沉砂 · C1–C4 初沉池</text>
+<text x="25" y="408">B1–B4 生物池 · T1–T4 二沉预留 · DIS 消毒计量 · CHEM 加药 · AIR 鼓风机房</text>
+<text x="25" y="418">SL 污泥转运接口 · MAINT 维修配电预留 · ADMIN 管理生活预留 · FUT 发展用地</text>
+<text x="25" y="438">占地：水线包络 16376 m² + 二沉及附属预留 13059 m² + 道路并集 12204 m²</text>
+<text x="25" y="448">另留发展用地 3000 m²；未分配 75361 m²（包含拟分配绿地，非全部真实绿地）。</text>
+<text x="25" y="462">本图仅用于第12项几何与占地初校；第10、11项未完成，出水标高与最终池数仍待闭合。</text></svg>
