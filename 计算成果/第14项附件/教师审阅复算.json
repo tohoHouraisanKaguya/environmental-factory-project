@@ -1,0 +1,85 @@
+{
+  "basis": {
+    "average_flow_m3_d": 108000,
+    "peak_flow_m3_s": 1.625,
+    "screen_channels_total": 2,
+    "screen_channels_normal_operation": 2,
+    "pumps_total": 4,
+    "pumps_duty": 3,
+    "pumps_standby": 1
+  },
+  "primary_clarifier": {
+    "count": 4,
+    "selected_net_diameter_m": 31.0,
+    "centre_well_diameter_m": 4.5,
+    "net_area_each_m2": 738.8633222161494,
+    "net_area_total_m2": 2955.4532888645977,
+    "surface_load_average_m3_m2_h": 1.5226090755536095,
+    "surface_load_peak_m3_m2_h": 1.9793917982196925,
+    "settling_depth_m": 3.0,
+    "retention_peak_h": 1.5156170712126142,
+    "hopper_top_diameter_m": 4.5,
+    "hopper_bottom_diameter_m": 1.0,
+    "hopper_depth_m": 3.0,
+    "hopper_slope_angle_deg": 59.743562836470744,
+    "hopper_volume_each_m3": 20.224002707484292,
+    "hopper_required_four_hours_each_m3": 15.625
+  },
+  "nitrogen_and_carbon": {
+    "tn_removed_kg_d": 2639.9999999952,
+    "net_biological_vss_kg_d": 3259.114,
+    "assimilated_n_kg_d": 391.09368,
+    "denitrified_n_design_kg_d": 2248.9063199952,
+    "conservative_cod_demand_kg_d": 6431.872075186272,
+    "pure_methanol_capacity_kg_d": 4287.914716790848,
+    "methanol_80pct_capacity_kg_d": 5359.893395988559,
+    "note": "maximum equipment capacity scenario; actual feed is nitrate/COD feedback-controlled"
+  },
+  "phosphorus_and_ferric_chloride": {
+    "p_removed_after_primary_kg_d": 447.0000000012001,
+    "biological_p_range_kg_d": [
+      130.36456,
+      228.13798000000003
+    ],
+    "design_p_gap_kg_d": 316.6354400012001,
+    "fe_to_p_molar_ratio": 2.0,
+    "pure_fecl3_kg_d": 3316.3252762098878,
+    "fecl3_solution_40pct_kg_d": 8290.81319052472,
+    "solution_volume_m3_d": 5.922009421803371,
+    "selected_metering_capacity_with_20pct_margin_m3_d": 7.106411306164045,
+    "estimated_added_dry_solids_kg_d": 2634.20547527902,
+    "note": "course-stage conservative sizing; jar tests and supplier density govern final feed"
+  },
+  "aeration": {
+    "total_air_m3_h": 30000.0,
+    "diffuser_make_model": "Xylem Sanitaire Silver Series II 229 mm standard",
+    "catalogue_airflow_range_Nm3_h_each": [
+      0.8,
+      6.8
+    ],
+    "design_airflow_Nm3_h_each": 5.0,
+    "diffuser_count_total": 6000,
+    "diffuser_count_each_series": 1500,
+    "oxic_plan_area_m2": 5670.0,
+    "diffuser_density_each_m2": 1.0582010582010581,
+    "blower_make_model": "AERZEN AT200-0.8 G5plus",
+    "blower_configuration": "6 units, 5 duty + 1 standby",
+    "normal_operating_airflow_each_m3_h": 6000,
+    "catalogue_max_airflow_m3_h": 8400,
+    "catalogue_pressure_kPa": 80,
+    "design_header_pressure_kPa": 65
+  },
+  "elevation_and_lift": {
+    "site_grade_m": 27.3,
+    "a2o_floor_m": 27.3,
+    "a2o_water_level_m": 32.3,
+    "fine_screen_upstream_level_m": 34.3,
+    "terminal_control_level_m": 30.4,
+    "wet_well_low_level_m": 22.6,
+    "required_pump_head_m": 12.857745923799996,
+    "selected_pump_head_m": 13.0,
+    "pump_input_power_kW": 102.31867779204109,
+    "motor_power_with_10pct_margin_kW": 112.55054557124521,
+    "selected_motor_kW": 132
+  }
+}

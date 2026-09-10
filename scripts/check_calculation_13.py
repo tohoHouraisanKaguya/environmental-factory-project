@@ -25,7 +25,7 @@ def profile():
          0.0318567253 + 0.0355 + 0.10),
         ('二沉进水支管及中心挡板', 0.15, p['secondary_branch']['loss_m'] + 0.0015,
          p['secondary_branch']['loss_m'] + 0.0015),
-        ('二沉配水自由堰', 0.50,
+        ('二沉配水自由堰', 0.40,
          upstream['distribution_weir_head_avg_peak_m']['secondary'][1] + 0.10,
          upstream['distribution_weir_head_avg_peak_m']['secondary'][1] + 0.10),
         ('生物出口支管及混合液总管', 0.35,
@@ -37,7 +37,7 @@ def profile():
          0.0417039617 + 0.0696583553 + 0.05),
         ('初沉支管及池内进水', 0.15, p['primary_branch']['loss_m'] + 0.020,
          p['primary_branch']['loss_m'] + 0.020),
-        ('初沉配水自由堰', 0.45,
+        ('初沉配水自由堰', 0.35,
          upstream['distribution_weir_head_avg_peak_m']['primary'][1] + 0.10,
          upstream['distribution_weir_head_avg_peak_m']['primary'][1] + 0.10),
         ('沉砂出口至初沉配水', 0.25, p['grit_to_primary_a']['loss_m'], p['grit_to_primary_b']['loss_m']),
@@ -45,7 +45,10 @@ def profile():
         ('细栅至沉砂连接渠', 0.15, *upstream['fine_to_grit_channel']['loss_A_B_m']),
         ('细格栅堵塞工况', 0.15, 0.121, 0.121),
     ]
-    level = 26.0
+    # Teacher-review anchor: the largest A2/O tank floor is set at site grade
+    # EL 27.30 m, hence its 5.00 m operating water level is EL 32.30 m.
+    # Working downstream and upstream gives the terminal control EL 30.40 m.
+    level = 30.40
     rows = []
     for name, drop, loss_a, loss_b in reaches:
         assert drop + 1e-9 >= max(loss_a, loss_b), name
@@ -57,9 +60,9 @@ def profile():
     internal = p['final_outlet']['loss_m']
     external = pipe('厂外排水',1.625,1.5,100,3)['loss_m']
     outlet_reserve = 0.10
-    flood_limit = 26.0-internal-external-outlet_reserve
+    flood_limit = 30.40-internal-external-outlet_reserve
     gradient_external = 0.020/1.5*(1.625/(math.pi*1.5**2/4))**2/(2*9.81)
-    max_external_length = (26-25-outlet_reserve-internal-3*(1.625/(math.pi*1.5**2/4))**2/(2*9.81))/gradient_external
+    max_external_length = (30.40-25-outlet_reserve-internal-3*(1.625/(math.pi*1.5**2/4))**2/(2*9.81))/gradient_external
     wet_low, wet_high, wet_floor = 22.6,23.8,20.4
     pump_losses = p['pump_internal']['loss_m'] + p['pump_to_fine']['loss_m']
     head = level-wet_low+pump_losses+0.8
@@ -77,17 +80,17 @@ def profile():
     assert abs((wet_low-wet_floor)-2.2)<1e-9
     assert flood_limit > 25
     assert selected_head >= head
-    assert power*1.10 <= 90
-    assert abs(level-30.1)<1e-8
+    assert power*1.10 <= 132
+    assert abs(level-34.3)<1e-8
     # Confirm independently the accumulated profile and a back-calculated balance.
-    assert abs(sum(r['design_drop_m'] for r in rows)-(level-26))<1e-8
+    assert abs(sum(r['design_drop_m'] for r in rows)-(level-30.40))<1e-8
     assert abs(head-(level-wet_low+pump_losses+0.8)) < 1e-8
-    primary_crest=29.3-upstream['distribution_weir_head_avg_peak_m']['primary'][1]
-    secondary_crest=27.65-upstream['distribution_weir_head_avg_peak_m']['secondary'][1]
-    assert primary_crest-28.85 >= 0.10
-    assert secondary_crest-27.15 >= 0.10
-    assert 28.7-0.0417039617-(28.5+0.0696583553) >= 0.05
-    assert 27.0-0.0318567253-(26.8+0.0355) >= 0.10
+    primary_crest=33.50-upstream['distribution_weir_head_avg_peak_m']['primary'][1]
+    secondary_crest=31.95-upstream['distribution_weir_head_avg_peak_m']['secondary'][1]
+    assert primary_crest-33.15 >= 0.10
+    assert secondary_crest-31.55 >= 0.10
+    assert 33.0-0.0399262742-(32.8+0.0734832292) >= 0.05
+    assert 31.4-0.0318567253-(31.2+0.0355) >= 0.10
     return dict(flood_design_m=25.0,profile=list(reversed(rows)),fine_screen_inlet_m=level,
                 flood_ceiling_with_0_1m_reserve_m=flood_limit,
                 max_external_length_at_flood25_m=max_external_length,
@@ -96,8 +99,10 @@ def profile():
                 inlet_margin_average_peak_m=[inlet_avg-inlet_loss_avg-wet_high,inlet_peak-inlet_loss_peak-wet_high],
                 effective_storage_m3=volume,pump_loss_m=pump_losses,
                 pump_required_head_m=head,pump_selected_head_m=selected_head,
-                electrical_power_per_pump_kW=power,motor_selected_kW=90,
-                ras_head_with_0_5m_margin=28.3-27+upstream['return_sludge']['worst_loss_m']+0.5,
+                electrical_power_per_pump_kW=power,motor_selected_kW=132,
+                key_elevations_m=dict(site_grade=27.30,a2o_floor=27.30,a2o_water=32.30,
+                    primary_water=33.00,secondary_water=31.40,terminal_control=30.40),
+                ras_head_with_0_5m_margin=32.6-31.4+upstream['return_sludge']['worst_loss_m']+0.5,
                 internal_recycle_head_with_0_3m_margin=0.3+upstream['internal_recycle']['loss_m']+0.3,
                 flood_scenarios=[dict(group=m,water_level_m=18+0.5*m,
                     sufficient=(18+0.5*m <= flood_limit),

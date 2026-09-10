@@ -13,6 +13,7 @@ from pathlib import Path
 from check_calculation_10 import calculate as secondary
 from check_calculation_11 import calculate as hydraulics
 from check_calculation_13 import profile
+from check_teacher_review import calculate as teacher_review
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "计算成果" / "第14项附件"
@@ -41,6 +42,7 @@ def calculate():
     s = secondary()
     h = hydraulics()
     elevation = profile()
+    review = teacher_review()
     volume, mlss, srt = 48600., 3.5, 15.
     kd = 0.06 * 1.04 ** (15 - 20)
     vss = 0.5 * 11340 / (1 + kd * srt)
@@ -76,8 +78,8 @@ def calculate():
     qe_sensitivity = q_bio - qw_sensitivity
     assert abs(q - primary_waste - qw_sensitivity - qe_sensitivity) < 1e-8
 
-    primary_area = 4 * math.pi * 28 ** 2 / 4
-    primary_net_area = 4 * math.pi * (28 ** 2 - 4.5 ** 2) / 4
+    primary_area = 4 * math.pi * 31 ** 2 / 4
+    primary_net_area = 4 * math.pi * (31 ** 2 - 4.5 ** 2) / 4
     checks = []
 
     def check(name, actual, criterion, passes, source):
@@ -98,7 +100,7 @@ def calculate():
     check("沉砂鼓风运行容量 m³/h", 2 * 650, "≥1296", 1300 >= 1296, "06")
     for label, area in (("毛面积", primary_area), ("扣D4.5井净面积敏感性", primary_net_area)):
         load = peak * 3600 / area
-        time = area * 3.5 / (peak * 3600)
+        time = area * 3.0 / (peak * 3600)
         check("初沉峰值表面负荷/" + label, load, "1.5–4.5 m³/(m²·h)", 1.5 <= load <= 4.5, "07")
         check("初沉峰值停留/" + label, time, "0.5–2.0 h", .5 <= time <= 2, "07")
     for count in (4, 3):
@@ -108,6 +110,9 @@ def calculate():
               .05 <= 13500 / (v * mlss) <= .1, "08")
     check("二沉六池峰值固体负荷", s['solids_load_avg_peak_kg_m2_d'][1],
           "≤150 kg/(m²·d)", s['solids_load_avg_peak_kg_m2_d'][1] <= 150, "10")
+    solids_with_chemistry = s['solids_load_avg_peak_kg_m2_d'][1] + review['phosphorus_and_ferric_chloride']['estimated_added_dry_solids_kg_d'] / s['area_total_m2']
+    check("二沉峰值固体负荷（含保守化学固体）", solids_with_chemistry,
+          "≤150 kg/(m²·d)", solids_with_chemistry <= 150, "10/教师审阅复算")
     check("二沉五池外来水能力 m³/h", s['five_tank_capacity_m3_h'], "≥5850（全厂峰值）",
           s['five_tank_capacity_m3_h'] >= 5850, "10")
     # Course contrast Kz=1.5 is not substituted into the accepted main design.
@@ -123,7 +128,7 @@ def calculate():
             # Normalize CRLF/LF so a fresh clone has identical source fingerprints.
             sources[path.relative_to(ROOT).as_posix()] = hashlib.sha256(
                 path.read_text(encoding='utf-8').encode('utf-8')).hexdigest()
-    for name in ("check_calculation_10.py", "check_calculation_11.py", "check_calculation_13.py"):
+    for name in ("build_layout12.py", "check_calculation_10.py", "check_calculation_11.py", "check_calculation_13.py", "check_teacher_review.py"):
         path = ROOT / 'scripts' / name
         sources[path.relative_to(ROOT).as_posix()] = hashlib.sha256(
             path.read_text(encoding='utf-8').encode('utf-8')).hexdigest()
@@ -133,6 +138,7 @@ def calculate():
         inputs=dict(q_m3_d=q, q_average_m3_s=q / 86400, q_peak_m3_s=peak,
                     peak_hour_m3_h=peak * 3600, kz=1.3),
         quality_nominal=quality, secondary=s, hydraulics=h, elevation=elevation,
+        teacher_review_revision=review,
         water_balance=dict(primary_sludge_m3_d=primary_waste,
             nominal_secondary_q_m3_d=q, nominal_secondary_effluent_m3_d=s['effluent_m3_d'],
             nominal_interface_excess_m3_d=primary_waste,

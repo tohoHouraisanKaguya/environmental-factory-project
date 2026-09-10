@@ -1,19 +1,23 @@
 {
   "site_m2": 120000,
-  "water_envelopes_m2": 16376,
-  "auxiliary_and_secondary_reserve_m2": 13059,
+  "water_envelopes_m2": 27320,
+  "auxiliary_reserve_m2": 4595,
   "future_m2": 3000,
-  "road_union_m2": 12204,
-  "unallocated_m2": 75361,
+  "road_union_m2": 9588,
+  "unallocated_m2": 75497,
   "provisional_green_target_m2": 36000,
-  "other_available_m2": 39361,
-  "secondary_screen_area_m2": 6082.12337734984,
-  "secondary_peak_surface_load": 0.9618351416194088,
-  "checks": "包络不重叠；不压道路；均在厂界内；占地分项相加等于120000m²",
+  "other_available_m2": 39497,
+  "primary_count": 4,
+  "primary_net_diameter_m": 31,
+  "secondary_count": 6,
+  "secondary_net_diameter_m": 36,
+  "secondary_net_area_m2": 6107.256118578558,
+  "secondary_peak_surface_load_m3_m2_h": 0.957876972312333,
+  "checks": "all packages within boundary; no package overlap; no road overlap; area closes to 120000 m2",
   "external_water_path_lengths_m": {
-    "1": 660.0,
-    "2": 580.0,
-    "3": 380.0,
-    "4": 300.0
+    "1": 783.0,
+    "2": 633.0,
+    "3": 443.0,
+    "4": 363.0
   }
 }
