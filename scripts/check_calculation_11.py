@@ -101,33 +101,35 @@ def calculate():
     # Main water line, all at peak-hour flow. Lengths through the biological stage
     # reconcile item 12's route skeleton with item 10's six-tank arrangement.
     segments = {
-        "pump_internal": pipe("单泵内部出水支管", 0.625, 0.80, 12.0, 4.3),
+        # 12 m = 4 m wet-well horizontal + 7 m vertical rise + 1 m equipment
+        # centre-line allowance.  DN900 keeps the branch velocity below 1.0 m/s.
+        "pump_internal": pipe("单泵内部出水支管", 0.625, 0.90, 12.0, 4.3),
         "pump_to_fine": pipe("泵站至细格栅单线总管", q_line_peak, 1.00, 22.0, 2.0),
         "grit_to_primary_a": pipe("沉砂A至初沉配水井", q_line_peak, 1.20, 111.5, 3.0),
         "grit_to_primary_b": pipe("沉砂B至初沉配水井", q_line_peak, 1.20, 39.5, 2.5),
-        "primary_branch": pipe("初沉配水井至单池", q_line_peak / 2, 0.90, 50.0, 2.0),
-        "primary_to_bio": pipe("初沉池至单系列生物池", q_line_peak / 2, 0.90, 17.0, 1.5),
+        "primary_branch": pipe("初沉配水井至单池", q_line_peak / 2, 0.90, 48.0, 2.0),
+        "primary_to_bio": pipe("初沉池至单系列生物池", q_line_peak / 2, 0.90, 15.0, 1.5),
         "bio_to_secondary": pipe(
-            "单系列生物池至二沉配水井", q_line_peak / 2 * (1 + return_ratio), 1.00, 50.0, 2.5
+            "单系列生物池至二沉配水井", q_line_peak / 2 * (1 + return_ratio), 1.00, 59.0, 2.5
         ),
         "mixed_header": pipe(
-            "单线混合液汇流管", q_line_peak * (1 + return_ratio), 1.40, 20.0, 1.5
+            "单线混合液汇流管（配水井内短接）", q_line_peak * (1 + return_ratio), 1.40, 0.0, 0.5
         ),
         "secondary_branch": pipe(
-            "二沉配水井至单池中心", q_line_peak * (1 + return_ratio) / 3, 1.00, 60.0, 2.0
+            "二沉配水井至最远单池中心", q_line_peak * (1 + return_ratio) / 3, 1.00, 106.0, 2.0
         ),
-        "secondary_outlet": pipe("单座二沉池出水支管", q_line_peak / 3, 0.80, 60.0, 2.0),
-        "effluent_header_a": pipe("A线二沉出水干管", q_line_peak, 1.20, 261.0, 3.0),
-        "effluent_header_b": pipe("B线二沉出水干管", q_line_peak, 1.20, 101.0, 2.5),
+        "secondary_outlet": pipe("单座二沉池中心至外包边界", q_line_peak / 3, 0.80, 25.0, 2.0),
+        "effluent_header_a": pipe("A线二沉出水干管", q_line_peak, 1.20, 310.0, 3.0),
+        "effluent_header_b": pipe("B线二沉出水干管", q_line_peak, 1.20, 120.0, 2.5),
         "final_outlet": pipe("消毒预留至东厂界总管", q_peak, 1.50, 28.0, 1.0),
     }
 
-    primary_weir_avg = rectangular_weir_head(q_line_avg / 2, 1.50)
-    primary_weir_peak = rectangular_weir_head(q_line_peak / 2, 1.50)
+    primary_weir_avg = rectangular_weir_head(q_line_avg / 2, 2.00)
+    primary_weir_peak = rectangular_weir_head(q_line_peak / 2, 2.00)
     mixed_line_avg = q_line_avg * (1 + return_ratio)
     mixed_line_peak = q_line_peak * (1 + return_ratio)
-    secondary_weir_avg = rectangular_weir_head(mixed_line_avg / 3, 1.50)
-    secondary_weir_peak = rectangular_weir_head(mixed_line_peak / 3, 1.50)
+    secondary_weir_avg = rectangular_weir_head(mixed_line_avg / 3, 2.00)
+    secondary_weir_peak = rectangular_weir_head(mixed_line_peak / 3, 2.00)
 
     common_keys = [
         "pump_to_fine", "primary_branch", "primary_to_bio", "bio_to_secondary",
@@ -147,8 +149,8 @@ def calculate():
     primary_trough_v = (q_line_peak / 2) / (0.80 * 0.60)
     primary_trough_r = 0.80 * 0.60 / (0.80 + 2 * 0.60)
     primary_trough_i = (MANNING_N * primary_trough_v / primary_trough_r ** (2 / 3)) ** 2
-    primary_trough_loss = primary_trough_i * (math.pi * 26 / 2) + primary_trough_v**2 / (2 * G)
-    primary_notch_head = ((q_line_peak / 2) / 817 / 1.4) ** 0.4
+    primary_trough_loss = primary_trough_i * (math.pi * 29 / 2) + primary_trough_v**2 / (2 * G)
+    primary_notch_head = ((q_line_peak / 2) / 911 / 1.4) ** 0.4
     secondary_notch_head = ((q_line_peak / 3) / 1068 / 1.4) ** 0.4
     inherited_unit_losses = {
         "fine_screen_blocked_m": 0.121,
@@ -162,8 +164,8 @@ def calculate():
     unit_total = sum(inherited_unit_losses.values())
 
     # Return sludge, waste sludge, internal recycle and air-network interfaces.
-    ras_branch = pipe("单池回流污泥支管", q_line_peak * return_ratio / 3, 0.50, 35.0, 4.0)
-    ras_header = pipe("单线回流污泥干管", q_line_peak * return_ratio, 0.90, 165.0, 3.0)
+    ras_branch = pipe("单池回流污泥支管", q_line_peak * return_ratio / 3, 0.50, 45.0, 4.0)
+    ras_header = pipe("单线回流污泥干管", q_line_peak * return_ratio, 0.90, 105.0, 3.0)
     ras_to_bio = pipe("回流污泥至单系列厌氧段", q_line_peak * return_ratio / 2, 0.70, 25.0, 2.0)
     ras_loss = ras_branch["loss_m"] + ras_header["loss_m"] + ras_to_bio["loss_m"]
     internal_recycle = pipe("单系列内回流", q_line_peak / 2 * 2.5, 1.20, 80.0, 4.0)

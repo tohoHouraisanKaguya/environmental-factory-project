@@ -3,8 +3,8 @@
   "profile": [
     {
       "reach": "细格栅堵塞工况",
-      "downstream_m": 29.95,
-      "upstream_m": 30.1,
+      "downstream_m": 34.15,
+      "upstream_m": 34.3,
       "design_drop_m": 0.15,
       "baseline_A_m": 0.121,
       "baseline_B_m": 0.121,
@@ -13,8 +13,8 @@
     },
     {
       "reach": "细栅至沉砂连接渠",
-      "downstream_m": 29.8,
-      "upstream_m": 29.95,
+      "downstream_m": 34.0,
+      "upstream_m": 34.15,
       "design_drop_m": 0.15,
       "baseline_A_m": 0.06281554111071024,
       "baseline_B_m": 0.04841554111071024,
@@ -23,8 +23,8 @@
     },
     {
       "reach": "曝气沉砂池内部",
-      "downstream_m": 29.55,
-      "upstream_m": 29.8,
+      "downstream_m": 33.75,
+      "upstream_m": 34.0,
       "design_drop_m": 0.25,
       "baseline_A_m": 0.25,
       "baseline_B_m": 0.25,
@@ -33,8 +33,8 @@
     },
     {
       "reach": "沉砂出口至初沉配水",
-      "downstream_m": 29.3,
-      "upstream_m": 29.55,
+      "downstream_m": 33.5,
+      "upstream_m": 33.75,
       "design_drop_m": 0.25,
       "baseline_A_m": 0.1277998364517104,
       "baseline_B_m": 0.0830808542284704,
@@ -43,28 +43,28 @@
     },
     {
       "reach": "初沉配水自由堰",
-      "downstream_m": 28.85,
-      "upstream_m": 29.3,
-      "design_drop_m": 0.45,
-      "baseline_A_m": 0.37877652139619244,
-      "baseline_B_m": 0.37877652139619244,
-      "spare_A_m": 0.07122347860380757,
-      "spare_B_m": 0.07122347860380757
+      "downstream_m": 33.15,
+      "upstream_m": 33.5,
+      "design_drop_m": 0.35,
+      "baseline_A_m": 0.33012494808753595,
+      "baseline_B_m": 0.33012494808753595,
+      "spare_A_m": 0.019875051912464026,
+      "spare_B_m": 0.019875051912464026
     },
     {
       "reach": "初沉支管及池内进水",
-      "downstream_m": 28.7,
-      "upstream_m": 28.85,
+      "downstream_m": 33.0,
+      "upstream_m": 33.15,
       "design_drop_m": 0.15,
-      "baseline_A_m": 0.08466264515778753,
-      "baseline_B_m": 0.08466264515778753,
-      "spare_A_m": 0.06533735484221247,
-      "spare_B_m": 0.06533735484221247
+      "baseline_A_m": 0.08373889308410486,
+      "baseline_B_m": 0.08373889308410486,
+      "spare_A_m": 0.06626110691589514,
+      "spare_B_m": 0.06626110691589514
     },
     {
       "reach": "初沉锯齿堰及环槽",
-      "downstream_m": 28.5,
-      "upstream_m": 28.7,
+      "downstream_m": 32.8,
+      "upstream_m": 33.0,
       "design_drop_m": 0.2,
       "baseline_A_m": 0.161362317,
       "baseline_B_m": 0.161362317,
@@ -73,18 +73,18 @@
     },
     {
       "reach": "初沉出水至生物入口",
-      "downstream_m": 28.3,
-      "upstream_m": 28.5,
+      "downstream_m": 32.6,
+      "upstream_m": 32.8,
       "design_drop_m": 0.2,
-      "baseline_A_m": 0.03902852511309319,
-      "baseline_B_m": 0.03902852511309319,
-      "spare_A_m": 0.16097147488690683,
-      "spare_B_m": 0.16097147488690683
+      "baseline_A_m": 0.03810477303941051,
+      "baseline_B_m": 0.03810477303941051,
+      "spare_A_m": 0.1618952269605895,
+      "spare_B_m": 0.1618952269605895
     },
     {
       "reach": "生物池内部",
-      "downstream_m": 28.0,
-      "upstream_m": 28.3,
+      "downstream_m": 32.3,
+      "upstream_m": 32.6,
       "design_drop_m": 0.3,
       "baseline_A_m": 0.3,
       "baseline_B_m": 0.3,
@@ -93,38 +93,38 @@
     },
     {
       "reach": "生物出口支管及混合液总管",
-      "downstream_m": 27.65,
-      "upstream_m": 28.0,
+      "downstream_m": 31.95,
+      "upstream_m": 32.3,
       "design_drop_m": 0.35,
-      "baseline_A_m": 0.22381837565127477,
-      "baseline_B_m": 0.22381837565127477,
-      "spare_A_m": 0.1261816243487252,
-      "spare_B_m": 0.1261816243487252
+      "baseline_A_m": 0.1754272696997468,
+      "baseline_B_m": 0.1754272696997468,
+      "spare_A_m": 0.17457273030025316,
+      "spare_B_m": 0.17457273030025316
     },
     {
       "reach": "二沉配水自由堰",
-      "downstream_m": 27.15,
-      "upstream_m": 27.65,
-      "design_drop_m": 0.5,
-      "baseline_A_m": 0.40894942246439026,
-      "baseline_B_m": 0.40894942246439026,
-      "spare_A_m": 0.09105057753560974,
-      "spare_B_m": 0.09105057753560974
+      "downstream_m": 31.55,
+      "upstream_m": 31.95,
+      "design_drop_m": 0.4,
+      "baseline_A_m": 0.35503212914135696,
+      "baseline_B_m": 0.35503212914135696,
+      "spare_A_m": 0.044967870858643066,
+      "spare_B_m": 0.044967870858643066
     },
     {
       "reach": "二沉进水支管及中心挡板",
-      "downstream_m": 27.0,
-      "upstream_m": 27.15,
+      "downstream_m": 31.4,
+      "upstream_m": 31.55,
       "design_drop_m": 0.15,
-      "baseline_A_m": 0.06089522608323418,
-      "baseline_B_m": 0.06089522608323418,
-      "spare_A_m": 0.08910477391676581,
-      "spare_B_m": 0.08910477391676581
+      "baseline_A_m": 0.077971353582164,
+      "baseline_B_m": 0.077971353582164,
+      "spare_A_m": 0.07202864641783599,
+      "spare_B_m": 0.07202864641783599
     },
     {
       "reach": "二沉锯齿堰及环槽",
-      "downstream_m": 26.8,
-      "upstream_m": 27.0,
+      "downstream_m": 31.2,
+      "upstream_m": 31.4,
       "design_drop_m": 0.2,
       "baseline_A_m": 0.1673567253,
       "baseline_B_m": 0.1673567253,
@@ -133,18 +133,18 @@
     },
     {
       "reach": "二沉出水支管及干管",
-      "downstream_m": 26.5,
-      "upstream_m": 26.8,
+      "downstream_m": 30.9,
+      "upstream_m": 31.2,
       "design_drop_m": 0.3,
-      "baseline_A_m": 0.24513236211342224,
-      "baseline_B_m": 0.16183229718777908,
-      "spare_A_m": 0.05486763788657775,
-      "spare_B_m": 0.1381677028122209
+      "baseline_A_m": 0.25366787863458595,
+      "baseline_B_m": 0.15721517187857814,
+      "spare_A_m": 0.046332121365414036,
+      "spare_B_m": 0.14278482812142185
     },
     {
       "reach": "消毒计量预留",
-      "downstream_m": 26.0,
-      "upstream_m": 26.5,
+      "downstream_m": 30.4,
+      "upstream_m": 30.9,
       "design_drop_m": 0.5,
       "baseline_A_m": 0.5,
       "baseline_B_m": 0.5,
@@ -152,9 +152,9 @@
       "spare_B_m": 0.0
     }
   ],
-  "fine_screen_inlet_m": 30.099999999999994,
-  "flood_ceiling_with_0_1m_reserve_m": 25.654050788681488,
-  "max_external_length_at_flood25_m": 1238.1770083952633,
+  "fine_screen_inlet_m": 34.3,
+  "flood_ceiling_with_0_1m_reserve_m": 30.054050788681486,
+  "max_external_length_at_flood25_m": 8895.042382772104,
   "external_assumed_m": 100,
   "external_loss_m": 0.18676049924886934,
   "internal_outfall_loss_m": 0.059188712069641665,
@@ -172,12 +172,20 @@
     0.09999999999999787
   ],
   "effective_storage_m3": 191.9999999999999,
-  "pump_loss_m": 0.4955697054905165,
-  "pump_required_head_m": 8.795569705490509,
-  "pump_selected_head_m": 9.0,
-  "electrical_power_per_pump_kW": 70.8360077021823,
-  "motor_selected_kW": 90,
-  "ras_head_with_0_5m_margin": 2.493033096733826,
+  "pump_loss_m": 0.35774592385403414,
+  "pump_required_head_m": 12.857745923854031,
+  "pump_selected_head_m": 13.0,
+  "electrical_power_per_pump_kW": 102.31867779204109,
+  "motor_selected_kW": 132,
+  "key_elevations_m": {
+    "site_grade": 27.3,
+    "a2o_floor": 27.3,
+    "a2o_water": 32.3,
+    "primary_water": 33.0,
+    "secondary_water": 31.4,
+    "terminal_control": 30.4
+  },
+  "ras_head_with_0_5m_margin": 2.352498486239803,
   "internal_recycle_head_with_0_3m_margin": 0.8192106971727451,
   "flood_scenarios": [
     {
@@ -201,14 +209,14 @@
     {
       "group": 16,
       "water_level_m": 26.0,
-      "sufficient": false,
-      "required_profile_raise_m": 0.3459492113185121
+      "sufficient": true,
+      "required_profile_raise_m": 0
     },
     {
       "group": 18,
       "water_level_m": 27.0,
-      "sufficient": false,
-      "required_profile_raise_m": 1.345949211318512
+      "sufficient": true,
+      "required_profile_raise_m": 0
     }
   ]
 }
