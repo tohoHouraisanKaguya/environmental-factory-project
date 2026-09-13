@@ -1,0 +1,96 @@
+{
+  "flow": {
+    "average_m3_d": 108000.0,
+    "average_m3_h": 4500.0,
+    "average_m3_s": 1.25,
+    "kz": 1.5,
+    "peak_m3_h": 6750.0,
+    "peak_m3_s": 1.875,
+    "line_average_m3_h": 2250.0,
+    "line_peak_m3_h": 3375.0,
+    "line_peak_m3_s": 0.9375
+  },
+  "pump_scheme": {
+    "lines": 2,
+    "count": 6,
+    "duty": 4,
+    "standby": 2,
+    "arrangement": "每条水线2用1备，共4用2备；不采用3用1备",
+    "flow_each_m3_h": 1687.5,
+    "flow_each_m3_s": 0.46875,
+    "average_line_pumps_equivalent": 1.3333333333333333,
+    "control": "定速泵台数及液位启停调节；平均日每线1台连续加第2台间歇，最高时每线2台全开",
+    "head_required_m": 13.047150022242498,
+    "head_selected_m": 14.0,
+    "efficiency_assumed": 0.8,
+    "hydraulic_input_power_kW": 80.47265625,
+    "power_with_10pct_kW": 88.51992187500001,
+    "motor_selected_kW": 90.0,
+    "internal_branch": {
+      "flow_m3_s": 0.46875,
+      "diameter_m": 0.7,
+      "length_m": 12.0,
+      "local_k": 4.3,
+      "friction_factor": 0.02,
+      "velocity_m_s": 1.2180225236624647,
+      "friction_loss_m": 0.02592536248403808,
+      "local_loss_m": 0.3251472544873109,
+      "total_loss_m": 0.351072616971349
+    },
+    "line_discharge": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.0,
+      "length_m": 35.0,
+      "local_k": 2.0,
+      "friction_factor": 0.02,
+      "velocity_m_s": 1.1936620731892151,
+      "friction_loss_m": 0.050834882848076586,
+      "local_loss_m": 0.14524252242307595,
+      "total_loss_m": 0.19607740527115253
+    }
+  },
+  "wet_well": {
+    "cells": 2,
+    "pumps_per_cell": 3,
+    "cell_dimensions_m": [
+      16.0,
+      10.0,
+      1.2
+    ],
+    "volume_each_m3": 192.0,
+    "required_largest_pump_5min_m3": 140.625,
+    "start_frequency_limit_per_h": 6
+  },
+  "influent_d1200": {
+    "diameter_m": 1.2,
+    "depth_ratio": 0.75,
+    "water_depth_m": 0.8999999999999999,
+    "area_m2": 0.9098668095427491,
+    "wetted_perimeter_m": 2.513274122871834,
+    "hydraulic_radius_m": 0.3620245007349516,
+    "peak_velocity_m_s": 2.060741176988614,
+    "manning_n": 0.013,
+    "slope": 0.0027815251116161204,
+    "slope_permille": 2.7815251116161206,
+    "site_grade_el_m": 27.3,
+    "invert_el_m": 23.3,
+    "invert_depth_m": 4.0
+  },
+  "screens": {
+    "coarse": {
+      "count": 2,
+      "gap_mm": 25,
+      "openings": 48,
+      "channel_width_m": 1.75,
+      "design_flow_each_m3_s": 0.9375
+    },
+    "fine": {
+      "count": 2,
+      "gap_mm": 10,
+      "openings": 122,
+      "channel_width_m": 2.1,
+      "design_flow_each_m3_s": 0.9375
+    },
+    "maintenance_boundary": "维持两条独立水线；单线停运时不得宣称另一台格栅可承担全厂峰值，须限流或启用另设超越/备用通道。"
+  }
+}

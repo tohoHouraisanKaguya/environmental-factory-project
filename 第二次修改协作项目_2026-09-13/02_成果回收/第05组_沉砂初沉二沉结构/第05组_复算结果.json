@@ -1,0 +1,102 @@
+{
+  "grit": {
+    "count": 2,
+    "net_dimensions_each_m": [
+      30.0,
+      3.8,
+      2.55
+    ],
+    "volume_each_m3": 290.7,
+    "width_depth_ratio": 1.4901960784313726,
+    "length_width_ratio": 7.894736842105264,
+    "peak_velocity_m_s": 0.09674922600619196,
+    "retention_peak_min": 5.168,
+    "retention_average_min": 7.752,
+    "floor": "平底；池内不设局部砂斗；吸砂机沿池长往复排砂至池外砂水分离器",
+    "elevation_interface": {
+      "water_el_m": 33.75,
+      "floor_el_m": 31.2
+    }
+  },
+  "primary": {
+    "count": 4,
+    "type": "平流式",
+    "net_dimensions_each_m": [
+      58.0,
+      14.5,
+      3.5
+    ],
+    "area_each_m2": 841.0,
+    "area_total_m2": 3364.0,
+    "surface_load_average_m3_m2_h": 1.33769322235434,
+    "surface_load_peak_m3_m2_h": 2.00653983353151,
+    "retention_average_h": 2.6164444444444444,
+    "retention_peak_h": 1.7442962962962962,
+    "horizontal_velocity_peak_m_s": 0.009236453201970444,
+    "length_width_ratio": 4.0,
+    "length_depth_ratio": 16.571428571428573,
+    "floor_slope": 0.01,
+    "scraper_direction": "桁车式刮泥机沿58 m池长运行，坡向进水端横向条形泥斗",
+    "transverse_hopper": {
+      "top_m": [
+        14.5,
+        3.0
+      ],
+      "bottom_m": [
+        14.5,
+        0.8
+      ],
+      "depth_m": 2.0,
+      "longitudinal_wall_angle_deg": 61.18920625702693,
+      "side_walls": "沿14.5 m池宽竖直贯通，不缩成0.8 m方形下口",
+      "volume_m3": 55.099999999999994,
+      "four_hour_required_m3": 15.625
+    },
+    "elevation_interface": {
+      "water_el_m": 33.0,
+      "nominal_settling_floor_el_m": 29.5,
+      "hopper_lip_floor_el_m": 28.92,
+      "hopper_bottom_el_m": 26.92,
+      "note": "沉淀有效水深按3.5 m名义水平面计；0.01池底纵坡及泥斗列入污泥区。"
+    }
+  },
+  "secondary": {
+    "count": 8,
+    "type": "辐流式",
+    "net_diameter_m": 37.0,
+    "centre_well_diameter_m": 6.0,
+    "settling_depth_m": 3.1,
+    "net_area_each_m2": 1046.9357518087986,
+    "net_area_total_m2": 8375.486014470389,
+    "surface_load_average_m3_m2_h": 0.5372822534985214,
+    "surface_load_peak_m3_m2_h": 0.8059233802477821,
+    "nominal_external_retention_average_h": 5.769779254412935,
+    "nominal_external_retention_peak_h": 3.8465195029419568,
+    "D_h": 11.935483870967742,
+    "provisional_total_MLSS_kg_m3": 4.3789964586,
+    "provisional_daily_chemical_solids_kg_d": 2768.8388446,
+    "provisional_peak_SLR_kg_m2_d": 148.55428481500195,
+    "SLR_status": "待第04组按第03组新参数重算总MLSS后替换；几何尺寸先冻结",
+    "depth_components_m": {
+      "settling": 3.1,
+      "buffer": 0.5,
+      "peripheral_sludge_storage": 0.4,
+      "peripheral_total": 4.0,
+      "slope_drop": 0.775,
+      "centre_sump": 0.5,
+      "centre_total": 5.275
+    },
+    "storage_each_m3": {
+      "base": 418.77430072351945,
+      "slope_wedge": 308.1967843018537,
+      "centre_sump": 14.137166941154069,
+      "total": 741.1082519665273
+    },
+    "elevation_interface": {
+      "water_el_m": 31.4,
+      "peripheral_floor_el_m": 27.4,
+      "inner_floor_el_m": 26.625,
+      "sump_bottom_el_m": 26.125
+    }
+  }
+}
