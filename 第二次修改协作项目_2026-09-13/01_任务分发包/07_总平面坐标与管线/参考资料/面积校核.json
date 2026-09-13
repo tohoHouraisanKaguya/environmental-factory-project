@@ -1,0 +1,19 @@
+{
+  "site_m2": 120000,
+  "water_envelopes_m2": 16376,
+  "auxiliary_and_secondary_reserve_m2": 13059,
+  "future_m2": 3000,
+  "road_union_m2": 12204,
+  "unallocated_m2": 75361,
+  "provisional_green_target_m2": 36000,
+  "other_available_m2": 39361,
+  "secondary_screen_area_m2": 6082.12337734984,
+  "secondary_peak_surface_load": 0.9618351416194088,
+  "checks": "包络不重叠；不压道路；均在厂界内；占地分项相加等于120000m²",
+  "external_water_path_lengths_m": {
+    "1": 660.0,
+    "2": 580.0,
+    "3": 380.0,
+    "4": 300.0
+  }
+}

@@ -1,0 +1,1546 @@
+{
+  "scope": "Course-design water line; assumptions are not measured plant performance or procurement guarantees.",
+  "review_status": "Kz=1.50 hydraulic and geometry review complete; effluent limits remain provisional pending the current Jiangsu DB32/4440 classification review.",
+  "flow": {
+    "population": 600000,
+    "per_capita_flow_L_d": 180.0,
+    "average_m3_d": 108000.0,
+    "average_m3_h": 4500.0,
+    "average_m3_s": 1.25,
+    "course_kz": 1.5,
+    "design_basis": "GB 50014-2021 Table 4.1.15; Kz=1.50",
+    "peak_m3_s": 1.875,
+    "peak_m3_h": 6750.0,
+    "line_average_m3_s": 0.625,
+    "line_peak_m3_s": 0.9375,
+    "pump_combo_m3_s": 1.875,
+    "pump_combo_m3_h": 6750.0,
+    "line_hydraulic_m3_s": 0.9375,
+    "gb50014_k_comparison": 1.5,
+    "gb50014_peak_comparison_m3_s": 1.875
+  },
+  "quality": {
+    "BOD5": {
+      "influent_mg_L": 166.66666666666666,
+      "influent_kg_d": 18000.0,
+      "limit_mg_L": 20.0,
+      "limit_load_kg_d": 2160.0,
+      "minimum_removal_kg_d": 15840.0,
+      "minimum_removal_percent": 88.0
+    },
+    "SS": {
+      "influent_mg_L": 277.77777777777777,
+      "influent_kg_d": 30000.0,
+      "limit_mg_L": 20.0,
+      "limit_load_kg_d": 2160.0,
+      "minimum_removal_kg_d": 27840.0,
+      "minimum_removal_percent": 92.80000000000001
+    },
+    "TN": {
+      "influent_mg_L": 44.44444444444444,
+      "influent_kg_d": 4800.0,
+      "limit_mg_L": 20.0,
+      "limit_load_kg_d": 2160.0,
+      "minimum_removal_kg_d": 2640.0,
+      "minimum_removal_percent": 55.00000000000001
+    },
+    "TP": {
+      "influent_mg_L": 5.555555555555555,
+      "influent_kg_d": 600.0,
+      "limit_mg_L": 1.0,
+      "limit_load_kg_d": 108.0,
+      "minimum_removal_kg_d": 492.0,
+      "minimum_removal_percent": 82.0
+    },
+    "NH4N": {
+      "influent_mg_L": null,
+      "influent_kg_d": null,
+      "limit_mg_L": 8.0,
+      "limit_load_kg_d": 864.0,
+      "minimum_removal_kg_d": null,
+      "minimum_removal_percent": null
+    }
+  },
+  "screens": {
+    "coarse": {
+      "gap_m": 0.025,
+      "clear_openings": 48,
+      "channel_width_m": 1.75,
+      "bar_thickness_m": 0.01,
+      "calculated_bar_pack_width_m": 1.6700000000000002,
+      "upstream_channel_width_m": 1.75,
+      "upstream_velocity_m_s": 0.6696428571428571,
+      "expansion_length_m": 0.0,
+      "contraction_length_m": 0.0,
+      "hydraulic_total_length_m": 2.1350852961085884,
+      "loss_coefficient": 0.5275533106053034,
+      "clean_headloss_m": 0.019232188182697497,
+      "blockage_factor": 3.0,
+      "design_headloss_m": 0.057696564548092494,
+      "normal_depth_m": 0.8,
+      "maximum_operating_depth_m": 1.0,
+      "velocity_peak_m_s": 0.9087938077168939,
+      "blocked_depth_25pct_m": 0.9693800615646868,
+      "blocked_check_velocity_m_s": 1.0,
+      "design_flow_each_m3_s": 0.9375,
+      "wall_height_above_channel_floor_m": 1.5
+    },
+    "fine": {
+      "gap_m": 0.01,
+      "clear_openings": 122,
+      "channel_width_m": 2.1,
+      "bar_thickness_m": 0.007,
+      "calculated_bar_pack_width_m": 2.067,
+      "upstream_channel_width_m": 1.7,
+      "upstream_velocity_m_s": 0.6893382352941176,
+      "expansion_length_m": 0.5494954838909246,
+      "contraction_length_m": 0.2747477419454623,
+      "hydraulic_total_length_m": 2.9593285219449754,
+      "loss_coefficient": 1.1125437141834786,
+      "clean_headloss_m": 0.03923939133319687,
+      "blockage_factor": 2.0,
+      "design_headloss_m": 0.07847878266639374,
+      "normal_depth_m": 0.8,
+      "maximum_operating_depth_m": 1.0,
+      "velocity_peak_m_s": 0.8938955485739941,
+      "blocked_depth_25pct_m": 0.9534885851455938,
+      "blocked_check_velocity_m_s": 1.0,
+      "design_flow_each_m3_s": 0.9375,
+      "wall_height_above_channel_floor_m": 1.5
+    }
+  },
+  "screen_waste": {
+    "coarse_m3_d": 5.4,
+    "fine_increment_assumed_m3_d": 5.4,
+    "wet_total_m3_d": 10.8,
+    "wet_mass_at_960kg_m3_kg_d": 10368.0
+  },
+  "pumping": {
+    "count": 4,
+    "duty": 3,
+    "standby": 1,
+    "flow_each_m3_s": 0.625,
+    "head_selected_m": 13.0,
+    "input_power_each_kW": 102.31867779204109,
+    "power_with_10pct_kW": 112.55054557124521,
+    "motor_selected_kW": 132,
+    "wet_well_cells": 4,
+    "wet_well_cell_plan_m": [
+      16,
+      10
+    ],
+    "wet_well_operating_depth_m": 1.2,
+    "wet_well_volume_each_m3": 192.0,
+    "wet_well_volume_total_m3": 768.0,
+    "required_one_pump_5min_m3": 187.5,
+    "one_cell_available_flow_m3_s": 1.875,
+    "head_required_m": 12.920729536799895,
+    "internal_pipe": {
+      "flow_m3_s": 0.625,
+      "diameter_m": 0.9,
+      "length_m": 12,
+      "local_k": 4.3,
+      "velocity_m_s": 0.9824379203203415,
+      "friction_loss_m": 0.013118372644014374,
+      "local_loss_m": 0.2115337588847318,
+      "loss_m": 0.22465213152874616
+    },
+    "to_fine_screen_pipe": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.0,
+      "length_m": 35,
+      "local_k": 2.0,
+      "velocity_m_s": 1.1936620731892151,
+      "friction_loss_m": 0.050834882848076586,
+      "local_loss_m": 0.14524252242307595,
+      "loss_m": 0.19607740527115256
+    },
+    "pumps_per_cell": 1,
+    "wet_well_note": "四格进水井，每格1台变频潜污泵，全厂3用1备；单格容积192 m³不小于单泵5 min出水量187.5 m³。"
+  },
+  "grit": {
+    "count": 2,
+    "length_m": 30.0,
+    "width_m": 3.8,
+    "water_depth_m": 2.55,
+    "volume_each_m3": 290.7,
+    "velocity_peak_m_s": 0.09674922600619196,
+    "retention_peak_min": 5.168,
+    "retention_average_min": 7.752,
+    "air_each_m3_h": 648.0,
+    "air_total_m3_h": 1296.0,
+    "sand_each_m3_d": 1.62,
+    "two_day_sand_each_m3": 3.24,
+    "hopper_geometric_m3": 3.2600000000000007,
+    "hopper_working_m3": 3.2,
+    "hopper_slope_deg": 61.92751306414704
+  },
+  "primary": {
+    "count": 4,
+    "diameter_net_m": 31.0,
+    "centre_well_diameter_m": 4.5,
+    "area_each_net_m2": 738.8633222161494,
+    "area_total_net_m2": 2955.4532888645977,
+    "settling_depth_m": 3.0,
+    "surface_load_avg_m3_m2_h": 1.5226090755536095,
+    "surface_load_peak_m3_m2_h": 2.2839136133304145,
+    "surface_load_pump_combo_m3_m2_h": 2.2839136133304145,
+    "retention_avg_h": 1.9703021925763986,
+    "retention_peak_h": 1.3135347950509324,
+    "retention_pump_combo_h": 1.3135347950509324,
+    "weir_centreline_diameter_m": 29.0,
+    "double_weir_length_each_m": 182.212373908208,
+    "weir_load_peak_L_m_s": 2.5725475715284807,
+    "weir_load_pump_combo_L_m_s": 2.5725475715284807,
+    "sludge_total_m3_d": 375.0,
+    "hopper_each_m3": 20.224002707484292,
+    "hopper_four_hour_required_m3": 15.625,
+    "hopper_slope_deg": 59.743562836470744,
+    "effluent": {
+      "BOD5": {
+        "removal_fraction": 0.25,
+        "load_kg_d": 13500.0,
+        "concentration_mg_L": 125.0,
+        "remaining_removal_kg_d": 11340.0
+      },
+      "SS": {
+        "removal_fraction": 0.5,
+        "load_kg_d": 15000.0,
+        "concentration_mg_L": 138.88888888888889,
+        "remaining_removal_kg_d": 12840.0
+      },
+      "TN": {
+        "removal_fraction": 0.0,
+        "load_kg_d": 4800.0,
+        "concentration_mg_L": 44.44444444444444,
+        "remaining_removal_kg_d": 2640.0
+      },
+      "TP": {
+        "removal_fraction": 0.075,
+        "load_kg_d": 555.0,
+        "concentration_mg_L": 5.138888888888889,
+        "remaining_removal_kg_d": 447.0
+      }
+    }
+  },
+  "biological": {
+    "series": 4,
+    "dimensions_each_m": [
+      70.0,
+      45.0,
+      5.0
+    ],
+    "volume_each_m3": 15750.0,
+    "volume_total_m3": 63000.0,
+    "hrt_total_h": 14.0,
+    "hrt_anaerobic_h": 1.5,
+    "hrt_anoxic_h": 4.8,
+    "hrt_oxic_h": 7.7,
+    "volume_anaerobic_m3": 6750.0,
+    "volume_anoxic_m3": 21600.0,
+    "volume_oxic_m3": 34650.0,
+    "zone_equivalent_length_each_series_m": [
+      45.0,
+      144.0,
+      231.0
+    ],
+    "mlss_base_kg_m3": 3.5,
+    "mlvss_fraction_base": 0.75,
+    "srt_d": 20.0,
+    "bod_load_in_kg_kg_d": 0.061224489795918366,
+    "bod_load_removed_kg_kg_d": 0.05142857142857143,
+    "ras_ratio": 0.75,
+    "internal_recycle_ratio": 2.5,
+    "ras_m3_d": 81000.0,
+    "internal_recycle_m3_d": 270000.0,
+    "kd15_d": 0.0493156264055611,
+    "base_net_vss_kg_d": 2854.5356884959006,
+    "base_n_assimilation_kg_d": 342.54428261950807,
+    "denitrification_design_kgN_d": 2297.455717380492,
+    "nitrification_upper_kgN_d": 3936.0,
+    "methanol_yield_gVSS_gCOD": 0.3,
+    "methanol_cod_ratio_kgCOD_kgN": 4.982578397212543,
+    "internal_recycle_do_kgO2_d": 540.0,
+    "recycle_do_cod_kg_d": 940.766550522648,
+    "external_cod_capacity_kg_d": 12388.019776495134,
+    "pure_methanol_capacity_kg_d": 8258.679850996756,
+    "methanol_80pct_calculated_kg_d": 10323.349813745945,
+    "methanol_80pct_selected_capacity_kg_d": 12000,
+    "methanol_peak_hour_required_kg_h": 645.2093633591215,
+    "methanol_meter_selected_each_kg_h": 700.0,
+    "methanol_gross_vss_kg_d": 3716.40593294854,
+    "methanol_decay15_d": 0.032877084270374064,
+    "methanol_net_vss_kg_d": 2242.1191368317945,
+    "operating_denitrification_kgN_d": 2054.674297732122,
+    "operating_methanol_net_vss_kg_d": 2023.178497069752,
+    "operating_methanol_n_assimilation_kgN_d": 242.78141964837022,
+    "operating_external_cod_kg_d": 11178.342319710571,
+    "operating_methanol_80pct_kg_d": 9315.285266425475,
+    "operating_tn_balance_residual_kgN_d": -1.7053025658242404e-13,
+    "methanol_sdnr15_kgN_kgMLVSS_d": 0.04379670801072163,
+    "denitrification_capacity_kgN_d": 2483.273344207916,
+    "denitrification_capacity_margin_percent": 8.08797425002339,
+    "aob_mu_max15_d": 0.6357239638871665,
+    "aob_decay15_d": 0.14735743305296425,
+    "aob_oxic_fraction": 0.55,
+    "aob_effective_net_growth_d": 0.10985502130138361,
+    "aob_critical_system_srt_d": 9.102906614132213,
+    "aob_srt_factor": 2.197100426027672
+  },
+  "chemistry": {
+    "p_required_after_primary_kg_d": 447.0,
+    "biological_p_credit_kg_d": 114.18142753983602,
+    "chemical_p_design_kg_d": 332.818572460164,
+    "fe_p_molar_ratio": 2.0,
+    "pure_fecl3_kg_d": 3485.821562606986,
+    "fecl3_solution_40pct_m3_d": 6.224681361798189,
+    "fecl3_selected_capacity_m3_d": 7.469617634157826,
+    "fecl3_peak_hour_required_m3_h": 0.3890425851123868,
+    "fecl3_meter_selected_each_m3_h": 0.45,
+    "chemical_dry_solids_kg_d": 2768.838844589817,
+    "ferric_alkalinity_kgCaCO3_d": 2686.294390556788,
+    "bio_net_alkalinity_kgCaCO3_d": 19901.12308895164,
+    "required_influent_alkalinity_mg_L_including_70_residual": 279.1427544398929,
+    "nahco3_99pct_scenarios": [
+      {
+        "influent_alkalinity_mg_L": 100,
+        "deficit_mg_L_as_CaCO3": 179.14275443989288,
+        "nahco3_99pct_kg_d": 32831.98117734764,
+        "nahco3_capacity_with_20pct_kg_d": 39398.377412817164
+      },
+      {
+        "influent_alkalinity_mg_L": 150,
+        "deficit_mg_L_as_CaCO3": 129.14275443989288,
+        "nahco3_99pct_kg_d": 23668.344813711275,
+        "nahco3_capacity_with_20pct_kg_d": 28402.01377645353
+      },
+      {
+        "influent_alkalinity_mg_L": 200,
+        "deficit_mg_L_as_CaCO3": 79.14275443989288,
+        "nahco3_99pct_kg_d": 14504.708450074913,
+        "nahco3_capacity_with_20pct_kg_d": 17405.650140089896
+      }
+    ],
+    "nahco3_preliminary_capacity_boundary_kg_d": 40000,
+    "nahco3_peak_hour_required_kg_h": 2500.0,
+    "nahco3_feeder_selected_each_kg_h": 2750.0
+  },
+  "solids": {
+    "base_inventory_kg": 220500.0,
+    "base_output_kg_d": 11025.0,
+    "chemical_inventory_kg": 55376.77689179634,
+    "chemical_output_kg_d": 2768.838844589817,
+    "total_inventory_kg": 275876.7768917963,
+    "total_output_kg_d": 13793.838844589816,
+    "apparent_total_srt_d": 20.0,
+    "total_mlss_to_secondary_kg_m3": 4.378996458599942,
+    "known_net_biomass_kg_d": 5096.654825327695,
+    "residual_base_solids_allowance_kg_d": 5928.345174672305,
+    "residual_as_fraction_of_post_primary_ss": 0.3952230116448203
+  },
+  "secondary": {
+    "count": 8,
+    "diameter_net_m": 37.0,
+    "centre_well_diameter_m": 6.0,
+    "settling_depth_m": 3.1,
+    "area_each_net_m2": 1046.9357518087986,
+    "area_total_net_m2": 8375.486014470389,
+    "surface_load_avg_m3_m2_h": 0.5372822534985214,
+    "surface_load_peak_m3_m2_h": 0.8059233802477821,
+    "surface_load_pump_combo_m3_m2_h": 0.8059233802477821,
+    "solids_load_avg_kg_m2_d": 99.14638602288775,
+    "solids_load_peak_kg_m2_d": 148.5542848149988,
+    "retention_avg_external_h": 5.769779254412935,
+    "retention_peak_external_h": 3.8465195029419568,
+    "retention_pump_combo_external_h": 3.8465195029419568,
+    "retention_pump_combo_mixed_h": 2.198011144538261,
+    "diameter_depth_ratio": 11.935483870967742,
+    "weir_centreline_diameter_m": 33.0,
+    "double_weir_length_each_m": 207.34511513692635,
+    "weir_load_peak_L_m_s": 1.1303618117322112,
+    "weir_load_pump_combo_L_m_s": 1.1303618117322112,
+    "notch_count_each_at_0_2m": 1037,
+    "mixed_inflow_each_peak_m3_s": 0.41015625,
+    "mixed_inflow_each_hydraulic_m3_s": 0.41015625,
+    "inlet_pipe_diameter_m": 0.9,
+    "inlet_pipe_velocity_m_s": 0.6447248852102241,
+    "outlet_pipe_diameter_m": 0.7,
+    "outlet_pipe_velocity_m_s": 0.6090112618312323,
+    "return_sludge_concentration_kg_m3": 10.081547292288754,
+    "waste_sludge_m3_d": 1156.2673718689448,
+    "clarified_effluent_m3_d": 106843.73262813105,
+    "clarifier_solids_in_kg_d": 830399.1695199788,
+    "clarifier_solids_out_kg_d": 830399.1695199789,
+    "clarifier_solids_residual_kg_d": -1.1641532182693481e-10,
+    "system_solids_residual_kg_d": 1.8189894035458565e-12,
+    "buffer_layer_depth_m": 0.5,
+    "effective_sludge_storage_depth_m": 0.4,
+    "sludge_floor_slope": 0.05,
+    "sludge_slope_wedge_volume_each_m3": 308.1967843018537,
+    "local_sump_depth_m": 0.5,
+    "sludge_flow_each_m3_h": 427.89722589515077,
+    "two_hour_sludge_volume_each_m3": 855.7944517903015,
+    "sludge_storage_volume_each_m3": 741.1082519665273,
+    "sludge_storage_time_h": 1.7319772298503373,
+    "peripheral_floor_elevation_m": 27.4,
+    "inner_annulus_floor_elevation_m": 26.625,
+    "sump_bottom_elevation_m": 26.125
+  },
+  "return_system": {
+    "ras_design_flow_each_pool_m3_s": 0.17578125,
+    "ras_design_flow_each_series_m3_s": 0.3515625,
+    "ras_branch": {
+      "flow_m3_s": 0.17578125,
+      "diameter_m": 0.5,
+      "length_m": 175.0,
+      "local_k": 4.0,
+      "velocity_m_s": 0.8952465548919113,
+      "friction_loss_m": 0.28594621602043074,
+      "local_loss_m": 0.16339783772596042,
+      "loss_m": 0.44934405374639114
+    },
+    "ras_series_header": {
+      "flow_m3_s": 0.3515625,
+      "diameter_m": 0.7,
+      "length_m": 192.5,
+      "local_k": 3.5,
+      "velocity_m_s": 0.9135168927468484,
+      "friction_loss_m": 0.2339358880395624,
+      "local_loss_m": 0.1488682923888124,
+      "loss_m": 0.3828041804283748
+    },
+    "ras_dynamic_loss_m": 0.8321482341747659,
+    "ras_static_lift_m": 1.2000000000000028,
+    "ras_allowance_m": 0.5,
+    "ras_required_head_m": 2.5321482341747688,
+    "ras_selected_head_m": 3.0,
+    "ras_input_power_each_series_kW": 14.83366935483871,
+    "ras_selected_motor_each_series_kW": 18.5,
+    "internal_recycle_design_flow_each_series_m3_s": 1.171875,
+    "internal_recycle_pipe": {
+      "flow_m3_s": 1.171875,
+      "diameter_m": 1.2,
+      "length_m": 125.0,
+      "local_k": 4.0,
+      "velocity_m_s": 1.0361649940878603,
+      "friction_loss_m": 0.1140033442674456,
+      "local_loss_m": 0.21888642099349553,
+      "loss_m": 0.33288976526094116
+    },
+    "internal_recycle_required_head_m": 0.9328897652609411,
+    "internal_recycle_selected_head_m": 1.2,
+    "internal_recycle_input_power_each_series_kW": 18.542086693548384,
+    "internal_recycle_selected_motor_each_series_kW": 22.0
+  },
+  "aeration": {
+    "oxygen_carbon_kg_d": 12474.000000000002,
+    "oxygen_nitrification_kg_d": 17987.52,
+    "oxygen_methanol_biomass_kg_d": 5277.296424786927,
+    "aor_average_kg_h": 1489.1173510327887,
+    "aor_design_kg_h": 2457.0436292041013,
+    "transfer_factor": 0.671219843817559,
+    "tail_gas_oxygen_percent": 16.62269129287599,
+    "mid_depth_saturation_mg_L": 9.29844016842796,
+    "sor_design_kg_h": 3660.5646448556704,
+    "required_standard_air_Nm3_h": 48807.52859807561,
+    "selected_standard_air_Nm3_h": 54000.0,
+    "field_oxygen_capacity_kg_h": 2718.440367461114,
+    "capacity_margin_percent": 10.638668973968745,
+    "diffuser_count": 10800,
+    "diffuser_per_series": 2700,
+    "diffuser_flow_Nm3_h": 5.0,
+    "diffuser_model": "Xylem Sanitaire Silver Series II standard 229 mm",
+    "blower_model": "AERZEN AT 200-0.8 S G5plus",
+    "blower_count": 10,
+    "blower_duty": 9,
+    "blower_standby": 1,
+    "standard_air_each_duty_Nm3_h": 6000.0,
+    "design_header_pressure_kPa": 65.0,
+    "submergence_m": 4.75,
+    "pressure_static_kPa": 46.597500000000004,
+    "pressure_diffuser_kPa": 5.0,
+    "pressure_piping_kPa": 6.0,
+    "pressure_allowance_kPa": 3.0,
+    "standard_temperature_K": 273.15,
+    "inlet_design_temperature_C": 42.0,
+    "ambient_pressure_kPa_abs": 101.325,
+    "saturation_pressure_42C_kPa": 8.2,
+    "inlet_pressure_after_filter_kPa_abs": 98.325,
+    "actual_inlet_flow_clean_m3_h": 7532.12785953584,
+    "actual_inlet_flow_after_3kPa_filter_m3_h": 7782.850562211096,
+    "model_max_inlet_flow_m3_h": 8400.0,
+    "minimum_effective_inlet_pressure_kPa_abs": 91.70350082372322
+  },
+  "terminal": {
+    "contact_cells": 2,
+    "contact_dimensions_each_m": [
+      45.0,
+      8.0,
+      4.8
+    ],
+    "contact_volume_total_m3": 3456.0,
+    "contact_time_pump_combo_min": 30.72,
+    "contact_time_basis": "course assumption; final chemical dose requires site demand and organism tests",
+    "meter_channels": 2,
+    "meter_type": "long-throated critical-flow flume",
+    "meter_throat_width_m": 1.5,
+    "meter_design_flow_each_m3_s": 0.9375,
+    "meter_critical_depth_m": 0.3414787443178979
+  },
+  "pipes": {
+    "pump_internal": {
+      "flow_m3_s": 0.625,
+      "diameter_m": 0.9,
+      "length_m": 12,
+      "local_k": 4.3,
+      "velocity_m_s": 0.9824379203203415,
+      "friction_loss_m": 0.013118372644014374,
+      "local_loss_m": 0.2115337588847318,
+      "loss_m": 0.22465213152874616
+    },
+    "pump_to_fine_screen": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.0,
+      "length_m": 35,
+      "local_k": 2.0,
+      "velocity_m_s": 1.1936620731892151,
+      "friction_loss_m": 0.050834882848076586,
+      "local_loss_m": 0.14524252242307595,
+      "loss_m": 0.19607740527115256
+    },
+    "grit_to_primary_A": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.2,
+      "length_m": 110.0,
+      "local_k": 3.0,
+      "velocity_m_s": 0.8289319952702882,
+      "friction_loss_m": 0.06420668349142535,
+      "local_loss_m": 0.10506548207687783,
+      "loss_m": 0.16927216556830318
+    },
+    "grit_to_primary_B": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.2,
+      "length_m": 115.0,
+      "local_k": 2.5,
+      "velocity_m_s": 0.8289319952702882,
+      "friction_loss_m": 0.06712516910467196,
+      "local_loss_m": 0.0875545683973982,
+      "loss_m": 0.15467973750207015
+    },
+    "primary_to_bio": {
+      "flow_m3_s": 0.46875,
+      "diameter_m": 0.9,
+      "length_m": 147.5,
+      "local_k": 1.5,
+      "velocity_m_s": 0.7368284402402562,
+      "friction_loss_m": 0.09070124835900566,
+      "local_loss_m": 0.04150735094395174,
+      "loss_m": 0.1322085993029574
+    },
+    "bio_to_secondary_header": {
+      "flow_m3_s": 0.8203125,
+      "diameter_m": 1.2,
+      "length_m": 262.5,
+      "local_k": 2.5,
+      "velocity_m_s": 0.7253154958615022,
+      "friction_loss_m": 0.11730944125120153,
+      "local_loss_m": 0.06703396642925802,
+      "loss_m": 0.18434340768045954
+    },
+    "secondary_branch": {
+      "flow_m3_s": 0.41015625,
+      "diameter_m": 0.9,
+      "length_m": 175.0,
+      "local_k": 2.0,
+      "velocity_m_s": 0.6447248852102241,
+      "friction_loss_m": 0.0823901699871264,
+      "local_loss_m": 0.04237208742195072,
+      "loss_m": 0.12476225740907713
+    },
+    "secondary_outlet": {
+      "flow_m3_s": 0.234375,
+      "diameter_m": 0.7,
+      "length_m": 190.0,
+      "local_k": 2.0,
+      "velocity_m_s": 0.6090112618312323,
+      "friction_loss_m": 0.10262122649931742,
+      "local_loss_m": 0.0378078202892222,
+      "loss_m": 0.14042904678853962
+    },
+    "secondary_outlet_header": {
+      "flow_m3_s": 0.9375,
+      "diameter_m": 1.2,
+      "length_m": 75.0,
+      "local_k": 2.5,
+      "velocity_m_s": 0.8289319952702882,
+      "friction_loss_m": 0.0437772841986991,
+      "local_loss_m": 0.0875545683973982,
+      "loss_m": 0.13133185259609728
+    },
+    "outfall_internal": {
+      "flow_m3_s": 1.875,
+      "diameter_m": 1.5,
+      "length_m": 28,
+      "local_k": 1.0,
+      "velocity_m_s": 1.0610329539459689,
+      "friction_loss_m": 0.021421777792769717,
+      "local_loss_m": 0.05737976194491888,
+      "loss_m": 0.0788015397376886
+    }
+  },
+  "elevations": {
+    "site_grade": 27.3,
+    "influent_pipe_invert": 23.3,
+    "wet_well_low": 22.6,
+    "wet_well_high": 23.8,
+    "wet_well_floor": 20.4,
+    "fine_screen_upstream": 34.3,
+    "fine_screen_downstream": 34.15,
+    "grit_water": 33.75,
+    "grit_floor": 31.25,
+    "primary_water": 33.0,
+    "primary_peripheral_floor": 29.5,
+    "bio_inlet": 32.6,
+    "bio_water": 32.3,
+    "bio_floor": 27.3,
+    "secondary_distribution_up": 31.95,
+    "secondary_distribution_down": 31.55,
+    "secondary_water": 31.4,
+    "secondary_peripheral_floor": 27.4,
+    "secondary_sump_bottom": 26.125,
+    "disinfection_inlet": 30.9,
+    "terminal_control": 30.4,
+    "river_flood_scenario": 25.0
+  },
+  "layout": {
+    "site_dimensions_m": [
+      400,
+      300
+    ],
+    "origin": "southwest corner; x east, y north",
+    "inlet_boundary_m": [
+      360,
+      300
+    ],
+    "facility_nodes": {
+      "pump_header": [
+        360,
+        280
+      ],
+      "fine_screen": [
+        335,
+        270
+      ],
+      "grit_A_outlet": [
+        300,
+        260
+      ],
+      "grit_B_outlet": [
+        300,
+        245
+      ],
+      "primary_A_distributor": [
+        270,
+        260
+      ],
+      "primary_B_distributor": [
+        270,
+        245
+      ],
+      "primary_centres": [
+        [
+          235,
+          270
+        ],
+        [
+          200,
+          270
+        ],
+        [
+          235,
+          230
+        ],
+        [
+          200,
+          230
+        ]
+      ],
+      "bio_inlets": [
+        [
+          230,
+          177.5
+        ],
+        [
+          155,
+          177.5
+        ],
+        [
+          230,
+          127.5
+        ],
+        [
+          155,
+          127.5
+        ]
+      ],
+      "bio_outlets": [
+        [
+          160,
+          177.5
+        ],
+        [
+          85,
+          177.5
+        ],
+        [
+          160,
+          127.5
+        ],
+        [
+          85,
+          127.5
+        ]
+      ],
+      "secondary_distributors": [
+        [
+          245,
+          90
+        ],
+        [
+          245,
+          75
+        ],
+        [
+          245,
+          60
+        ],
+        [
+          245,
+          45
+        ]
+      ],
+      "secondary_centres": [
+        [
+          215,
+          80
+        ],
+        [
+          170,
+          80
+        ],
+        [
+          125,
+          80
+        ],
+        [
+          80,
+          80
+        ],
+        [
+          215,
+          35
+        ],
+        [
+          170,
+          35
+        ],
+        [
+          125,
+          35
+        ],
+        [
+          80,
+          35
+        ]
+      ],
+      "secondary_collectors": [
+        [
+          270,
+          80
+        ],
+        [
+          270,
+          35
+        ]
+      ],
+      "terminal_inlet": [
+        300,
+        35
+      ],
+      "terminal_control": [
+        372,
+        30
+      ],
+      "outfall_boundary": [
+        400,
+        30
+      ]
+    },
+    "pipe_paths": {
+      "pump_to_fine_screen": {
+        "points_m": [
+          [
+            360,
+            280
+          ],
+          [
+            360,
+            270
+          ],
+          [
+            335,
+            270
+          ]
+        ],
+        "manhattan_length_m": 35
+      },
+      "grit_to_primary_A": {
+        "points_m": [
+          [
+            300,
+            260
+          ],
+          [
+            270,
+            260
+          ],
+          [
+            270,
+            270
+          ],
+          [
+            200,
+            270
+          ]
+        ],
+        "manhattan_length_m": 110
+      },
+      "grit_to_primary_B": {
+        "points_m": [
+          [
+            300,
+            245
+          ],
+          [
+            270,
+            245
+          ],
+          [
+            270,
+            230
+          ],
+          [
+            200,
+            230
+          ]
+        ],
+        "manhattan_length_m": 115
+      },
+      "primary_to_bio": {
+        "points_m": [
+          [
+            200,
+            230
+          ],
+          [
+            200,
+            177.5
+          ],
+          [
+            155,
+            177.5
+          ],
+          [
+            155,
+            127.5
+          ]
+        ],
+        "manhattan_length_m": 147.5
+      },
+      "bio_to_secondary_header": {
+        "points_m": [
+          [
+            85,
+            177.5
+          ],
+          [
+            245,
+            177.5
+          ],
+          [
+            245,
+            145
+          ],
+          [
+            245,
+            75
+          ]
+        ],
+        "manhattan_length_m": 262.5
+      },
+      "secondary_branch": {
+        "points_m": [
+          [
+            245,
+            45
+          ],
+          [
+            245,
+            35
+          ],
+          [
+            80,
+            35
+          ]
+        ],
+        "manhattan_length_m": 175
+      },
+      "secondary_outlet": {
+        "points_m": [
+          [
+            80,
+            80
+          ],
+          [
+            270,
+            80
+          ]
+        ],
+        "manhattan_length_m": 190
+      },
+      "secondary_outlet_header": {
+        "points_m": [
+          [
+            270,
+            80
+          ],
+          [
+            300,
+            80
+          ],
+          [
+            300,
+            35
+          ]
+        ],
+        "manhattan_length_m": 75
+      },
+      "outfall_internal": {
+        "points_m": [
+          [
+            372,
+            30
+          ],
+          [
+            400,
+            30
+          ]
+        ],
+        "manhattan_length_m": 28
+      }
+    },
+    "all_primary_branches": [
+      {
+        "points_m": [
+          [
+            270,
+            260
+          ],
+          [
+            235,
+            260
+          ],
+          [
+            235,
+            270
+          ]
+        ],
+        "manhattan_length_m": 45
+      },
+      {
+        "points_m": [
+          [
+            270,
+            260
+          ],
+          [
+            200,
+            260
+          ],
+          [
+            200,
+            270
+          ]
+        ],
+        "manhattan_length_m": 80
+      },
+      {
+        "points_m": [
+          [
+            270,
+            245
+          ],
+          [
+            235,
+            245
+          ],
+          [
+            235,
+            230
+          ]
+        ],
+        "manhattan_length_m": 50
+      },
+      {
+        "points_m": [
+          [
+            270,
+            245
+          ],
+          [
+            200,
+            245
+          ],
+          [
+            200,
+            230
+          ]
+        ],
+        "manhattan_length_m": 85
+      }
+    ],
+    "all_bio_inlet_branches": [
+      {
+        "points_m": [
+          [
+            235,
+            270
+          ],
+          [
+            235,
+            177.5
+          ],
+          [
+            230,
+            177.5
+          ]
+        ],
+        "manhattan_length_m": 97.5
+      },
+      {
+        "points_m": [
+          [
+            200,
+            270
+          ],
+          [
+            155,
+            270
+          ],
+          [
+            155,
+            177.5
+          ]
+        ],
+        "manhattan_length_m": 137.5
+      },
+      {
+        "points_m": [
+          [
+            235,
+            230
+          ],
+          [
+            235,
+            127.5
+          ],
+          [
+            230,
+            127.5
+          ]
+        ],
+        "manhattan_length_m": 107.5
+      },
+      {
+        "points_m": [
+          [
+            200,
+            230
+          ],
+          [
+            155,
+            230
+          ],
+          [
+            155,
+            127.5
+          ]
+        ],
+        "manhattan_length_m": 147.5
+      }
+    ],
+    "all_bio_to_secondary_branches": [
+      {
+        "points_m": [
+          [
+            160,
+            177.5
+          ],
+          [
+            245,
+            177.5
+          ],
+          [
+            245,
+            90
+          ]
+        ],
+        "manhattan_length_m": 172.5
+      },
+      {
+        "points_m": [
+          [
+            85,
+            177.5
+          ],
+          [
+            245,
+            177.5
+          ],
+          [
+            245,
+            75
+          ]
+        ],
+        "manhattan_length_m": 262.5
+      },
+      {
+        "points_m": [
+          [
+            160,
+            127.5
+          ],
+          [
+            245,
+            127.5
+          ],
+          [
+            245,
+            60
+          ]
+        ],
+        "manhattan_length_m": 152.5
+      },
+      {
+        "points_m": [
+          [
+            85,
+            127.5
+          ],
+          [
+            245,
+            127.5
+          ],
+          [
+            245,
+            45
+          ]
+        ],
+        "manhattan_length_m": 242.5
+      }
+    ],
+    "all_secondary_inlet_branches": [
+      {
+        "points_m": [
+          [
+            245,
+            90
+          ],
+          [
+            245,
+            80
+          ],
+          [
+            215,
+            80
+          ]
+        ],
+        "manhattan_length_m": 40
+      },
+      {
+        "points_m": [
+          [
+            245,
+            90
+          ],
+          [
+            245,
+            80
+          ],
+          [
+            170,
+            80
+          ]
+        ],
+        "manhattan_length_m": 85
+      },
+      {
+        "points_m": [
+          [
+            245,
+            75
+          ],
+          [
+            125,
+            75
+          ],
+          [
+            125,
+            80
+          ]
+        ],
+        "manhattan_length_m": 125
+      },
+      {
+        "points_m": [
+          [
+            245,
+            75
+          ],
+          [
+            80,
+            75
+          ],
+          [
+            80,
+            80
+          ]
+        ],
+        "manhattan_length_m": 170
+      },
+      {
+        "points_m": [
+          [
+            245,
+            60
+          ],
+          [
+            245,
+            35
+          ],
+          [
+            215,
+            35
+          ]
+        ],
+        "manhattan_length_m": 55
+      },
+      {
+        "points_m": [
+          [
+            245,
+            60
+          ],
+          [
+            245,
+            35
+          ],
+          [
+            170,
+            35
+          ]
+        ],
+        "manhattan_length_m": 100
+      },
+      {
+        "points_m": [
+          [
+            245,
+            45
+          ],
+          [
+            125,
+            45
+          ],
+          [
+            125,
+            35
+          ]
+        ],
+        "manhattan_length_m": 130
+      },
+      {
+        "points_m": [
+          [
+            245,
+            45
+          ],
+          [
+            80,
+            45
+          ],
+          [
+            80,
+            35
+          ]
+        ],
+        "manhattan_length_m": 175
+      }
+    ],
+    "all_secondary_outlet_branches": [
+      {
+        "points_m": [
+          [
+            215,
+            80
+          ],
+          [
+            270,
+            80
+          ]
+        ],
+        "manhattan_length_m": 55
+      },
+      {
+        "points_m": [
+          [
+            170,
+            80
+          ],
+          [
+            270,
+            80
+          ]
+        ],
+        "manhattan_length_m": 100
+      },
+      {
+        "points_m": [
+          [
+            125,
+            80
+          ],
+          [
+            270,
+            80
+          ]
+        ],
+        "manhattan_length_m": 145
+      },
+      {
+        "points_m": [
+          [
+            80,
+            80
+          ],
+          [
+            270,
+            80
+          ]
+        ],
+        "manhattan_length_m": 190
+      },
+      {
+        "points_m": [
+          [
+            215,
+            35
+          ],
+          [
+            270,
+            35
+          ]
+        ],
+        "manhattan_length_m": 55
+      },
+      {
+        "points_m": [
+          [
+            170,
+            35
+          ],
+          [
+            270,
+            35
+          ]
+        ],
+        "manhattan_length_m": 100
+      },
+      {
+        "points_m": [
+          [
+            125,
+            35
+          ],
+          [
+            270,
+            35
+          ]
+        ],
+        "manhattan_length_m": 145
+      },
+      {
+        "points_m": [
+          [
+            80,
+            35
+          ],
+          [
+            270,
+            35
+          ]
+        ],
+        "manhattan_length_m": 190
+      }
+    ],
+    "maximum_branch_lengths_m": {
+      "primary_distributor_to_pool": 85,
+      "primary_to_bio": 147.5,
+      "bio_to_secondary_distributor": 262.5,
+      "secondary_distributor_to_pool": 175,
+      "secondary_pool_to_collector": 190
+    },
+    "secondary_net_clearances_m": {
+      "minimum_horizontal_between_pools": 8.0,
+      "vertical_between_rows": 8.0,
+      "upper_row_to_biological_net_surface": 6.5,
+      "lower_row_to_south_boundary": 16.5,
+      "east_pool_to_distribution_axis": 11.5
+    }
+  },
+  "hydraulic_segments": [
+    {
+      "name": "细格栅过栅",
+      "upstream_m": 34.3,
+      "downstream_m": 34.15,
+      "known_loss_m": 0.07847878266639374,
+      "adopted_drop_m": 0.14999999999999858,
+      "remaining_allowance_m": 0.07152121733360484
+    },
+    {
+      "name": "细格栅至沉砂主体",
+      "upstream_m": 34.15,
+      "downstream_m": 33.75,
+      "known_loss_m": 0.15,
+      "adopted_drop_m": 0.3999999999999986,
+      "remaining_allowance_m": 0.24999999999999858
+    },
+    {
+      "name": "沉砂至初沉水面",
+      "upstream_m": 33.75,
+      "downstream_m": 33.0,
+      "known_loss_m": 0.6692721655683032,
+      "adopted_drop_m": 0.75,
+      "remaining_allowance_m": 0.08072783443169684
+    },
+    {
+      "name": "初沉至A2O水面",
+      "upstream_m": 33.0,
+      "downstream_m": 32.3,
+      "known_loss_m": 0.48220859930295745,
+      "adopted_drop_m": 0.7000000000000028,
+      "remaining_allowance_m": 0.2177914006970454
+    },
+    {
+      "name": "A2O至二沉配水井上游",
+      "upstream_m": 32.3,
+      "downstream_m": 31.95,
+      "known_loss_m": 0.18434340768045954,
+      "adopted_drop_m": 0.34999999999999787,
+      "remaining_allowance_m": 0.16565659231953833
+    },
+    {
+      "name": "二沉配水堰",
+      "upstream_m": 31.95,
+      "downstream_m": 31.55,
+      "known_loss_m": 0.355,
+      "adopted_drop_m": 0.3999999999999986,
+      "remaining_allowance_m": 0.0449999999999986
+    },
+    {
+      "name": "配水井至二沉水面",
+      "upstream_m": 31.55,
+      "downstream_m": 31.4,
+      "known_loss_m": 0.12476225740907713,
+      "adopted_drop_m": 0.15000000000000213,
+      "remaining_allowance_m": 0.025237742590924997
+    },
+    {
+      "name": "二沉至接触池",
+      "upstream_m": 31.4,
+      "downstream_m": 30.9,
+      "known_loss_m": 0.4717608993846369,
+      "adopted_drop_m": 0.5,
+      "remaining_allowance_m": 0.02823910061536311
+    },
+    {
+      "name": "接触池至控制井",
+      "upstream_m": 30.9,
+      "downstream_m": 30.4,
+      "known_loss_m": 0.3,
+      "adopted_drop_m": 0.5,
+      "remaining_allowance_m": 0.2
+    }
+  ],
+  "checks": {
+    "coarse_screen_velocity": true,
+    "fine_screen_velocity": true,
+    "screen_bar_pack_fits_channel": true,
+    "wet_well_each_cell": true,
+    "pumps_peak": true,
+    "peak_equals_pump_combo": true,
+    "pump_head": true,
+    "grit_velocity": true,
+    "grit_retention": true,
+    "grit_depth_and_width_ratio": true,
+    "grit_working_storage_not_over_two_days": true,
+    "screen_blocked_depth": true,
+    "screen_headloss_allowance": true,
+    "primary_surface": true,
+    "primary_retention": true,
+    "primary_weir": true,
+    "bio_hrt": true,
+    "bio_bod_loading": true,
+    "denitrification_capacity": true,
+    "operating_n_balance": true,
+    "aob_srt": true,
+    "solids_balance": true,
+    "secondary_surface": true,
+    "secondary_solids": true,
+    "secondary_retention": true,
+    "secondary_d_h": true,
+    "secondary_floor_slope": true,
+    "secondary_buffer_layer": true,
+    "secondary_weir": true,
+    "secondary_weir_pump_combo": true,
+    "secondary_sludge_storage": true,
+    "clarifier_solids_balance": true,
+    "system_solids_output_balance": true,
+    "aeration_capacity": true,
+    "blower_actual_inlet_capacity": true,
+    "blower_pressure": true,
+    "ras_head": true,
+    "ras_motor": true,
+    "internal_recycle_head": true,
+    "internal_recycle_motor": true,
+    "methanol_peak_meter": true,
+    "fecl3_peak_meter": true,
+    "nahco3_peak_feeder": true,
+    "contact_time": true,
+    "hydraulic_segment_allowances": true,
+    "hydraulic_total_drop": true,
+    "layout_pipe_lengths": true,
+    "layout_all_branch_maxima": true,
+    "layout_secondary_net_nonoverlap": true
+  },
+  "sources": {
+    "task_book": "设计任务书6(2).doc and extracted text in 资料索引/原文摘录",
+    "lesson": "环境工程设计教案(2).pdf, pages 29-53",
+    "gb50014": "GB 50014-2021 official attachment cached in 资料索引/规范",
+    "hj576": "HJ 576-2010 official text, Ministry of Ecology and Environment",
+    "epa_nutrients": "US EPA, Nutrient Control Design Manual, EPA/600/R-10/100, August 2010",
+    "xylem": "Sanitaire Silver Series II diffuser official A4 datasheet",
+    "aerzen": "AERZEN Turbo Generation 5plus official model brochure"
+  }
+}
