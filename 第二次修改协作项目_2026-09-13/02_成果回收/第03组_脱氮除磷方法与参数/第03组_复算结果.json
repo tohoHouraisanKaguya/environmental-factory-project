@@ -1,0 +1,71 @@
+{
+  "method": {
+    "denitrification": "HJ 576-2010 6.4.2式(8)-(10)，并由6.5.2用于A2/O",
+    "external_carbon": "HJ 576-2010 6.8.1；商品甲醇按化学计量并加20%课程容量系数",
+    "chemical_phosphorus": "HJ 576-2010 6.8.2及GB 50014-2021 7.10；投加量最终以试验确定",
+    "alkalinity": "HJ 576-2010 5.2.3；硝化7.14、反硝化回补3.57 kgCaCO3/kgN"
+  },
+  "frozen_parameters": {
+    "design_temperature_C": 15.0,
+    "MLSS_kg_m3": 3.5,
+    "MLVSS_MLSS_fraction": 0.7,
+    "MLVSS_kg_m3": 2.4499999999999997,
+    "system_SRT_d": 20.0,
+    "total_HRT_h": 14.0,
+    "anaerobic_HRT_h": 1.5,
+    "anoxic_HRT_h": 4.8,
+    "oxic_HRT_h": 7.7,
+    "RAS_ratio": 0.75,
+    "internal_recycle_ratio": 2.5,
+    "DO_anaerobic_mg_L_max": 0.2,
+    "DO_anoxic_mg_L_range": [
+      0.2,
+      0.5
+    ],
+    "DO_oxic_mg_L_min": 2.0,
+    "total_yield_MLSS_per_BOD5": 0.4,
+    "Kde20_kgN_kgMLSS_d": 0.045,
+    "Kde15_kgN_kgMLSS_d": 0.030626243866518882
+  },
+  "denitrification": {
+    "delta_Xv_kg_d": 3175.2,
+    "nitrogen_before_assimilation_kgN_d": 2640.0,
+    "assimilation_credit_kgN_d": 381.02399999999994,
+    "required_kgN_d": 2258.976,
+    "required_anoxic_volume_m3": 21074.138803919734,
+    "selected_anoxic_volume_m3": 21600.0,
+    "selected_capacity_kgN_d": 2315.3440363088275,
+    "capacity_margin_percent": 2.4952915085785454
+  },
+  "methanol_80pct": {
+    "pure_stoichiometric_kg_per_kgN": 1.9047619047619047,
+    "product_capacity_factor": 1.2,
+    "calculated_capacity_kg_d": 6454.217142857141,
+    "selected_storage_feed_capacity_kg_d": 6500,
+    "peak_meter_requirement_kg_h": 403.3885714285713,
+    "meter_configuration": "2台100%容量计量泵，单台不小于450 kg/h；按NOx反馈调节",
+    "storage_days": [
+      7,
+      14
+    ]
+  },
+  "chemical_phosphorus": {
+    "biological_TP_removal_fraction_lower_bound": 0.6,
+    "TP_after_biological_kgP_d": 222.0,
+    "chemical_P_required_kgP_d": 114.0,
+    "Fe_P_molar_ratio": 1.5,
+    "pure_FeCl3_kg_d": 895.4961299757838,
+    "FeCl3_40pct_solution_m3_d": 1.5991002320996137,
+    "selected_capacity_m3_d": 2.0,
+    "meter_configuration": "2台100%容量计量泵，单台不小于0.15 m3/h；最终按烧杯试验修正",
+    "chemical_dry_solids_kg_d": 751.7473338079983
+  },
+  "alkalinity_upper_boundary": {
+    "warning": "进水TKN/NH4-N和实测碱度缺失；下列仅以TN代NH4-N的课程容量上界，不是固定运行投加量。",
+    "nitrification_upper_kgN_d": 3936.0,
+    "required_influent_alkalinity_mg_L_as_CaCO3": 263.20940689999236,
+    "assumed_influent_alkalinity_mg_L_as_CaCO3": 100.0,
+    "NaHCO3_99pct_kg_d": 29911.83311912587,
+    "selected_capacity_with_20pct_kg_d": 35900
+  }
+}
