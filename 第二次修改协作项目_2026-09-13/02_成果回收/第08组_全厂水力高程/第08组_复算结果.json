@@ -1,0 +1,644 @@
+{
+  "input_git_commit": "10c36c6432fd37090353385b9132d690240aa4ba",
+  "status": "课程设计输入冻结；工程采用条件见报告",
+  "anchor": {
+    "a2o_floor_el_m": 27.3,
+    "a2o_water_el_m": 32.3
+  },
+  "total_drop_to_boundary_m": 6.050000000000001,
+  "drop_to_post_meter_m": 5.5,
+  "closure_error_m": 8.881784197001252e-16,
+  "worst_required_path": "T1",
+  "stages": [
+    {
+      "stage": 0,
+      "start": "细格栅前",
+      "end": "细格栅后",
+      "worst_path": "T1",
+      "required_peak_m": 0.15,
+      "adopted_drop_m": 0.15,
+      "reserve_m": 0.0,
+      "upstream_el_m": 34.8,
+      "downstream_el_m": 34.65
+    },
+    {
+      "stage": 1,
+      "start": "细格栅后",
+      "end": "沉砂入口",
+      "worst_path": "T1",
+      "required_peak_m": 0.06331432424083398,
+      "adopted_drop_m": 0.1,
+      "reserve_m": 0.03668567575916602,
+      "upstream_el_m": 34.65,
+      "downstream_el_m": 34.55
+    },
+    {
+      "stage": 2,
+      "start": "沉砂入口",
+      "end": "沉砂主体",
+      "worst_path": "T1",
+      "required_peak_m": 0.2509965404610102,
+      "adopted_drop_m": 0.3,
+      "reserve_m": 0.04900345953898977,
+      "upstream_el_m": 34.55,
+      "downstream_el_m": 34.25
+    },
+    {
+      "stage": 3,
+      "start": "沉砂主体",
+      "end": "初沉配水上游",
+      "worst_path": "T1",
+      "required_peak_m": 0.37823573547676026,
+      "adopted_drop_m": 0.45,
+      "reserve_m": 0.07176426452323975,
+      "upstream_el_m": 34.25,
+      "downstream_el_m": 33.8
+    },
+    {
+      "stage": 4,
+      "start": "初沉配水上游",
+      "end": "初沉配水下游",
+      "worst_path": "T1",
+      "required_peak_m": 0.35316032315627843,
+      "adopted_drop_m": 0.4,
+      "reserve_m": 0.04683967684372159,
+      "upstream_el_m": 33.8,
+      "downstream_el_m": 33.4
+    },
+    {
+      "stage": 5,
+      "start": "初沉配水下游",
+      "end": "初沉主体",
+      "worst_path": "T1",
+      "required_peak_m": 0.29022294323736914,
+      "adopted_drop_m": 0.35,
+      "reserve_m": 0.05977705676263084,
+      "upstream_el_m": 33.4,
+      "downstream_el_m": 33.05
+    },
+    {
+      "stage": 6,
+      "start": "初沉主体",
+      "end": "初沉集水槽",
+      "worst_path": "T1",
+      "required_peak_m": 0.2,
+      "adopted_drop_m": 0.2,
+      "reserve_m": 0.0,
+      "upstream_el_m": 33.05,
+      "downstream_el_m": 32.849999999999994
+    },
+    {
+      "stage": 7,
+      "start": "初沉集水槽",
+      "end": "A2O入口",
+      "worst_path": "T1",
+      "required_peak_m": 0.20569198356669421,
+      "adopted_drop_m": 0.25,
+      "reserve_m": 0.044308016433305786,
+      "upstream_el_m": 32.849999999999994,
+      "downstream_el_m": 32.599999999999994
+    },
+    {
+      "stage": 8,
+      "start": "A2O入口",
+      "end": "A2O主体",
+      "worst_path": "T1",
+      "required_peak_m": 0.3,
+      "adopted_drop_m": 0.3,
+      "reserve_m": 0.0,
+      "upstream_el_m": 32.599999999999994,
+      "downstream_el_m": 32.3
+    },
+    {
+      "stage": 9,
+      "start": "A2O主体",
+      "end": "二沉配水上游",
+      "worst_path": "T1",
+      "required_peak_m": 0.2661248467241544,
+      "adopted_drop_m": 0.35,
+      "reserve_m": 0.0838751532758456,
+      "upstream_el_m": 32.3,
+      "downstream_el_m": 31.949999999999996
+    },
+    {
+      "stage": 10,
+      "start": "二沉配水上游",
+      "end": "二沉配水下游",
+      "worst_path": "T1",
+      "required_peak_m": 0.42556185158393556,
+      "adopted_drop_m": 0.45,
+      "reserve_m": 0.024438148416064454,
+      "upstream_el_m": 31.949999999999996,
+      "downstream_el_m": 31.499999999999996
+    },
+    {
+      "stage": 11,
+      "start": "二沉配水下游",
+      "end": "二沉主体",
+      "worst_path": "T1",
+      "required_peak_m": 0.2652873060759592,
+      "adopted_drop_m": 0.35,
+      "reserve_m": 0.0847126939240408,
+      "upstream_el_m": 31.499999999999996,
+      "downstream_el_m": 31.149999999999995
+    },
+    {
+      "stage": 12,
+      "start": "二沉主体",
+      "end": "二沉集水槽",
+      "worst_path": "T1",
+      "required_peak_m": 0.2,
+      "adopted_drop_m": 0.2,
+      "reserve_m": 0.0,
+      "upstream_el_m": 31.149999999999995,
+      "downstream_el_m": 30.949999999999996
+    },
+    {
+      "stage": 13,
+      "start": "二沉集水槽",
+      "end": "接触池入口",
+      "worst_path": "T1",
+      "required_peak_m": 0.6057137556324327,
+      "adopted_drop_m": 0.7,
+      "reserve_m": 0.09428624436756727,
+      "upstream_el_m": 30.949999999999996,
+      "downstream_el_m": 30.249999999999996
+    },
+    {
+      "stage": 14,
+      "start": "接触池入口",
+      "end": "接触池出口",
+      "worst_path": "T1",
+      "required_peak_m": 0.10256069832083935,
+      "adopted_drop_m": 0.15,
+      "reserve_m": 0.04743930167916065,
+      "upstream_el_m": 30.249999999999996,
+      "downstream_el_m": 30.099999999999998
+    },
+    {
+      "stage": 15,
+      "start": "接触池出口",
+      "end": "计量上游",
+      "worst_path": "T1",
+      "required_peak_m": 0.01118060530498204,
+      "adopted_drop_m": 0.05,
+      "reserve_m": 0.03881939469501797,
+      "upstream_el_m": 30.099999999999998,
+      "downstream_el_m": 30.049999999999997
+    },
+    {
+      "stage": 16,
+      "start": "计量上游",
+      "end": "计量下游",
+      "worst_path": "T1",
+      "required_peak_m": 0.75,
+      "adopted_drop_m": 0.75,
+      "reserve_m": 0.0,
+      "upstream_el_m": 30.049999999999997,
+      "downstream_el_m": 29.299999999999997
+    },
+    {
+      "stage": 17,
+      "start": "计量下游",
+      "end": "出厂汇合井",
+      "worst_path": "T5",
+      "required_peak_m": 0.2674792064540515,
+      "adopted_drop_m": 0.35,
+      "reserve_m": 0.08252079354594849,
+      "upstream_el_m": 29.299999999999997,
+      "downstream_el_m": 28.949999999999996
+    },
+    {
+      "stage": 18,
+      "start": "出厂汇合井",
+      "end": "东厂界控制井",
+      "worst_path": "T1",
+      "required_peak_m": 0.1434494048622972,
+      "adopted_drop_m": 0.2,
+      "reserve_m": 0.0565505951377028,
+      "upstream_el_m": 28.949999999999996,
+      "downstream_el_m": 28.749999999999996
+    }
+  ],
+  "paths": [
+    {
+      "path": "T1",
+      "peak_required_m": 5.228249903694286,
+      "average_capacity_check_m": 3.8618456098309126,
+      "lambda030_required_m": 5.32928806045908,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 0.8217500963057134
+    },
+    {
+      "path": "T2",
+      "peak_required_m": 5.199420099952526,
+      "average_capacity_check_m": 3.849032363723464,
+      "lambda030_required_m": 5.295348955231948,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 0.8505799000474736
+    },
+    {
+      "path": "T3",
+      "peak_required_m": 5.1782610792564885,
+      "average_capacity_check_m": 3.839628354525225,
+      "lambda030_required_m": 5.272584767448625,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 0.8717389207435113
+    },
+    {
+      "path": "T4",
+      "peak_required_m": 5.154193331258154,
+      "average_capacity_check_m": 3.828931577637076,
+      "lambda030_required_m": 5.249613403217448,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 0.8958066687418462
+    },
+    {
+      "path": "T5",
+      "peak_required_m": 4.967264175745821,
+      "average_capacity_check_m": 3.745851952964928,
+      "lambda030_required_m": 5.04489617383236,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 1.0827358242541791
+    },
+    {
+      "path": "T6",
+      "peak_required_m": 4.971632145854741,
+      "average_capacity_check_m": 3.747793273013337,
+      "lambda030_required_m": 5.044884463859221,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 1.0783678541452586
+    },
+    {
+      "path": "T7",
+      "peak_required_m": 4.992791166550779,
+      "average_capacity_check_m": 3.757197282211576,
+      "lambda030_required_m": 5.067648651642544,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 1.057208833449221
+    },
+    {
+      "path": "T8",
+      "peak_required_m": 5.021620970292539,
+      "average_capacity_check_m": 3.770010528319025,
+      "lambda030_required_m": 5.101587756869676,
+      "adopted_total_m": 6.05,
+      "peak_balancing_and_reserve_m": 1.0283790297074606
+    }
+  ],
+  "nodes": [
+    {
+      "node": "细格栅前",
+      "water_peak_el_m": 34.8,
+      "floor_el_m": 33.65,
+      "wall_top_el_m": 35.3,
+      "floor_below_site_m": -6.349999999999998,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "细格栅后",
+      "water_peak_el_m": 34.65,
+      "floor_el_m": 33.65,
+      "wall_top_el_m": 35.15,
+      "floor_below_site_m": -6.349999999999998,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "沉砂入口",
+      "water_peak_el_m": 34.55,
+      "floor_el_m": 31.7,
+      "wall_top_el_m": 35.05,
+      "floor_below_site_m": -4.399999999999999,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "沉砂主体",
+      "water_peak_el_m": 34.25,
+      "floor_el_m": 31.7,
+      "wall_top_el_m": 34.75,
+      "floor_below_site_m": -4.399999999999999,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "初沉配水上游",
+      "water_peak_el_m": 33.8,
+      "floor_el_m": 32.3,
+      "wall_top_el_m": 34.3,
+      "floor_below_site_m": -4.9999999999999964,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "初沉配水下游",
+      "water_peak_el_m": 33.4,
+      "floor_el_m": 31.9,
+      "wall_top_el_m": 33.9,
+      "floor_below_site_m": -4.599999999999998,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "初沉主体",
+      "water_peak_el_m": 33.05,
+      "floor_el_m": 29.549999999999997,
+      "wall_top_el_m": 33.55,
+      "floor_below_site_m": -2.2499999999999964,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "初沉集水槽",
+      "water_peak_el_m": 32.849999999999994,
+      "floor_el_m": 32.24999999999999,
+      "wall_top_el_m": 33.349999999999994,
+      "floor_below_site_m": -4.949999999999992,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "A2O入口",
+      "water_peak_el_m": 32.599999999999994,
+      "floor_el_m": 27.3,
+      "wall_top_el_m": 33.099999999999994,
+      "floor_below_site_m": 0.0,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "A2O主体",
+      "water_peak_el_m": 32.3,
+      "floor_el_m": 27.3,
+      "wall_top_el_m": 32.8,
+      "floor_below_site_m": 0.0,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "二沉配水上游",
+      "water_peak_el_m": 31.949999999999996,
+      "floor_el_m": 29.949999999999996,
+      "wall_top_el_m": 32.449999999999996,
+      "floor_below_site_m": -2.649999999999995,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "二沉配水下游",
+      "water_peak_el_m": 31.499999999999996,
+      "floor_el_m": 29.499999999999996,
+      "wall_top_el_m": 31.999999999999996,
+      "floor_below_site_m": -2.1999999999999957,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "二沉主体",
+      "water_peak_el_m": 31.149999999999995,
+      "floor_el_m": 27.149999999999995,
+      "wall_top_el_m": 31.649999999999995,
+      "floor_below_site_m": 0.15000000000000568,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "二沉集水槽",
+      "water_peak_el_m": 30.949999999999996,
+      "floor_el_m": 30.349999999999994,
+      "wall_top_el_m": 31.449999999999996,
+      "floor_below_site_m": -3.0499999999999936,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "接触池入口",
+      "water_peak_el_m": 30.249999999999996,
+      "floor_el_m": 25.299999999999997,
+      "wall_top_el_m": 30.749999999999996,
+      "floor_below_site_m": 2.0000000000000036,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "接触池出口",
+      "water_peak_el_m": 30.099999999999998,
+      "floor_el_m": 25.299999999999997,
+      "wall_top_el_m": 30.599999999999998,
+      "floor_below_site_m": 2.0000000000000036,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "计量上游",
+      "water_peak_el_m": 30.049999999999997,
+      "floor_el_m": 29.049999999999997,
+      "wall_top_el_m": 30.549999999999997,
+      "floor_below_site_m": -1.7499999999999964,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "计量下游",
+      "water_peak_el_m": 29.299999999999997,
+      "floor_el_m": 28.299999999999997,
+      "wall_top_el_m": 29.799999999999997,
+      "floor_below_site_m": -0.9999999999999964,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "出厂汇合井",
+      "water_peak_el_m": 28.949999999999996,
+      "floor_el_m": 24.5,
+      "wall_top_el_m": 29.449999999999996,
+      "floor_below_site_m": 2.8000000000000007,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    },
+    {
+      "node": "东厂界控制井",
+      "water_peak_el_m": 28.749999999999996,
+      "floor_el_m": 24.5,
+      "wall_top_el_m": 29.249999999999996,
+      "floor_below_site_m": 2.8000000000000007,
+      "note": "负埋深表示高于地面；工艺内底不含结构板厚"
+    }
+  ],
+  "geometry": {
+    "primary_slope_low_floor_m": 28.97,
+    "primary_hopper_bottom_m": 26.97,
+    "secondary_inner_floor_m": 26.374999999999996,
+    "secondary_sump_bottom_m": 25.874999999999996,
+    "grit_floor_m": 31.7,
+    "a2o_floor_m": 27.3
+  },
+  "inlet": [
+    {
+      "case": "average",
+      "boundary_water_el_m": 23.975445067878624,
+      "coarse_front_el_m": 23.936503716315997,
+      "coarse_loss_m": 0.044444444444444446,
+      "channel_loss_m": 0.0055101563227191895,
+      "available_at_well_el_m": 23.88654911554883,
+      "well_high_el_m": 23.8,
+      "margin_to_high_m": 0.08654911554883071
+    },
+    {
+      "case": "peak",
+      "boundary_water_el_m": 24.2,
+      "coarse_front_el_m": 24.161058648437372,
+      "coarse_loss_m": 0.1,
+      "channel_loss_m": 0.012397851726118177,
+      "available_at_well_el_m": 24.04866079671125,
+      "well_high_el_m": 23.8,
+      "margin_to_high_m": 0.24866079671124908
+    }
+  ],
+  "troughs": {
+    "primary_weir_head_m": 0.013199053341941961,
+    "primary_total_m": 0.0950824041580377,
+    "secondary_weir_head_m": 0.010629053104558637,
+    "secondary_total_m": 0.12492854519347496,
+    "adopted_drop_each_m": 0.2
+  },
+  "pump": {
+    "count": 6,
+    "duty": 4,
+    "standby": 2,
+    "flow_each_m3_h": 1687.5,
+    "suction_min_el_m": 22.6,
+    "discharge_control_el_m": 34.8,
+    "static_m": 12.199999999999996,
+    "branch_loss_m": 0.3710567505527949,
+    "line_loss_m": 0.30682482861874794,
+    "line_plan_length_m": 11,
+    "line_equipment_extra_m": 2,
+    "branch_length_m": 17,
+    "reserve_m": 0.8,
+    "required_head_m": 13.67788157917154,
+    "selected_head_m": 14,
+    "assumed_pump_efficiency": 0.8,
+    "shaft_power_kW": 80.47265624999999,
+    "shaft_power_with_margin_kW": 88.519921875,
+    "motor_selected_kW": 90,
+    "note": "泵轴功率与电输入功率分开；最低水位最大静扬程；采购须确认曲线及NPSH"
+  },
+  "ras": {
+    "paths": [
+      {
+        "pool": "T1",
+        "plan_m": 74,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5672603799325415,
+        "reserve_m": 0.5,
+        "required_m": 2.517260379932541
+      },
+      {
+        "pool": "T2",
+        "plan_m": 86,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5718175725566889,
+        "reserve_m": 0.5,
+        "required_m": 2.5218175725566883
+      },
+      {
+        "pool": "T3",
+        "plan_m": 86,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5718175725566889,
+        "reserve_m": 0.5,
+        "required_m": 2.5218175725566883
+      },
+      {
+        "pool": "T4",
+        "plan_m": 74,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5672603799325415,
+        "reserve_m": 0.5,
+        "required_m": 2.517260379932541
+      },
+      {
+        "pool": "T5",
+        "plan_m": 74,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5672603799325415,
+        "reserve_m": 0.5,
+        "required_m": 2.517260379932541
+      },
+      {
+        "pool": "T6",
+        "plan_m": 86,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5718175725566889,
+        "reserve_m": 0.5,
+        "required_m": 2.5218175725566883
+      },
+      {
+        "pool": "T7",
+        "plan_m": 86,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5718175725566889,
+        "reserve_m": 0.5,
+        "required_m": 2.5218175725566883
+      },
+      {
+        "pool": "T8",
+        "plan_m": 74,
+        "static_m": 1.4499999999999993,
+        "dynamic_m": 0.5672603799325415,
+        "reserve_m": 0.5,
+        "required_m": 2.517260379932541
+      }
+    ],
+    "selected_head_m": 3.0,
+    "motor_kW": 18.5
+  },
+  "internal_recycle": {
+    "required_head_m": 0.9146492301781499,
+    "selected_head_m": 1.2,
+    "motor_kW": 22,
+    "plan_length_m": 80,
+    "vertical_m": 4,
+    "local_k": 4
+  },
+  "air": {
+    "selected_kPa": 65,
+    "cases": [
+      {
+        "case": "normal_shortest",
+        "header_length_m": 150,
+        "loss_kPa": 1.2577312194034225,
+        "required_with_diffuser_and_reserve_kPa": 55.85523121940343
+      },
+      {
+        "case": "ring_isolation",
+        "header_length_m": 826,
+        "loss_kPa": 2.5231862426071676,
+        "required_with_diffuser_and_reserve_kPa": 57.12068624260717
+      }
+    ],
+    "internal_distribution_budget_kPa": 3.4768137573928324
+  },
+  "meter": {
+    "width_m": 1.5,
+    "throat_length_m": 2.5,
+    "approach_depth_peak_m": 1,
+    "critical_depth_peak_m": 0.3414787443178979,
+    "critical_depth_average_m": 0.2605970547666169,
+    "approach_peak_el_m": 30.049999999999997,
+    "approach_average_el_m": 29.920235983269208,
+    "throat_floor_el_m": 29.527691414613873,
+    "throat_peak_water_el_m": 29.86917015893177,
+    "downstream_peak_el_m": 29.299999999999997,
+    "crest_above_tail_m": 0.22769141461387576,
+    "entry_friction_budget_m": 0.03,
+    "adopted_water_drop_m": 0.75,
+    "calibration": "课程临界能量初算；2.5 m喉道、渐变入口、尾端跌水消能；未宣称厂家标定精度"
+  },
+  "contact": {
+    "peak_outlet_depth_m": 4.8,
+    "minimum_average_depth_m": 4.670235983269211,
+    "average_minimum_contact_min": 44.834265439384424,
+    "peak_contact_min": 30.72
+  },
+  "outfall": {
+    "external_assumed_length_m": 100,
+    "external_loss_m": 0.26777222240962145,
+    "flood_design_m": 25,
+    "flood_limit_m": 28.382227777590373,
+    "note": "厂外100 m仅条件算例；实际组号洪水18+0.5M及厂外长度/竖向待提交者核对"
+  },
+  "input_hash_convention": "UTF-8 text normalized to LF; excludes Windows checkout newline differences",
+  "input_sha256": {
+    "第二次修改协作项目_2026-09-13/02_成果回收/第02组_流量工艺顺序与提升系统/第02组_复算结果.json": "99f436721f1485502768944539d0e536a4ed73aec0b76b3fdf3de275fa28d47b",
+    "第二次修改协作项目_2026-09-13/02_成果回收/第04组_A2O回流曝气与鼓风机/第04组_复算结果.json": "0dd6d3bb0f9e93bb152c040304bed43b3620ab461539f689d9dd07947edb2ce8",
+    "第二次修改协作项目_2026-09-13/02_成果回收/第05组_沉砂初沉二沉结构/第05组_复算结果.json": "cc758a3adf5b816437293db309565dbda79ee02ea9cdea05407fe8b4d5481e78",
+    "第二次修改协作项目_2026-09-13/02_成果回收/第06组_二沉配水与消毒/第06组_复算结果.json": "040b6b8e657a9f50d4d99c545eb559d1d2ae1ba12dae4b74091432924e685ec2",
+    "第二次修改协作项目_2026-09-13/02_成果回收/第07组_总平面坐标与管线/第07组_面积与控制路径.json": "2b04bd6d355b7e10aebc4ee65aef8de95d40de3496cfc5ad29b304168466675c",
+    "第二次修改协作项目_2026-09-13/02_成果回收/第07组_总平面坐标与管线/第07组_管线中心线长度.csv": "ba3ed3f28637a8c12ae4d5f9fcbf8c6a39fe3babf691d4cfce221b951b1649c2"
+  }
+}
