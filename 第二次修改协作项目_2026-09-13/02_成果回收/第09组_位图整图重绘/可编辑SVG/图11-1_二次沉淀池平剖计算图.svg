@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图11-1  二次沉淀池平剖计算图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">8座辐流式二沉池；净D37 m；中心井D6 m；周边传动刮吸泥机</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<text x="385" y="140" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">平面图</text>
+<circle cx="385" cy="390" r="225" fill="#F8FBFD" stroke="#1F4E79" stroke-width="4"/>
+<circle cx="385" cy="390" r="36" fill="white" stroke="#843C0C" stroke-width="3"/>
+<line x1="385" y1="390" x2="585" y2="390" stroke="#843C0C" stroke-width="4" marker-end="url(#arr-brown)"/>
+<text x="470" y="370" text-anchor="middle" font-size="21" font-weight="700" fill="#843C0C">刮吸泥机旋转</text>
+<line x1="160" y1="655" x2="610" y2="655" stroke="#666666" stroke-width="1.5"/>
+<line x1="160" y1="647" x2="160" y2="663" stroke="#666666" stroke-width="1.5"/>
+<line x1="610" y1="647" x2="610" y2="663" stroke="#666666" stroke-width="1.5"/>
+<text x="385" y="687" text-anchor="middle" font-size="21" font-weight="400" fill="#666666">净径D=37 m</text>
+<text x="385" y="700" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">净面积1046.94 m²/座；中心井D6 m</text>
+<text x="1160" y="140" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">径向剖面</text>
+<rect x="800" y="175" width="720" height="425" rx="0" fill="white" stroke="#1F4E79" stroke-width="3"/>
+<rect x="803" y="235" width="714" height="235" rx="0" fill="#EAF5FB" stroke="none" stroke-width="0"/>
+<line x1="800" y1="235" x2="1520" y2="235" stroke="#5B9BD5" stroke-width="5"/>
+<polygon points="800,470 1025,470 1105,555 1415,555 1495,470 1520,470 1520,600 800,600" fill="#F5E6D3" stroke="#843C0C" stroke-width="3"/>
+<polygon points="1105,555 1200,555 1220,610 1300,610 1320,555 1415,555" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<line x1="1260" y1="180" x2="1260" y2="610" stroke="#843C0C" stroke-width="4"/>
+<text x="825" y="220" text-anchor="start" font-size="21" font-weight="700" fill="#5B9BD5">水位EL31.15 m</text>
+<text x="835" y="462" text-anchor="start" font-size="20" font-weight="700" fill="#843C0C">周边底EL27.15 m</text>
+<text x="1080" y="548" text-anchor="start" font-size="19" font-weight="700" fill="#843C0C">内缘底EL26.375 m</text>
+<text x="1225" y="640" text-anchor="start" font-size="19" font-weight="700" fill="#C55A11">坑底EL25.875 m</text>
+<text x="1450" y="285" text-anchor="end" font-size="20" font-weight="400" fill="#20323F">沉淀区3.10 m</text>
+<text x="1450" y="355" text-anchor="end" font-size="20" font-weight="400" fill="#20323F">缓冲层0.50 m</text>
+<text x="1450" y="420" text-anchor="end" font-size="20" font-weight="400" fill="#20323F">周边贮泥0.40 m</text>
+<text x="1060" y="690" text-anchor="start" font-size="21" font-weight="700" fill="#20323F">周边总深4.00 m；坡降0.775 m；中心泥坑0.50 m；中心总深5.275 m</text>
+<text x="800" y="725" text-anchor="start" font-size="21" font-weight="400" fill="#20323F">峰时表面负荷0.806 m³/(m²·h)；峰值SLR=126.683 kg/(m²·d)</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">净径D37与中心井D6均完整标注；水位与池底采用第08组最终高程。</text>
+</svg>

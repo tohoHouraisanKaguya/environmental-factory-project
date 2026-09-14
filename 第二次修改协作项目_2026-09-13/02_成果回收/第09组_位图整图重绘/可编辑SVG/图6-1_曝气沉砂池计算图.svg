@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图6-1  曝气沉砂池计算图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">2座并联；单座净尺寸30.0 m×3.8 m×2.55 m；峰值单池流量0.9375 m³/s</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<text x="380" y="135" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">平面图</text>
+<rect x="80" y="175" width="600" height="250" rx="0" fill="#F8FBFD" stroke="#1F4E79" stroke-width="4"/>
+<line x1="110" y1="300" x2="650" y2="300" stroke="#1F4E79" stroke-width="5" marker-end="url(#arr-blue)"/>
+<line x1="140" y1="225" x2="620" y2="225" stroke="#C55A11" stroke-width="4" marker-end="url(#arr-orange)"/>
+<line x1="620" y1="255" x2="140" y2="255" stroke="#C55A11" stroke-width="4" marker-end="url(#arr-orange)"/>
+<text x="380" y="210" text-anchor="middle" font-size="22" font-weight="700" fill="#C55A11">吸砂机沿池长往复运行</text>
+<circle cx="120" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="162" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="204" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="246" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="288" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="330" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="372" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="414" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="456" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="498" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="540" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="582" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="624" cy="365" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<text x="380" y="395" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">单侧供气量6 L/(m·s)，池外设置砂水分离器</text>
+<line x1="80" y1="465" x2="680" y2="465" stroke="#666666" stroke-width="1.5"/>
+<line x1="80" y1="457" x2="80" y2="473" stroke="#666666" stroke-width="1.5"/>
+<line x1="680" y1="457" x2="680" y2="473" stroke="#666666" stroke-width="1.5"/>
+<text x="380" y="495" text-anchor="middle" font-size="21" font-weight="400" fill="#666666">净长 L=30.0 m</text>
+<line x1="720" y1="175" x2="720" y2="425" stroke="#666666" stroke-width="1.5"/>
+<line x1="712" y1="175" x2="728" y2="175" stroke="#666666" stroke-width="1.5"/>
+<line x1="712" y1="425" x2="728" y2="425" stroke="#666666" stroke-width="1.5"/>
+<text x="750" y="300" text-anchor="middle" font-size="21" font-weight="400" fill="#666666" transform="rotate(-90 750 300.0)">净宽 B=3.8 m</text>
+<text x="1160" y="135" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">横断面</text>
+<rect x="900" y="175" width="520" height="380" rx="0" fill="#F8FBFD" stroke="#1F4E79" stroke-width="4"/>
+<rect x="903" y="245" width="514" height="260" rx="0" fill="#EAF5FB" stroke="none" stroke-width="0"/>
+<line x1="900" y1="245" x2="1420" y2="245" stroke="#5B9BD5" stroke-width="5"/>
+<line x1="900" y1="505" x2="1420" y2="505" stroke="#1F4E79" stroke-width="5"/>
+<text x="920" y="229" text-anchor="start" font-size="22" font-weight="700" fill="#5B9BD5">主体水位 EL34.25 m</text>
+<text x="920" y="540" text-anchor="start" font-size="22" font-weight="700" fill="#1F4E79">平底 EL31.70 m；池内不设砂斗</text>
+<line x1="950" y1="335" x2="1370" y2="335" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<text x="1160" y="320" text-anchor="middle" font-size="22" font-weight="700" fill="#20323F">v=0.0967 m/s</text>
+<circle cx="960" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="999" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1038" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1077" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1116" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1155" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1194" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1233" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1272" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1311" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<circle cx="1350" cy="460" r="5" fill="#5B9BD5" stroke="#5B9BD5" stroke-width="1"/>
+<line x1="1460" y1="245" x2="1460" y2="505" stroke="#666666" stroke-width="1.5"/>
+<line x1="1452" y1="245" x2="1468" y2="245" stroke="#666666" stroke-width="1.5"/>
+<line x1="1452" y1="505" x2="1468" y2="505" stroke="#666666" stroke-width="1.5"/>
+<text x="1494" y="375" text-anchor="middle" font-size="21" font-weight="400" fill="#666666" transform="rotate(-90 1494 375.0)">有效水深2.55 m</text>
+<text x="1160" y="610" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">峰时停留5.168 min；平均停留7.752 min；入口控制水位EL34.55 m</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">结构口径：池底为平底，排砂至池外砂水分离器；池内不设局部砂斗。</text>
+</svg>

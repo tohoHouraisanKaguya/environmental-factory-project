@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图7-1  平流式初次沉淀池平剖计算图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">4座并联；单池净尺寸58.0 m×14.5 m×3.5 m；桁车式刮泥机</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<text x="400" y="135" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">平面图</text>
+<rect x="70" y="170" width="690" height="250" rx="0" fill="#F8FBFD" stroke="#1F4E79" stroke-width="4"/>
+<rect x="90" y="185" width="42" height="220" rx="0" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<text x="111" y="302" text-anchor="middle" font-size="18" font-weight="700" fill="#C55A11" transform="rotate(-90 111 302)">横向
+条形泥斗</text>
+<line x1="535" y1="210" x2="535" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="550" y1="210" x2="550" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="565" y1="210" x2="565" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="580" y1="210" x2="580" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="595" y1="210" x2="595" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="610" y1="210" x2="610" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="625" y1="210" x2="625" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="640" y1="210" x2="640" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="655" y1="210" x2="655" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="670" y1="210" x2="670" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="685" y1="210" x2="685" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<line x1="700" y1="210" x2="700" y2="380" stroke="#5B9BD5" stroke-width="2"/>
+<text x="625" y="400" text-anchor="middle" font-size="20" font-weight="400" fill="#5B9BD5">12条×14 m指形出水槽</text>
+<line x1="690" y1="290" x2="745" y2="290" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="500" y1="245" x2="170" y2="245" stroke="#843C0C" stroke-width="4" marker-end="url(#arr-brown)"/>
+<text x="335" y="225" text-anchor="middle" font-size="21" font-weight="700" fill="#843C0C">刮泥方向：坡向进水端泥斗</text>
+<line x1="70" y1="455" x2="760" y2="455" stroke="#666666" stroke-width="1.5"/>
+<line x1="70" y1="447" x2="70" y2="463" stroke="#666666" stroke-width="1.5"/>
+<line x1="760" y1="447" x2="760" y2="463" stroke="#666666" stroke-width="1.5"/>
+<text x="415" y="485" text-anchor="middle" font-size="21" font-weight="400" fill="#666666">净长 L=58.0 m</text>
+<line x1="795" y1="170" x2="795" y2="420" stroke="#666666" stroke-width="1.5"/>
+<line x1="787" y1="170" x2="803" y2="170" stroke="#666666" stroke-width="1.5"/>
+<line x1="787" y1="420" x2="803" y2="420" stroke="#666666" stroke-width="1.5"/>
+<text x="825" y="295" text-anchor="middle" font-size="21" font-weight="400" fill="#666666" transform="rotate(-90 825 295.0)">净宽 B=14.5 m</text>
+<text x="1190" y="135" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">纵剖面</text>
+<rect x="865" y="170" width="650" height="430" rx="0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="3"/>
+<rect x="868" y="220" width="644" height="210" rx="0" fill="#EAF5FB" stroke="none" stroke-width="0"/>
+<line x1="865" y1="220" x2="1515" y2="220" stroke="#5B9BD5" stroke-width="5"/>
+<text x="885" y="205" text-anchor="start" font-size="21" font-weight="700" fill="#5B9BD5">主体水位 EL33.05 m</text>
+<line x1="1015" y1="425" x2="1485" y2="395" stroke="#843C0C" stroke-width="4"/>
+<polygon points="880,425 1015,425 980,555 920,555" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<line x1="1015" y1="425" x2="880" y2="425" stroke="#843C0C" stroke-width="4"/>
+<text x="1240" y="440" text-anchor="middle" font-size="21" font-weight="700" fill="#843C0C">池底纵坡 i=0.01，坡降0.58 m</text>
+<text x="1190" y="385" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">名义沉淀底 EL29.55 m</text>
+<text x="935" y="585" text-anchor="start" font-size="19" font-weight="700" fill="#C55A11">泥斗端坡底EL28.97 m；斗底EL26.97 m</text>
+<text x="1190" y="645" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">横向贯通泥斗：上口14.5×3.0 m；下口14.5×0.8 m；深2.0 m；容积55.10 m³</text>
+<text x="1190" y="682" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">峰时表面负荷2.007 m³/(m²·h)；停留1.744 h；水平流速0.0092 m/s</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">条形泥斗沿14.5 m池宽贯通；下口不得再画成0.8 m×0.8 m方斗。图示尺寸为工艺净尺寸。</text>
+</svg>
