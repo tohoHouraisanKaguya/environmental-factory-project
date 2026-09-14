@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1500" viewBox="0 0 480 450">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="context-stroke"/></marker></defs>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#20333c;font-size:3.3px}.small{font-size:2.8px}.legend{font-size:3px}</style>
+<rect width="480" height="450" fill="#fff"/>
+<text x="25" y="12" style="font-size:7px;font-weight:bold">第二次修改第07组：总平面与管线复核草案 · 400 m × 300 m</text>
+<text x="25" y="21">西南角(0,0)，x向东、y向北；北界进水(360,300)，东厂界出水(400,29)。尺寸单位：m。</text>
+<rect x="25" y="35.0" width="400.0" height="300.0" fill="#f6faef" stroke="#173d35" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="31" y="41" width="6" height="288" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="413" y="41" width="6" height="288" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="41" width="376" height="6" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="323" width="376" height="6" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="221" width="376" height="6" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="125" width="376" height="6" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="87" width="376" height="6" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37" y="283" width="376" height="4" fill="#d4d9dc" stroke="#d4d9dc" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="373" y="49" width="24" height="8" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="373" y="61" width="24" height="24" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="335" y="67" width="28" height="14" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="215" y="57" width="34" height="8" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="265" y="57" width="34" height="8" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="120" y="71" width="10" height="10" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="320" y="71" width="10" height="10" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="116" y="205" width="18" height="12" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="316" y="205" width="18" height="12" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="201" y="201" width="48" height="18" fill="#ffe9bd" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="355" y="201" width="42" height="18" fill="#ffe9bd" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="55" y="295" width="76" height="22" fill="#e8f3cf" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="141" y="295" width="44" height="22" fill="#ffe9bd" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="257" y="295" width="34" height="22" fill="#ffe9bd" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="299" y="295" width="50" height="23" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="355" y="295" width="16" height="22" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="45" y="49" width="140" height="20" fill="#e5ddf4" stroke="#46606a" stroke-width="0.45" stroke-dasharray="2 1"/>
+<rect x="43.5" y="99" width="63" height="20" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="143.5" y="99" width="63" height="20" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="243.5" y="99" width="63" height="20" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="343.5" y="99" width="63" height="20" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="37.5" y="147" width="75" height="50" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="137.5" y="147" width="75" height="50" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="237.5" y="147" width="75" height="50" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="337.5" y="147" width="75" height="50" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<rect x="38.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="59.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="82.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="103.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="126.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="147.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="170.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="191.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="238.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="259.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="282.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="303.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="326.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="347.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<rect x="370.0" y="234" width="42" height="42" fill="#d9edf7" stroke="#46606a" stroke-width="0.45" stroke-dasharray=""/>
+<circle cx="391.0" cy="255.0" r="18.9" fill="none" stroke="#507584" stroke-width="0.55"/>
+<polyline points="385,35 385,49" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="385,57 385,61" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="373,73 368,73 368,74 363,74" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="335,74 311,74" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="311,74 311,53 249,53 249,61" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="311,74 311,53 299,53 299,61" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="215,61 205,61 205,71 125,71" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="265,61 265,71 325,71" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="125,81 125,85" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="325,81 325,85" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="125,85 75.0,85 75.0,99" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="75.0,119 75.0,147" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="125,85 175.0,85 175.0,99" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="175.0,119 175.0,147" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="325,85 275.0,85 275.0,99" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="275.0,119 275.0,147" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="325,85 375.0,85 375.0,99" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="375.0,119 375.0,147" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="75.0,197 75.0,201 125,201 125,205" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="175.0,197 175.0,201 125,201 125,205" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="275.0,197 275.0,201 325,201 325,205" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="375.0,197 375.0,201 325,201 325,205" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="119,217 119,231 59.0,231 59.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="123,217 123,230 103.0,230 103.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="127,217 127,229 147.0,229 147.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="131,217 131,228 191.0,228 191.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="319,217 319,231 259.0,231 259.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="323,217 323,230 303.0,230 303.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="327,217 327,229 347.0,229 347.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="331,217 331,228 391.0,228 391.0,255" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="59.0,276 59.0,279" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="103.0,276 103.0,279" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="147.0,276 147.0,279" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="191.0,276 191.0,279" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="259.0,276 259.0,281" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="303.0,276 303.0,281" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="347.0,276 347.0,281" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="391.0,276 391.0,281" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="59,279 295,279" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="295,279 295,302 299,302" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="259,281 391,281" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="295,281 295,311 299,311" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="349,302 355,302" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="349,311 355,311" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="371,302 377,302 377,306" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="371,311 377,311 377,306" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="377,306 425,306" fill="none" stroke="#1976a3" stroke-width="0.75" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="59.0,255 59.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="103.0,255 103.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="147.0,255 147.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="191.0,255 191.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="259.0,255 259.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="303.0,255 303.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="347.0,255 347.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="391.0,255 391.0,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="59,219 103,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="75,219 75,197" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="147,219 191,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="175,219 175,197" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="259,219 303,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="275,219 275,197" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="347,219 391,219" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="375,219 375,197" fill="none" stroke="#8a4d28" stroke-width="0.5" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="105.0,192 105.0,152 65.0,152" fill="none" stroke="#7354a8" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="205.0,192 205.0,152 165.0,152" fill="none" stroke="#7354a8" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="305.0,192 305.0,152 265.0,152" fill="none" stroke="#7354a8" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="405.0,192 405.0,152 365.0,152" fill="none" stroke="#7354a8" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="35,201 415,201 415,143 35,143 35,201" fill="none" stroke="#00a6a6" stroke-width="0.5" opacity="0.86"/>
+<polyline points="75.0,201 75.0,197" fill="none" stroke="#00a6a6" stroke-width="0.5" opacity="0.86"/>
+<polyline points="175.0,201 175.0,197" fill="none" stroke="#00a6a6" stroke-width="0.5" opacity="0.86"/>
+<polyline points="275.0,201 275.0,197" fill="none" stroke="#00a6a6" stroke-width="0.5" opacity="0.86"/>
+<polyline points="375.0,201 375.0,197" fill="none" stroke="#00a6a6" stroke-width="0.5" opacity="0.86"/>
+<polyline points="125,219 37,219 25,219" fill="none" stroke="#636363" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="325,217 37,217 25,217" fill="none" stroke="#636363" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<polyline points="335,74 415,74 415,306 425,306" fill="none" stroke="#c43c35" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" opacity="0.86"/>
+<text x="385.0" y="52.0" text-anchor="middle">G1</text>
+<text x="385.0" y="72.0" text-anchor="middle">P</text>
+<text class="small" x="385.0" y="77.0" text-anchor="middle">24×24</text>
+<text x="349.0" y="73.0" text-anchor="middle">G2 细格栅</text>
+<text class="small" x="349.0" y="78.0" text-anchor="middle">28×14</text>
+<text x="232.0" y="60.0" text-anchor="middle">SA 曝气沉砂池A</text>
+<text x="282.0" y="60.0" text-anchor="middle">SB 曝气沉砂池B</text>
+<text x="125.0" y="75.0" text-anchor="middle">PDA</text>
+<text class="small" x="125.0" y="80.0" text-anchor="middle">10×10</text>
+<text x="325.0" y="75.0" text-anchor="middle">PDB</text>
+<text class="small" x="325.0" y="80.0" text-anchor="middle">10×10</text>
+<text x="125.0" y="210.0" text-anchor="middle">DWA</text>
+<text class="small" x="125.0" y="215.0" text-anchor="middle">18×12</text>
+<text x="325.0" y="210.0" text-anchor="middle">DWB</text>
+<text class="small" x="325.0" y="215.0" text-anchor="middle">18×12</text>
+<text x="225.0" y="209.0" text-anchor="middle">AIR 鼓风机房</text>
+<text class="small" x="225.0" y="214.0" text-anchor="middle">48×18</text>
+<text x="376.0" y="209.0" text-anchor="middle">CHEM 碳源/除磷加药间</text>
+<text class="small" x="376.0" y="214.0" text-anchor="middle">42×18</text>
+<text x="93.0" y="305.0" text-anchor="middle">ADMIN 管理/化验预留</text>
+<text class="small" x="93.0" y="310.0" text-anchor="middle">76×22</text>
+<text x="163.0" y="305.0" text-anchor="middle">MAINT 维修/配电预留</text>
+<text class="small" x="163.0" y="310.0" text-anchor="middle">44×22</text>
+<text x="274.0" y="305.0" text-anchor="middle">NAOCL 次氯酸钠储存加药</text>
+<text class="small" x="274.0" y="310.0" text-anchor="middle">34×22</text>
+<text x="324.0" y="305.5" text-anchor="middle">CT 折流接触池</text>
+<text class="small" x="324.0" y="310.5" text-anchor="middle">50×23</text>
+<text x="363.0" y="305.0" text-anchor="middle">METER</text>
+<text class="small" x="363.0" y="310.0" text-anchor="middle">16×22</text>
+<text x="115.0" y="58.0" text-anchor="middle">FUT 连续发展用地</text>
+<text class="small" x="115.0" y="63.0" text-anchor="middle">140×20</text>
+<text x="75.0" y="108.0" text-anchor="middle">C1 平流初沉池1</text>
+<text class="small" x="75.0" y="113.0" text-anchor="middle">63×20</text>
+<text x="175.0" y="108.0" text-anchor="middle">C2 平流初沉池2</text>
+<text class="small" x="175.0" y="113.0" text-anchor="middle">63×20</text>
+<text x="275.0" y="108.0" text-anchor="middle">C3 平流初沉池3</text>
+<text class="small" x="275.0" y="113.0" text-anchor="middle">63×20</text>
+<text x="375.0" y="108.0" text-anchor="middle">C4 平流初沉池4</text>
+<text class="small" x="375.0" y="113.0" text-anchor="middle">63×20</text>
+<text x="75.0" y="171.0" text-anchor="middle">B1 A2/O系列1</text>
+<text class="small" x="75.0" y="176.0" text-anchor="middle">75×50</text>
+<text x="175.0" y="171.0" text-anchor="middle">B2 A2/O系列2</text>
+<text class="small" x="175.0" y="176.0" text-anchor="middle">75×50</text>
+<text x="275.0" y="171.0" text-anchor="middle">B3 A2/O系列3</text>
+<text class="small" x="275.0" y="176.0" text-anchor="middle">75×50</text>
+<text x="375.0" y="171.0" text-anchor="middle">B4 A2/O系列4</text>
+<text class="small" x="375.0" y="176.0" text-anchor="middle">75×50</text>
+<text x="59.0" y="254.0" text-anchor="middle">T1 辐流二沉池1</text>
+<text class="small" x="59.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="103.0" y="254.0" text-anchor="middle">T2 辐流二沉池2</text>
+<text class="small" x="103.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="147.0" y="254.0" text-anchor="middle">T3 辐流二沉池3</text>
+<text class="small" x="147.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="191.0" y="254.0" text-anchor="middle">T4 辐流二沉池4</text>
+<text class="small" x="191.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="259.0" y="254.0" text-anchor="middle">T5 辐流二沉池5</text>
+<text class="small" x="259.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="303.0" y="254.0" text-anchor="middle">T6 辐流二沉池6</text>
+<text class="small" x="303.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="347.0" y="254.0" text-anchor="middle">T7 辐流二沉池7</text>
+<text class="small" x="347.0" y="259.0" text-anchor="middle">42×42</text>
+<text x="391.0" y="254.0" text-anchor="middle">T8 辐流二沉池8</text>
+<text class="small" x="391.0" y="259.0" text-anchor="middle">42×42</text>
+<path d="M448 70 Q438 160 447 300" fill="none" stroke="#39aaca" stroke-width="2"/><text x="446" y="180">河道</text>
+<path d="M445 48 L445 28" stroke="#243e43" stroke-width="1" marker-end="url(#arrow)"/><text x="443" y="24">N</text>
+<path d="M462 108 L438 84" stroke="#b45f35" stroke-width="1" marker-end="url(#arrow)"/><text x="468" y="113" text-anchor="end">东南来风（无频率）</text>
+<path d="M85 335 v5 M97 335 v5" stroke="#355" stroke-width="1.2"/><text x="80" y="347">南侧主门(68,0)</text>
+<path d="M219 35 v-5 M231 35 v-5" stroke="#355" stroke-width="1.2"/><text x="205" y="27">北侧服务门(200,300)</text>
+<text x="25" y="347">图例：</text>
+<path d="M45 346 h18" stroke="#1976a3" stroke-width="1"/><text class="legend" x="65" y="347">主水线</text>
+<path d="M88 346 h18" stroke="#8a4d28"/><text class="legend" x="108" y="347">RAS</text>
+<path d="M130 346 h18" stroke="#7354a8" stroke-dasharray="3 2"/><text class="legend" x="150" y="347">内回流</text>
+<path d="M184 346 h18" stroke="#00a6a6"/><text class="legend" x="204" y="347">空气</text>
+<path d="M230 346 h18" stroke="#636363" stroke-dasharray="3 2"/><text class="legend" x="250" y="347">排泥边界</text>
+<path d="M294 346 h18" stroke="#c43c35" stroke-dasharray="3 2"/><text class="legend" x="314" y="347">事故超越预留</text>
+<rect x="370" y="342" width="12" height="7" fill="#d4d9dc"/><text class="legend" x="384" y="347">道路</text>
+<text x="25" y="360">蓝色方框为水处理单元；圆线为二沉池暂定结构外缘D37.8，D42方框为操作包络；黄色为辅助设施，绿色为管理区，紫色为发展用地。</text>
+<text x="25" y="370">主车道6 m形成厂界环路和三条横向联系路；南侧次通道4 m。道路宽度为课程采用值，消防转弯、净空和登高面需正式复核。</text>
+<text x="25" y="380">水线按两组并行：C1/C2—B1/B2—DWA—T1至T4；C3/C4—B3/B4—DWB—T5至T8。接触池后再计量并从东界出厂。</text>
+<text x="25" y="390">任务书给夏季主导风向东南但无风频风玫瑰；管理区按南门交通和功能分隔暂定，不声称已证实位于上风向。</text>
+<text x="25" y="402">最不利外部主水线：进厂—C1—B1—T1—接触池—计量—东厂界，中心线826 m；最不利RAS平面86 m；空气最远154 m。</text>
+<text x="25" y="412">占地：水线包络37990 + 辅助/管理5008 + 发展2800 + 道路16240 + 未分配57962 = 120000 m²。</text>
+<text x="25" y="422">正式CAD/BIM须补埋深、交叉、阀门井、转弯半径、吊装、防火、除臭和厂外管；本图用于计算说明书复核及第08/09组接口。</text>
+<path d="M350 434 h50 M350 432 v4 M375 432 v4 M400 432 v4" stroke="#263c44" fill="none"/><text x="345" y="440">0</text><text x="372" y="440">25</text><text x="397" y="440">50 m</text>
+</svg>
