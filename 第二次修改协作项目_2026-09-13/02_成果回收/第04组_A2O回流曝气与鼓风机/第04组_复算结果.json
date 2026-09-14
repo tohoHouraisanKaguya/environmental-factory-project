@@ -1,0 +1,162 @@
+{
+  "basis": {
+    "input_git_commit": "c378540",
+    "average_flow_m3_d": 108000.0,
+    "average_flow_m3_h": 4500.0,
+    "kz": 1.5,
+    "peak_flow_m3_h": 6750.0,
+    "series": 4
+  },
+  "a2o": {
+    "dimensions_each_m": [
+      70.0,
+      45.0,
+      5.0
+    ],
+    "volume_each_m3": 15750.0,
+    "volume_total_m3": 63000.0,
+    "hrt_average_h": 14.0,
+    "hrt_peak_h": 9.333333333333334,
+    "zone_hrt_h": {
+      "anaerobic": 1.5,
+      "anoxic": 4.8,
+      "oxic": 7.7
+    },
+    "zone_volume_total_m3": {
+      "anaerobic": 6750.0,
+      "anoxic": 21600.0,
+      "oxic": 34650.0
+    },
+    "zone_equivalent_path_each_series_m": {
+      "anaerobic": 45.0,
+      "anoxic": 144.0,
+      "oxic": 231.0
+    },
+    "MLSS_base_kg_m3": 3.5,
+    "MLVSS_MLSS_fraction": 0.7,
+    "MLVSS_kg_m3": 2.4499999999999997,
+    "SRT_d": 20.0,
+    "BOD5_MLSS_load_kg_kg_d": 0.061224489795918366,
+    "BOD5_MLVSS_load_kg_kg_d": 0.08746355685131195
+  },
+  "return_flows": {
+    "RAS_ratio": 0.75,
+    "RAS_average": {
+      "total_m3_h": 3375.0,
+      "per_line_m3_h": 1687.5,
+      "per_series_m3_h": 843.75
+    },
+    "RAS_peak": {
+      "total_m3_h": 5062.5,
+      "per_line_m3_h": 2531.25,
+      "per_series_m3_h": 1265.625,
+      "per_secondary_pool_m3_h": 632.8125
+    },
+    "internal_recycle_ratio": 2.5,
+    "internal_recycle_average": {
+      "total_m3_h": 11250.0,
+      "per_line_m3_h": 5625.0,
+      "per_series_m3_h": 2812.5
+    },
+    "internal_recycle_peak": {
+      "total_m3_h": 16875.0,
+      "per_line_m3_h": 8437.5,
+      "per_series_m3_h": 4218.75
+    },
+    "RAS_pumps": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "arrangement": "两条水线各2用1备；每条线的备用泵经阀组择一接入两系列",
+      "flow_each_m3_h": 1266.0,
+      "head_selected_m": 3.0,
+      "motor_selected_kW": 18.5,
+      "branch_DN_mm": 500,
+      "series_header_DN_mm": 700
+    },
+    "internal_recycle_pumps": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "arrangement": "两条水线各2用1备；共用取水廊道和阀门切换矩阵",
+      "flow_each_m3_h": 4219.0,
+      "head_selected_m": 1.2,
+      "motor_selected_kW": 22.0,
+      "series_pipe_DN_mm": 1200
+    }
+  },
+  "solids_and_secondary_check": {
+    "base_MLSS_kg_m3": 3.5,
+    "base_inventory_kg": 220500.0,
+    "base_waste_solids_kg_d_at_20d": 11025.0,
+    "chemical_dry_solids_kg_d": 751.7473338079983,
+    "chemical_inventory_kg_at_20d": 15034.946676159965,
+    "chemical_MLSS_increment_kg_m3": 0.23864994724063437,
+    "total_MLSS_to_secondary_kg_m3": 3.7386499472406345,
+    "total_waste_solids_kg_d_at_20d": 11776.747333807998,
+    "secondary_area_total_m2": 8375.486014470389,
+    "SLR_average_kg_m2_d": 84.45558695222972,
+    "SLR_peak_kg_m2_d": 126.68338042834458,
+    "fresh_chemical_solids_location": "A2/O出水后、二沉池前；峰时按Kz同步放大"
+  },
+  "aeration": {
+    "oxygen_equation": "HJ 576-2010式(15)，外加甲醇COD单列，反硝化氧当量只扣一次",
+    "oxygen_parts": {
+      "carbonaceous_kg_d": 16669.8,
+      "external_methanol_COD_kg_d": 7800.0,
+      "biomass_credit_kg_d": -4508.784,
+      "nitrification_kg_d": 16246.24032,
+      "denitrification_credit_kg_d": -6400.5825984
+    },
+    "AOR_average_kg_d": 29806.6737216,
+    "AOR_average_kg_h": 1241.9447384,
+    "peak_factor": 1.5,
+    "equipment_margin_factor": 1.1,
+    "AOR_design_kg_h": 2049.2088183600004,
+    "alpha": 0.8,
+    "beta": 0.95,
+    "temperature_C": 25.0,
+    "DO_mg_L": 2.0,
+    "transfer_factor": 0.671219843817559,
+    "SOR_design_kg_h": 3052.9622108684052,
+    "EA_design_fraction": 0.25,
+    "air_required_m3_h_at_20C_101325Pa": 43613.74586954864,
+    "air_required_Nm3_h_at_0C_101325Pa": 40638.22167582197,
+    "air_selected_Nm3_h_at_0C_101325Pa": 48000.0,
+    "field_oxygen_capacity_kg_h": 2420.431289191999,
+    "capacity_margin_fraction": 0.1811540471161408,
+    "diffuser": {
+      "reference": "229 mm盘式微孔曝气器；厂家样本0.8-6.8 Nm3/h·盘，SOTE 6%-8%/m",
+      "count": 9600,
+      "count_per_series": 2400,
+      "flow_each_Nm3_h": 5.0,
+      "density_each_m2_of_oxic_floor": 1.3852813852813852
+    },
+    "blower": {
+      "reference_size": "AERZEN AT 400-0.8 G5或等效",
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "flow_each_Nm3_h_at_0C": 12000.0,
+      "design_pressure_kPa_g": 65.0,
+      "reference_suction_conditions_envelope_m3_h": [
+        5400.0,
+        16200.0
+      ],
+      "actual_inlet_each_m3_h_at_42C_filter_and_saturated": 15565.701124422192,
+      "reference_max_assembly_power_kW": 330.0,
+      "main_header_DN_mm": 1200,
+      "main_header_velocity_m_s": 15.292335041005343,
+      "series_branch_DN_mm": 700,
+      "series_branch_velocity_m_s": 11.23518492808556
+    },
+    "pressure_budget_kPa": {
+      "static_at_4_75m": 46.597500000000004,
+      "diffuser": 5.0,
+      "pipe_and_valves": 6.0,
+      "allowance": 3.0,
+      "required": 60.597500000000004,
+      "selected": 65.0
+    }
+  }
+}
