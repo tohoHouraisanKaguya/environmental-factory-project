@@ -1,0 +1,131 @@
+{
+  "basis": {
+    "input_git_commit": "c378540",
+    "average_flow_m3_h": 4500.0,
+    "peak_flow_m3_h": 6750.0,
+    "A2O_series": 4,
+    "secondary_pools": 8,
+    "secondary_net_diameter_m": 37.0,
+    "RAS_ratio": 0.75
+  },
+  "distribution": {
+    "selected_scheme": "2座二沉配水井，每井接收2个A2/O系列并向4座二沉池等量配水",
+    "well_count": 2,
+    "secondary_pools_per_well": 4,
+    "A2O_series_per_well": 2,
+    "external_flow_peak_per_well_m3_h": 3375.0,
+    "mixed_flow_peak_per_A2O_series_m3_h": 2953.125,
+    "mixed_flow_peak_per_well_m3_h": 5906.25,
+    "mixed_flow_peak_per_secondary_branch_m3_h": 1476.5625,
+    "external_flow_peak_per_secondary_outlet_m3_h": 843.75,
+    "pipes": {
+      "A2O_series_inlet_to_well": {
+        "count": 4,
+        "DN_mm": 1200,
+        "flow_each_m3_s": 0.8203125,
+        "velocity_m_s": 0.7253154958615022
+      },
+      "optional_common_section_in_well": {
+        "count": 2,
+        "DN_mm": 1500,
+        "flow_each_m3_s": 1.640625,
+        "velocity_m_s": 0.9284038347027228
+      },
+      "secondary_inlet_branch": {
+        "count": 8,
+        "DN_mm": 900,
+        "flow_each_m3_s": 0.41015625,
+        "velocity_m_s": 0.6447248852102241
+      },
+      "secondary_outlet_branch": {
+        "count": 8,
+        "DN_mm": 700,
+        "flow_each_m3_s": 0.234375,
+        "velocity_m_s": 0.6090112618312323
+      },
+      "secondary_outlet_header_per_line": {
+        "count": 2,
+        "DN_mm": 1200,
+        "flow_each_m3_s": 0.9375,
+        "velocity_m_s": 0.8289319952702882
+      }
+    },
+    "equal_weir_each_branch": {
+      "type": "等高矩形薄壁堰，设闸门与流量测量",
+      "count_per_well": 4,
+      "width_each_m": 1.2,
+      "course_coefficient": 1.84,
+      "peak_head_m": 0.3255618515839355,
+      "adopted_head_budget_m": 0.35
+    },
+    "maintenance": "两井入口及出水设联络和隔离；单井检修时限流运行，不宣称另一井可独立承担全厂最高时流量"
+  },
+  "contact_tank": {
+    "cells": 2,
+    "net_dimensions_each_m": [
+      45.0,
+      8.0,
+      4.8
+    ],
+    "net_volume_each_m3": 1728.0,
+    "net_volume_total_m3": 3456.0,
+    "required_volume_at_peak_30min_m3": 3375.0,
+    "volume_margin_fraction": 0.02400000000000002,
+    "contact_time_peak_min": 30.72,
+    "contact_time_average_min": 46.08,
+    "lanes_per_cell": 4,
+    "net_lane_width_m": 2.0,
+    "equivalent_flow_path_each_cell_m": 180.0,
+    "dimension_note": "8.0 m为扣除隔墙后的净水宽；3道0.20 m隔墙时结构池内总宽至少8.60 m"
+  },
+  "disinfection": {
+    "medium": "二沉池澄清出水",
+    "chemical": "次氯酸钠",
+    "GB50014_dose_without_test_mg_L": [
+      5.0,
+      15.0
+    ],
+    "nominal_effective_chlorine_mg_L": 5.0,
+    "equipment_capacity_effective_chlorine_mg_L": 15.0,
+    "product_assumption": {
+      "NaOCl_mass_fraction": 0.1,
+      "available_chlorine_factor_Cl2_per_NaOCl": 0.9524999328336156,
+      "available_chlorine_mass_fraction": 0.09524999328336156,
+      "density_kg_m3": 1200.0,
+      "note": "若供货证书直接标10%有效氯，则按证书重算，不再乘0.9525"
+    },
+    "effective_chlorine_average_nominal_kg_d": 540.0,
+    "effective_chlorine_average_capacity_kg_d": 1620.0,
+    "effective_chlorine_peak_capacity_kg_h": 101.25,
+    "solution_average_nominal_m3_d": 4.724409781964854,
+    "solution_average_capacity_m3_d": 14.173229345894562,
+    "solution_peak_capacity_m3_h": 0.8858268341184101,
+    "metering_pumps": {
+      "count": 2,
+      "duty": 1,
+      "standby": 1,
+      "capacity_each_m3_h": 1.0,
+      "control": "流量前馈加余氯反馈；最终剂量按消毒需求和微生物试验校准"
+    },
+    "storage": {
+      "maximum_days": 7,
+      "working_volume_total_m3_at_average_flow_and_15mg_L": 99.21260542126194,
+      "selected_split": "2座工作容积约50 m3储罐；低温、避光，库存不超过7 d"
+    }
+  },
+  "terminal_metering": {
+    "channels": 2,
+    "design_flow_each_m3_s": 0.9375,
+    "long_throat_width_m": 1.5,
+    "critical_depth_m": 0.3414787443178979
+  },
+  "frozen_process_order": "初沉池→A2/O→二沉配水井→二沉池→接触池（次氯酸钠）→计量/控制井",
+  "elevation_interface_m": {
+    "A2O_water": 32.3,
+    "secondary_distribution_upstream": 31.95,
+    "secondary_distribution_downstream": 31.55,
+    "secondary_water": 31.4,
+    "contact_tank_water": 30.9,
+    "control_well_water": 30.4
+  }
+}
