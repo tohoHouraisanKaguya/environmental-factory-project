@@ -1,0 +1,237 @@
+{
+  "basis": {
+    "input_git_commit": "02b4846",
+    "site_m": [
+      400.0,
+      300.0
+    ],
+    "site_area_m2": 120000.0,
+    "coordinate_system": "西南角(0,0)，x向东，y向北",
+    "inlet_m": [
+      360.0,
+      300.0
+    ],
+    "outlet_boundary_m": [
+      400.0,
+      29.0
+    ],
+    "river_relation": "东厂界外接河道；厂外管线实测长度待定",
+    "summer_prevailing_wind": "东南（任务书仅给主导方向，无风频风玫瑰）",
+    "gates_m": {
+      "south_main": [
+        68.0,
+        0.0
+      ],
+      "north_service": [
+        200.0,
+        300.0
+      ]
+    }
+  },
+  "counts": {
+    "primary_clarifiers": 4,
+    "a2o_series": 4,
+    "secondary_distribution_wells": 2,
+    "secondary_clarifiers": 8,
+    "contact_tank_cells": 2
+  },
+  "area_account_m2": {
+    "water_envelopes": 37990,
+    "auxiliary_and_management": 5008,
+    "continuous_future": 2800,
+    "road_union": 16240.0,
+    "unallocated": 57962.0,
+    "provisional_green_target": 36000.0,
+    "other_available": 21962.0,
+    "total": 120000.0
+  },
+  "control_paths": {
+    "water": {
+      "path": "进厂—C1—B1—T1—接触池—计量—东厂界",
+      "line": "A",
+      "series": 1,
+      "secondary": 1,
+      "common_m": 53.0,
+      "pretreatment_to_primary_m": 259.0,
+      "primary_to_a2o_m": 28.0,
+      "a2o_to_secondary_m": 156.0,
+      "secondary_to_contact_m": 266.0,
+      "contact_to_boundary_m": 64.0,
+      "external_centerline_total_m": 826.0
+    },
+    "all_water_paths": [
+      {
+        "path": "进厂—C1—B1—T1—接触池—计量—东厂界",
+        "line": "A",
+        "series": 1,
+        "secondary": 1,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 259.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 156.0,
+        "secondary_to_contact_m": 266.0,
+        "contact_to_boundary_m": 64.0,
+        "external_centerline_total_m": 826.0
+      },
+      {
+        "path": "进厂—C1—B1—T2—接触池—计量—东厂界",
+        "line": "A",
+        "series": 1,
+        "secondary": 2,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 259.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 116.0,
+        "secondary_to_contact_m": 222.0,
+        "contact_to_boundary_m": 64.0,
+        "external_centerline_total_m": 742.0
+      },
+      {
+        "path": "进厂—C2—B2—T3—接触池—计量—东厂界",
+        "line": "A",
+        "series": 2,
+        "secondary": 3,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 259.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 116.0,
+        "secondary_to_contact_m": 178.0,
+        "contact_to_boundary_m": 64.0,
+        "external_centerline_total_m": 698.0
+      },
+      {
+        "path": "进厂—C2—B2—T4—接触池—计量—东厂界",
+        "line": "A",
+        "series": 2,
+        "secondary": 4,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 259.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 156.0,
+        "secondary_to_contact_m": 134.0,
+        "contact_to_boundary_m": 64.0,
+        "external_centerline_total_m": 694.0
+      },
+      {
+        "path": "进厂—C3—B3—T5—接触池—计量—东厂界",
+        "line": "B",
+        "series": 3,
+        "secondary": 5,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 179.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 156.0,
+        "secondary_to_contact_m": 75.0,
+        "contact_to_boundary_m": 65.0,
+        "external_centerline_total_m": 556.0
+      },
+      {
+        "path": "进厂—C3—B3—T6—接触池—计量—东厂界",
+        "line": "B",
+        "series": 3,
+        "secondary": 6,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 179.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 116.0,
+        "secondary_to_contact_m": 47.0,
+        "contact_to_boundary_m": 65.0,
+        "external_centerline_total_m": 488.0
+      },
+      {
+        "path": "进厂—C4—B4—T7—接触池—计量—东厂界",
+        "line": "B",
+        "series": 4,
+        "secondary": 7,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 179.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 116.0,
+        "secondary_to_contact_m": 91.0,
+        "contact_to_boundary_m": 65.0,
+        "external_centerline_total_m": 532.0
+      },
+      {
+        "path": "进厂—C4—B4—T8—接触池—计量—东厂界",
+        "line": "B",
+        "series": 4,
+        "secondary": 8,
+        "common_m": 53.0,
+        "pretreatment_to_primary_m": 179.0,
+        "primary_to_a2o_m": 28.0,
+        "a2o_to_secondary_m": 156.0,
+        "secondary_to_contact_m": 135.0,
+        "contact_to_boundary_m": 65.0,
+        "external_centerline_total_m": 616.0
+      }
+    ],
+    "RAS": {
+      "worst": {
+        "secondary": 2,
+        "series": 1,
+        "centerline_m": 86.0
+      },
+      "all": [
+        {
+          "secondary": 1,
+          "series": 1,
+          "centerline_m": 74.0
+        },
+        {
+          "secondary": 2,
+          "series": 1,
+          "centerline_m": 86.0
+        },
+        {
+          "secondary": 3,
+          "series": 2,
+          "centerline_m": 86.0
+        },
+        {
+          "secondary": 4,
+          "series": 2,
+          "centerline_m": 74.0
+        },
+        {
+          "secondary": 5,
+          "series": 3,
+          "centerline_m": 74.0
+        },
+        {
+          "secondary": 6,
+          "series": 3,
+          "centerline_m": 86.0
+        },
+        {
+          "secondary": 7,
+          "series": 4,
+          "centerline_m": 86.0
+        },
+        {
+          "secondary": 8,
+          "series": 4,
+          "centerline_m": 74.0
+        }
+      ]
+    },
+    "air_from_blower_to_farthest_series_m": 154,
+    "internal_recycle_each_series_plan_m": 80.0,
+    "bypass_reserved_plan_m": 322.0
+  },
+  "engineering_route_length_by_system_m": {
+    "air": 892.0,
+    "bypass": 322.0,
+    "internal": 320.0,
+    "ras": 552.0,
+    "sludge": 400.0,
+    "water": 2129.0
+  },
+  "checks": [
+    "all occupancy envelopes are inside the 400 m x 300 m boundary",
+    "occupancy envelopes do not overlap each other or roads",
+    "all route polylines are axis-aligned and inside the boundary",
+    "two parallel treatment lines and eight secondary clarifiers are represented",
+    "water, RAS, internal recycle, air, waste-sludge boundary and bypass interfaces are represented",
+    "area account closes to 120000 m2"
+  ]
+}
