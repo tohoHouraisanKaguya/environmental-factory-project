@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图5-1  两格进水井与六泵位计算图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">每条水线2用1备；全厂6台4用2备；定速泵按台数与液位启停调节</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<rect x="100" y="150" width="580" height="430" rx="10" fill="#F8FBFD" stroke="#1F4E79" stroke-width="3"/>
+<text x="390" y="342" text-anchor="middle" font-size="29" font-weight="700" fill="#1F4E79">第1格进水井 / 水线A</text>
+<text x="390" y="373" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">净平面16 m×10 m；调节水深1.20 m</text>
+<text x="390" y="404" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">有效调节容积192 m³</text>
+<line x1="135" y1="350" x2="645" y2="350" stroke="#5B9BD5" stroke-width="4"/>
+<text x="150" y="338" text-anchor="start" font-size="20" font-weight="400" fill="#5B9BD5">最高运行水位 EL23.80 m</text>
+<line x1="135" y1="475" x2="645" y2="475" stroke="#5B9BD5" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="150" y="465" text-anchor="start" font-size="20" font-weight="400" fill="#5B9BD5">最低运行水位 EL22.60 m</text>
+<circle cx="255" cy="410" r="38" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="255" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#1F4E79">P11</text>
+<line x1="255" y1="372" x2="255" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="255" y1="285" x2="620" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="255" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">工作</text>
+<circle cx="390" cy="410" r="38" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="390" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#1F4E79">P12</text>
+<line x1="390" y1="372" x2="390" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="390" y1="285" x2="620" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="390" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">工作</text>
+<circle cx="525" cy="410" r="38" fill="#E7E6E6" stroke="#666666" stroke-width="3"/>
+<text x="525" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#666666">P13</text>
+<line x1="525" y1="372" x2="525" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="525" y1="285" x2="620" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="525" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#666666">备用</text>
+<text x="390" y="620" text-anchor="middle" font-size="24" font-weight="700" fill="#20323F">单泵1687.5 m³/h；H=14 m；90 kW</text>
+<text x="390" y="654" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">单泵支管DN700；两泵汇合后每线DN1000</text>
+<line x1="620" y1="285" x2="720" y2="285" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="820" y="150" width="580" height="430" rx="10" fill="#F8FBFD" stroke="#1F4E79" stroke-width="3"/>
+<text x="1110" y="342" text-anchor="middle" font-size="29" font-weight="700" fill="#1F4E79">第2格进水井 / 水线B</text>
+<text x="1110" y="373" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">净平面16 m×10 m；调节水深1.20 m</text>
+<text x="1110" y="404" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">有效调节容积192 m³</text>
+<line x1="855" y1="350" x2="1365" y2="350" stroke="#5B9BD5" stroke-width="4"/>
+<text x="870" y="338" text-anchor="start" font-size="20" font-weight="400" fill="#5B9BD5">最高运行水位 EL23.80 m</text>
+<line x1="855" y1="475" x2="1365" y2="475" stroke="#5B9BD5" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="870" y="465" text-anchor="start" font-size="20" font-weight="400" fill="#5B9BD5">最低运行水位 EL22.60 m</text>
+<circle cx="975" cy="410" r="38" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="975" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#1F4E79">P21</text>
+<line x1="975" y1="372" x2="975" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="975" y1="285" x2="1340" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="975" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">工作</text>
+<circle cx="1110" cy="410" r="38" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="1110" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#1F4E79">P22</text>
+<line x1="1110" y1="372" x2="1110" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="1110" y1="285" x2="1340" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="1110" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">工作</text>
+<circle cx="1245" cy="410" r="38" fill="#E7E6E6" stroke="#666666" stroke-width="3"/>
+<text x="1245" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#666666">P23</text>
+<line x1="1245" y1="372" x2="1245" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<line x1="1245" y1="285" x2="1340" y2="285" stroke="#1F4E79" stroke-width="3"/>
+<text x="1245" y="520" text-anchor="middle" font-size="19" font-weight="700" fill="#666666">备用</text>
+<text x="1110" y="620" text-anchor="middle" font-size="24" font-weight="700" fill="#20323F">单泵1687.5 m³/h；H=14 m；90 kW</text>
+<text x="1110" y="654" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">单泵支管DN700；两泵汇合后每线DN1000</text>
+<line x1="1340" y1="285" x2="1440" y2="285" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="35" y1="365" x2="95" y2="365" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<text x="40" y="340" text-anchor="start" font-size="20" font-weight="400" fill="#1F4E79">粗格栅来水</text>
+<text x="800" y="710" text-anchor="middle" font-size="23" font-weight="700" fill="#C00000">最不利所需扬程=13.678 m；采用14 m；细格栅前控制水位EL34.80 m</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">井内局部泵坑沿用EL19.80 m；采购阶段须复核泵曲线、NPSH、安装淹没深度和启停频率。</text>
+</svg>

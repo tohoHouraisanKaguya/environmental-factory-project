@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图8-1  A²/O单系列分区与回流泵接口图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">4个工艺系列；每系列70 m×45 m×5 m；两条水线成对设置共享备用接口</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<rect x="70" y="145" width="585" height="72" rx="0" fill="#FCE4D6" stroke="#C55A11" stroke-width="1"/>
+<rect x="655" y="145" width="325" height="72" rx="0" fill="#E2F0D9" stroke="#548235" stroke-width="1"/>
+<line x1="105" y1="181" x2="945" y2="181" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<line x1="980" y1="181" x2="980" y2="253" stroke="#1F4E79" stroke-width="3"/>
+<rect x="70" y="217" width="910" height="72" rx="0" fill="#E2F0D9" stroke="#548235" stroke-width="1"/>
+<line x1="945" y1="253" x2="105" y2="253" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<line x1="70" y1="253" x2="70" y2="325" stroke="#1F4E79" stroke-width="3"/>
+<rect x="70" y="289" width="637" height="72" rx="0" fill="#E2F0D9" stroke="#548235" stroke-width="1"/>
+<rect x="707" y="289" width="273" height="72" rx="0" fill="#DDEBF7" stroke="#1F4E79" stroke-width="1"/>
+<line x1="105" y1="325" x2="945" y2="325" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<line x1="980" y1="325" x2="980" y2="397" stroke="#1F4E79" stroke-width="3"/>
+<rect x="70" y="361" width="910" height="72" rx="0" fill="#DDEBF7" stroke="#1F4E79" stroke-width="1"/>
+<line x1="945" y1="397" x2="105" y2="397" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<line x1="70" y1="397" x2="70" y2="469" stroke="#1F4E79" stroke-width="3"/>
+<rect x="70" y="433" width="910" height="72" rx="0" fill="#DDEBF7" stroke="#1F4E79" stroke-width="1"/>
+<line x1="105" y1="469" x2="945" y2="469" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<line x1="980" y1="469" x2="980" y2="541" stroke="#1F4E79" stroke-width="3"/>
+<rect x="70" y="505" width="910" height="72" rx="0" fill="#DDEBF7" stroke="#1F4E79" stroke-width="1"/>
+<line x1="945" y1="541" x2="105" y2="541" stroke="#1F4E79" stroke-width="3" marker-end="url(#arr-blue)"/>
+<rect x="70" y="145" width="910" height="432" rx="0" fill="none" stroke="#1F4E79" stroke-width="4"/>
+<text x="525" y="610" text-anchor="middle" font-size="22" font-weight="700" fill="#20323F">单系列等效流长420 m：厌氧45 m（1.5 h）·缺氧144 m（4.8 h）·好氧231 m（7.7 h）</text>
+<text x="525" y="646" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">单系列有效容积15750 m³；全厂63000 m³；总HRT=14.00 h；MLSS=3.50 kg/m³</text>
+<text x="1260" y="135" text-anchor="middle" font-size="27" font-weight="700" fill="#1F4E79">每条水线共享备用切换示意</text>
+<rect x="1040" y="175" width="440" height="205" rx="10" fill="#F8FBFD" stroke="#1F4E79" stroke-width="3"/>
+<text x="1260" y="210" text-anchor="middle" font-size="24" font-weight="700" fill="#1F4E79">水线A：B1 / B2</text>
+<rect x="1070" y="235" width="120" height="65" rx="10" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="1130" y="275.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1F4E79">系列1</text>
+<rect x="1330" y="235" width="120" height="65" rx="10" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="1390" y="275.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1F4E79">系列2</text>
+<circle cx="1130" cy="340" r="27" fill="#E2F0D9" stroke="#548235" stroke-width="3"/>
+<text x="1130" y="347" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">P1</text>
+<circle cx="1390" cy="340" r="27" fill="#E2F0D9" stroke="#548235" stroke-width="3"/>
+<text x="1390" y="347" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">P2</text>
+<circle cx="1260" cy="340" r="27" fill="#E7E6E6" stroke="#666666" stroke-width="3"/>
+<text x="1260" y="347" text-anchor="middle" font-size="19" font-weight="700" fill="#666666">S</text>
+<line x1="1130" y1="313" x2="1130" y2="300" stroke="#548235" stroke-width="3" marker-end="url(#arr-green)"/>
+<line x1="1390" y1="313" x2="1390" y2="300" stroke="#548235" stroke-width="3" marker-end="url(#arr-green)"/>
+<polyline points="1260,313 1260,305 1190,305" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arr-dark)" stroke-dasharray="7 5"/>
+<polyline points="1260,313 1260,305 1330,305" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arr-dark)" stroke-dasharray="7 5"/>
+<rect x="1040" y="420" width="440" height="205" rx="10" fill="#F8FBFD" stroke="#1F4E79" stroke-width="3"/>
+<text x="1260" y="455" text-anchor="middle" font-size="24" font-weight="700" fill="#1F4E79">水线B：B3 / B4</text>
+<rect x="1070" y="480" width="120" height="65" rx="10" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="1130" y="520.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1F4E79">系列3</text>
+<rect x="1330" y="480" width="120" height="65" rx="10" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="1390" y="520.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1F4E79">系列4</text>
+<circle cx="1130" cy="585" r="27" fill="#E2F0D9" stroke="#548235" stroke-width="3"/>
+<text x="1130" y="592" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">P1</text>
+<circle cx="1390" cy="585" r="27" fill="#E2F0D9" stroke="#548235" stroke-width="3"/>
+<text x="1390" y="592" text-anchor="middle" font-size="19" font-weight="700" fill="#548235">P2</text>
+<circle cx="1260" cy="585" r="27" fill="#E7E6E6" stroke="#666666" stroke-width="3"/>
+<text x="1260" y="592" text-anchor="middle" font-size="19" font-weight="700" fill="#666666">S</text>
+<line x1="1130" y1="558" x2="1130" y2="545" stroke="#548235" stroke-width="3" marker-end="url(#arr-green)"/>
+<line x1="1390" y1="558" x2="1390" y2="545" stroke="#548235" stroke-width="3" marker-end="url(#arr-green)"/>
+<polyline points="1260,558 1260,550 1190,550" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arr-dark)" stroke-dasharray="7 5"/>
+<polyline points="1260,558 1260,550 1330,550" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arr-dark)" stroke-dasharray="7 5"/>
+<text x="1260" y="680" text-anchor="middle" font-size="20" font-weight="700" fill="#20323F">RAS：6台4用2备，1266 m³/h·台，H=3.0 m；IR：6台4用2备，4219 m³/h·台，H=1.2 m</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">每条水线的备用泵经共用取水廊道、隔离阀和止回设施择一接入两个系列；RAS和IR分别配置同类切换关系。</text>
+</svg>

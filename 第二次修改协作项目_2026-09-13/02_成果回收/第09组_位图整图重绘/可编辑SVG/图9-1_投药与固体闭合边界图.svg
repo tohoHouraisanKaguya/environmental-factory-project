@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F4E79"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#548235"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C55A11"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7030A0"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#843C0C"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#20323F"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#20323F}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#49616F}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#20323F">图9-1  投药与固体闭合边界图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#49616F">药剂按设备容量表达；生物固体库存、化学固体和排泥量采用第03/04组冻结口径</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#B4C7D5" stroke-width="2"/>
+<rect x="90" y="250" width="230" height="140" rx="10" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<text x="205" y="297" text-anchor="middle" font-size="28" font-weight="700" fill="#C55A11">80%甲醇</text>
+<text x="205" y="328" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">设备容量6.5 t/d</text>
+<text x="205" y="359" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">投加点：缺氧区</text>
+<rect x="430" y="230" width="260" height="180" rx="10" fill="#DDEBF7" stroke="#1F4E79" stroke-width="3"/>
+<text x="560" y="287.5" text-anchor="middle" font-size="28" font-weight="700" fill="#1F4E79">A²/O 4系列</text>
+<text x="560" y="314.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">MLSS 3.50 kg/m³</text>
+<text x="560" y="341.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">总有效容积63000 m³</text>
+<text x="560" y="368.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">SRT 20 d</text>
+<rect x="795" y="250" width="230" height="140" rx="10" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<text x="910" y="297" text-anchor="middle" font-size="28" font-weight="700" fill="#C55A11">40% FeCl₃</text>
+<text x="910" y="328" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">设备容量2.0 m³/d</text>
+<text x="910" y="359" text-anchor="middle" font-size="22" font-weight="400" fill="#20323F">A²/O后、二沉前</text>
+<rect x="1135" y="220" width="350" height="200" rx="10" fill="#E2F0D9" stroke="#548235" stroke-width="3"/>
+<text x="1310" y="287.5" text-anchor="middle" font-size="28" font-weight="700" fill="#548235">二沉系统</text>
+<text x="1310" y="314.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">8座D37</text>
+<text x="1310" y="341.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">总MLSS 3.738650 kg/m³</text>
+<text x="1310" y="368.5" text-anchor="middle" font-size="21" font-weight="400" fill="#20323F">峰值SLR 126.683 kg/(m²·d)</text>
+<line x1="320" y1="320" x2="425" y2="320" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="690" y1="320" x2="790" y2="320" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="1025" y1="320" x2="1130" y2="320" stroke="#1F4E79" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="205" y1="390" x2="500" y2="460" stroke="#C55A11" stroke-width="3" marker-end="url(#arr-orange)"/>
+<text x="230" y="455" text-anchor="start" font-size="20" font-weight="400" fill="#C55A11">外加COD容量单列</text>
+<line x1="910" y1="390" x2="1185" y2="455" stroke="#C55A11" stroke-width="3" marker-end="url(#arr-orange)"/>
+<text x="915" y="450" text-anchor="start" font-size="20" font-weight="400" fill="#C55A11">化学干固体751.747 kg/d</text>
+<rect x="480" y="520" width="290" height="120" rx="10" fill="#E4DFEC" stroke="#7030A0" stroke-width="3"/>
+<text x="625" y="557" text-anchor="middle" font-size="26" font-weight="700" fill="#7030A0">固体库存</text>
+<text x="625" y="588" text-anchor="middle" font-size="20" font-weight="400" fill="#20323F">基准220500 kg</text>
+<text x="625" y="619" text-anchor="middle" font-size="20" font-weight="400" fill="#20323F">化学库存15034.947 kg</text>
+<rect x="1000" y="520" width="320" height="120" rx="10" fill="#F2F2F2" stroke="#666666" stroke-width="3"/>
+<text x="1160" y="557" text-anchor="middle" font-size="26" font-weight="700" fill="#666666">排泥边界</text>
+<text x="1160" y="588" text-anchor="middle" font-size="20" font-weight="400" fill="#20323F">总排固11776.747 kg/d</text>
+<text x="1160" y="619" text-anchor="middle" font-size="20" font-weight="400" fill="#20323F">VSS/ISS实测后再细分</text>
+<line x1="560" y1="410" x2="615" y2="515" stroke="#7030A0" stroke-width="3" marker-end="url(#arr-purple)"/>
+<line x1="1310" y1="420" x2="1160" y2="515" stroke="#666666" stroke-width="3" marker-end="url(#arr-dark)"/>
+<rect x="90" y="540" width="260" height="100" rx="10" fill="#FCE4D6" stroke="#C55A11" stroke-width="3"/>
+<text x="220" y="567" text-anchor="middle" font-size="24" font-weight="700" fill="#C55A11">次氯酸钠</text>
+<text x="220" y="598" text-anchor="middle" font-size="19" font-weight="400" fill="#20323F">5 mg/L名义剂量</text>
+<text x="220" y="629" text-anchor="middle" font-size="19" font-weight="400" fill="#20323F">15 mg/L设备容量→接触池</text>
+<text x="800" y="700" text-anchor="middle" font-size="21" font-weight="700" fill="#20323F">FeCl₃化学固体使MLSS增加0.238650 kg/m³；平均/峰值SLR=84.456/126.683 kg/(m²·d)</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#D9E2E8" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#526873">甲醇、FeCl₃和NaOCl均为缺测水质条件下的课程设备容量；最终运行剂量按在线监测、瓶试和消毒试验校准。</text>
+</svg>
