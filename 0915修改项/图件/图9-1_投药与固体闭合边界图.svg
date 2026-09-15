@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#000000}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#000000}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#000000">图9-1  辅助加药与排泥接口图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#000000">辅助加药接口与生物固体计算；未确定药耗及化学固体不列数值</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#000000" stroke-width="2"/>
+<rect x="90" y="250" width="230" height="140" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="205" y="297" text-anchor="middle" font-size="28" font-weight="700" fill="#000000">甲醇</text>
+<text x="205" y="328" text-anchor="middle" font-size="22" font-weight="400" fill="#000000">甲醇加药接口</text>
+<text x="205" y="359" text-anchor="middle" font-size="22" font-weight="400" fill="#000000">投加点：缺氧区</text>
+<rect x="430" y="230" width="260" height="180" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="560" y="287.5" text-anchor="middle" font-size="28" font-weight="700" fill="#000000">A²/O 4系列</text>
+<text x="560" y="314.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">MLSS 3.50 kg/m³</text>
+<text x="560" y="341.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">总有效容积63000 m³</text>
+<text x="560" y="368.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">SRT 20 d</text>
+<rect x="795" y="250" width="230" height="140" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="910" y="297" text-anchor="middle" font-size="28" font-weight="700" fill="#000000">三氯化铁</text>
+<text x="910" y="328" text-anchor="middle" font-size="22" font-weight="400" fill="#000000">三氯化铁加药接口</text>
+<text x="910" y="359" text-anchor="middle" font-size="22" font-weight="400" fill="#000000">A²/O后、二沉前</text>
+<rect x="1135" y="220" width="350" height="200" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1310" y="287.5" text-anchor="middle" font-size="28" font-weight="700" fill="#000000">二沉系统</text>
+<text x="1310" y="314.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">8座D37</text>
+<text x="1310" y="341.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">生物MLSS 3.50 kg/m³</text>
+<text x="1310" y="368.5" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">生物SLR 118.471 kg/(m²·d)</text>
+<line x1="320" y1="320" x2="425" y2="320" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="690" y1="320" x2="790" y2="320" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="1025" y1="320" x2="1130" y2="320" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<line x1="205" y1="390" x2="500" y2="460" stroke="#000000" stroke-width="3" marker-end="url(#arr-orange)"/>
+<text x="230" y="455" text-anchor="start" font-size="20" font-weight="400" fill="#000000">碳源投加接口</text>
+<line x1="910" y1="390" x2="1185" y2="455" stroke="#000000" stroke-width="3" marker-end="url(#arr-orange)"/>
+<text x="915" y="450" text-anchor="start" font-size="20" font-weight="400" fill="#000000">三氯化铁投加接口</text>
+<rect x="480" y="520" width="290" height="120" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="625" y="557" text-anchor="middle" font-size="26" font-weight="700" fill="#000000">固体库存</text>
+<text x="625" y="588" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">基准220500 kg</text>
+<text x="625" y="619" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">不含未定化学固体</text>
+<rect x="1000" y="520" width="320" height="120" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1160" y="557" text-anchor="middle" font-size="26" font-weight="700" fill="#000000">排泥边界</text>
+<text x="1160" y="588" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">生物排固11025 kg/d</text>
+<text x="1160" y="619" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">生物固体排出接口</text>
+<line x1="560" y1="410" x2="615" y2="515" stroke="#000000" stroke-width="3" marker-end="url(#arr-purple)"/>
+<line x1="1310" y1="420" x2="1160" y2="515" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)"/>
+<rect x="90" y="540" width="260" height="100" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="220" y="567" text-anchor="middle" font-size="24" font-weight="700" fill="#000000">次氯酸钠</text>
+<text x="220" y="598" text-anchor="middle" font-size="19" font-weight="400" fill="#000000">5 mg/L名义剂量</text>
+<text x="220" y="629" text-anchor="middle" font-size="19" font-weight="400" fill="#000000">唯一消毒剂→接触池</text>
+<text x="800" y="700" text-anchor="middle" font-size="21" font-weight="700" fill="#000000">生物固体库存220500 kg；20 d泥龄对应排固11025 kg/d；峰时生物SLR=118.471 kg/(m²·d)。</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#000000" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#000000">甲醇与三氯化铁仅列投加接口；消毒剂采用次氯酸钠，有效氯是剂量计量指标。</text>
+</svg>
