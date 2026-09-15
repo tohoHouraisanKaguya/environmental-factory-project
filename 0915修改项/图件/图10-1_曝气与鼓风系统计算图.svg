@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#000000}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#000000}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#000000">图10-1  曝气与鼓风系统计算图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#000000">采用30000 Nm³/h（0℃、101325 Pa）；DN1200环状母管；4条DN700系列支管</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#000000" stroke-width="2"/>
+<text x="800" y="135" text-anchor="middle" font-size="29" font-weight="700" fill="#000000">高速离心鼓风机 6台（4用2备）</text>
+<circle cx="385" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="385" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B1</text>
+<text x="385" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">工作</text>
+<line x1="385" y1="253" x2="385" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
+<circle cx="550" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="550" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B2</text>
+<text x="550" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">工作</text>
+<line x1="550" y1="253" x2="550" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
+<circle cx="715" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="715" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B3</text>
+<text x="715" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">工作</text>
+<line x1="715" y1="253" x2="715" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
+<circle cx="880" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="880" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B4</text>
+<text x="880" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">工作</text>
+<line x1="880" y1="253" x2="880" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
+<circle cx="1045" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="1045" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B5</text>
+<text x="1045" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">备用</text>
+<line x1="1045" y1="253" x2="1045" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)" stroke-dasharray="8 5"/>
+<circle cx="1210" cy="205" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text x="1210" y="198" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">B6</text>
+<text x="1210" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">备用</text>
+<line x1="1210" y1="253" x2="1210" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)" stroke-dasharray="8 5"/>
+<text x="800" y="282" text-anchor="middle" font-size="22" font-weight="400" fill="#000000"></text>
+<rect x="130" y="315" width="1340" height="330" rx="18" fill="none" stroke="#000000" stroke-width="5"/>
+<text x="800" y="615" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">DN1200环状空气母管（常态最远154 m；单段隔离绕行826 m）</text>
+<line x1="340" y1="315" x2="340" y2="420" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="220" y="420" width="240" height="160" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="340" y="449" text-anchor="middle" font-size="25" font-weight="700" fill="#000000">A²/O系列1</text>
+<text x="340" y="474" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">好氧区</text>
+<text x="340" y="499" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">DN700支管</text>
+<text x="340" y="524" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">1500只×5 Nm³/h</text>
+<circle cx="245" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="266" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="287" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="308" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="329" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="350" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="371" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="392" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="413" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="434" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="245" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="266" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="287" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="308" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="329" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="350" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="371" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="392" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="413" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="434" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="245" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="266" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="287" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="308" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="329" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="350" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="371" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="392" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="413" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="434" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<line x1="675" y1="315" x2="675" y2="420" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="555" y="420" width="240" height="160" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="675" y="449" text-anchor="middle" font-size="25" font-weight="700" fill="#000000">A²/O系列2</text>
+<text x="675" y="474" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">好氧区</text>
+<text x="675" y="499" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">DN700支管</text>
+<text x="675" y="524" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">1500只×5 Nm³/h</text>
+<circle cx="580" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="601" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="622" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="643" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="664" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="685" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="706" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="727" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="748" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="769" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="580" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="601" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="622" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="643" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="664" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="685" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="706" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="727" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="748" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="769" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="580" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="601" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="622" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="643" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="664" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="685" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="706" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="727" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="748" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="769" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<line x1="1010" y1="315" x2="1010" y2="420" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="890" y="420" width="240" height="160" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1010" y="449" text-anchor="middle" font-size="25" font-weight="700" fill="#000000">A²/O系列3</text>
+<text x="1010" y="474" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">好氧区</text>
+<text x="1010" y="499" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">DN700支管</text>
+<text x="1010" y="524" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">1500只×5 Nm³/h</text>
+<circle cx="915" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="936" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="957" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="978" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="999" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1020" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1041" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1062" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1083" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1104" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="915" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="936" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="957" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="978" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="999" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1020" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1041" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1062" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1083" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1104" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="915" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="936" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="957" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="978" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="999" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1020" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1041" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1062" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1083" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1104" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<line x1="1345" y1="315" x2="1345" y2="420" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="1225" y="420" width="240" height="160" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1345" y="449" text-anchor="middle" font-size="25" font-weight="700" fill="#000000">A²/O系列4</text>
+<text x="1345" y="474" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">好氧区</text>
+<text x="1345" y="499" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">DN700支管</text>
+<text x="1345" y="524" text-anchor="middle" font-size="20" font-weight="400" fill="#000000">1500只×5 Nm³/h</text>
+<circle cx="1250" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1271" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1292" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1313" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1334" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1355" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1376" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1397" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1418" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1439" cy="570" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1250" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1271" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1292" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1313" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1334" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1355" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1376" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1397" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1418" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1439" cy="560" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1250" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1271" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1292" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1313" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1334" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1355" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1376" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1397" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1418" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<circle cx="1439" cy="550" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+<text x="800" y="685" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">初算需气量27830 Nm³/h；采用30000；6000只曝气器；供氧余量7.80%</text>
+<text x="800" y="720" text-anchor="middle" font-size="21" font-weight="400" fill="#000000">压力预算：静水46.60＋曝气器5＋管阀6＋余量3＝60.60 kPa；采用表压65 kPa。</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#000000" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#000000">鼓风机6台（4用2备），单台7500 Nm³/h；曝气器6000只；标准风量基准0 ℃、101325 Pa。</text>
+</svg>

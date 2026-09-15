@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#000000}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#000000}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#000000">图14-1  全厂水线高程控制图</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#000000">最不利重力路径T1；细格栅前至计量后落差5.50 m；延伸东厂界后总落差6.05 m</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#000000" stroke-width="2"/>
+<line x1="90" y1="135" x2="1510" y2="135" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="142" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL35</text>
+<line x1="90" y1="177.308" x2="1510" y2="177.308" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="184.308" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL34</text>
+<line x1="90" y1="219.615" x2="1510" y2="219.615" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="226.615" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL33</text>
+<line x1="90" y1="261.923" x2="1510" y2="261.923" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="268.923" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL32</text>
+<line x1="90" y1="304.231" x2="1510" y2="304.231" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="311.231" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL31</text>
+<line x1="90" y1="346.538" x2="1510" y2="346.538" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="353.538" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL30</text>
+<line x1="90" y1="388.846" x2="1510" y2="388.846" stroke="#000000" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="78" y="395.846" text-anchor="end" font-size="17" font-weight="400" fill="#000000">EL29</text>
+<polyline points="90,143.462 164.737,143.462 164.737,149.808 239.474,149.808 239.474,154.038 314.211,154.038 314.211,166.731 388.947,166.731 388.947,185.769 463.684,185.769 463.684,202.692 538.421,202.692 538.421,217.5 613.158,217.5 613.158,225.962 687.895,225.962 687.895,236.538 762.632,236.538 762.632,249.231 837.368,249.231 837.368,264.038 912.105,264.038 912.105,283.077 986.842,283.077 986.842,297.885 1061.58,297.885 1061.58,306.346 1136.32,306.346 1136.32,335.962 1211.05,335.962 1211.05,342.308 1285.79,342.308 1285.79,344.423 1360.53,344.423 1360.53,376.154 1435.26,376.154 1435.26,390.962 1510,390.962 1510,399.423" fill="none" stroke="#000000" stroke-width="5"/>
+<circle cx="90" cy="143.462" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="90" y="129.462" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">0</text>
+<circle cx="164.737" cy="149.808" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="164.737" y="135.808" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">1</text>
+<circle cx="239.474" cy="154.038" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="239.474" y="140.038" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">2</text>
+<circle cx="314.211" cy="166.731" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="314.211" y="152.731" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">3</text>
+<circle cx="388.947" cy="185.769" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="388.947" y="171.769" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">4</text>
+<circle cx="463.684" cy="202.692" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="463.684" y="188.692" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">5</text>
+<circle cx="538.421" cy="217.5" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="538.421" y="203.5" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">6</text>
+<circle cx="613.158" cy="225.962" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="613.158" y="211.962" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">7</text>
+<circle cx="687.895" cy="236.538" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="687.895" y="222.538" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">8</text>
+<circle cx="762.632" cy="249.231" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="762.632" y="235.231" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">9</text>
+<circle cx="837.368" cy="264.038" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="837.368" y="250.038" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">10</text>
+<circle cx="912.105" cy="283.077" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="912.105" y="269.077" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">11</text>
+<circle cx="986.842" cy="297.885" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="986.842" y="283.885" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">12</text>
+<circle cx="1061.58" cy="306.346" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1061.58" y="292.346" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">13</text>
+<circle cx="1136.32" cy="335.962" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1136.32" y="321.962" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">14</text>
+<circle cx="1211.05" cy="342.308" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1211.05" y="328.308" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">15</text>
+<circle cx="1285.79" cy="344.423" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1285.79" y="330.423" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">16</text>
+<circle cx="1360.53" cy="376.154" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1360.53" y="362.154" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">17</text>
+<circle cx="1435.26" cy="390.962" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1435.26" y="376.962" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">18</text>
+<circle cx="1510" cy="399.423" r="8" fill="white" stroke="#000000" stroke-width="3"/>
+<text x="1510" y="385.423" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">19</text>
+<text x="120" y="455" text-anchor="start" font-size="22" font-weight="700" fill="#000000">提升泵：进水井最低EL22.60 → 细栅前EL34.80；H需=13.678 m，采用14 m</text>
+<text x="1480" y="455" text-anchor="end" font-size="20" font-weight="400" fill="#000000">闭合误差=8.88e-16 m</text>
+<rect x="70" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="78" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">0</text>
+<text x="141" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">细格栅前</text>
+<text x="141" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL34.80</text>
+<rect x="218" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="226" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">1</text>
+<text x="289" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">细格栅后</text>
+<text x="289" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL34.65</text>
+<rect x="366" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="374" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">2</text>
+<text x="437" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">沉砂入口</text>
+<text x="437" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL34.55</text>
+<rect x="514" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="522" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">3</text>
+<text x="585" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">沉砂主体</text>
+<text x="585" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL34.25</text>
+<rect x="662" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="670" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">4</text>
+<text x="733" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">初沉配水上游</text>
+<text x="733" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL33.80</text>
+<rect x="810" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="818" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">5</text>
+<text x="881" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">初沉配水下游</text>
+<text x="881" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL33.40</text>
+<rect x="958" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="966" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">6</text>
+<text x="1029" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">初沉主体</text>
+<text x="1029" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL33.05</text>
+<rect x="1106" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1114" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">7</text>
+<text x="1177" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">初沉集水槽</text>
+<text x="1177" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL32.85</text>
+<rect x="1254" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1262" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">8</text>
+<text x="1325" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">A²/O入口</text>
+<text x="1325" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL32.60</text>
+<rect x="1402" y="490" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1410" y="514" text-anchor="start" font-size="17" font-weight="700" fill="#000000">9</text>
+<text x="1473" y="543" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">A²/O主体</text>
+<text x="1473" y="570" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL32.30</text>
+<rect x="70" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="78" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">10</text>
+<text x="141" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">二沉配水上游</text>
+<text x="141" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL31.95</text>
+<rect x="218" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="226" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">11</text>
+<text x="289" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">二沉配水下游</text>
+<text x="289" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL31.50</text>
+<rect x="366" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="374" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">12</text>
+<text x="437" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">二沉主体</text>
+<text x="437" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL31.15</text>
+<rect x="514" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="522" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">13</text>
+<text x="585" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">二沉集水槽</text>
+<text x="585" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL30.95</text>
+<rect x="662" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="670" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">14</text>
+<text x="733" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">接触池入口</text>
+<text x="733" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL30.25</text>
+<rect x="810" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="818" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">15</text>
+<text x="881" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">接触池出口</text>
+<text x="881" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL30.10</text>
+<rect x="958" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="966" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">16</text>
+<text x="1029" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">计量上游</text>
+<text x="1029" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL30.05</text>
+<rect x="1106" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1114" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">17</text>
+<text x="1177" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">计量下游</text>
+<text x="1177" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL29.30</text>
+<rect x="1254" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1262" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">18</text>
+<text x="1325" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">出厂汇合井</text>
+<text x="1325" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL28.95</text>
+<rect x="1402" y="602" width="142" height="96" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1410" y="626" text-anchor="start" font-size="17" font-weight="700" fill="#000000">19</text>
+<text x="1473" y="655" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">东厂界控制井</text>
+<text x="1473" y="682" text-anchor="middle" font-size="19" font-weight="700" fill="#000000">EL28.75</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#000000" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#000000">图中落差含构筑物预算、连接损失、调节及余量；6.05 m不得解释为纯摩擦损失或未经调节的自然水面。</text>
+</svg>

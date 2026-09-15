@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+              <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+              <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#000000"/></marker>
+            </defs>
+<style>
+              text{font-family:"Songti SC","SimSun","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#000000}
+              .title{font-size:38px;font-weight:700}.subtitle{font-size:23px;fill:#000000}
+              .h{font-size:29px;font-weight:700}.body{font-size:24px}.small{font-size:20px}.tiny{font-size:17px}
+            </style>
+<rect width="1600" height="800" fill="#FFFFFF"/>
+<text x="800" y="43" text-anchor="middle" font-size="38" font-weight="700" fill="#000000">图3-1  水线工艺流程及回流、排泥接口</text>
+<text x="800" y="78" text-anchor="middle" font-size="23" font-weight="400" fill="#000000">Q平均=4500 m³/h；Kz=1.50；Q最高时=6750 m³/h；全厂两条并行水线</text>
+<line x1="55" y1="96" x2="1545" y2="96" stroke="#000000" stroke-width="2"/>
+<rect x="65" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="124" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">粗格栅</text>
+<text x="124" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2格</text>
+<rect x="203" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="262" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">进水井/提升</text>
+<text x="262" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2格·6泵4用2备</text>
+<line x1="185" y1="287.5" x2="198" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="341" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="400" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">细格栅</text>
+<text x="400" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2格</text>
+<line x1="323" y1="287.5" x2="336" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="479" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="538" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">曝气沉砂</text>
+<text x="538" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2座</text>
+<line x1="461" y1="287.5" x2="474" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="617" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="676" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">平流初沉</text>
+<text x="676" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">4座</text>
+<line x1="599" y1="287.5" x2="612" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="755" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="814" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">A²/O</text>
+<text x="814" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">4系列</text>
+<line x1="737" y1="287.5" x2="750" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="893" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="952" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">二沉配水</text>
+<text x="952" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2井×4支路</text>
+<line x1="875" y1="287.5" x2="888" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="1031" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1090" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">辐流二沉</text>
+<text x="1090" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">8座D37</text>
+<line x1="1013" y1="287.5" x2="1026" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="1169" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1228" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">接触消毒</text>
+<text x="1228" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2格·NaOCl</text>
+<line x1="1151" y1="287.5" x2="1164" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="1307" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1366" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">长喉计量</text>
+<text x="1366" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">2渠</text>
+<line x1="1289" y1="287.5" x2="1302" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<rect x="1445" y="235" width="118" height="105" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="1504" y="280" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">东厂界</text>
+<text x="1504" y="311" text-anchor="middle" font-size="17" font-weight="400" fill="#000000">DN1500</text>
+<line x1="1427" y1="287.5" x2="1440" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<text x="65" y="195" text-anchor="start" font-size="22" font-weight="700" fill="#000000">北界D1200进水</text>
+<line x1="45" y1="287.5" x2="60" y2="287.5" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
+<polyline points="1090,350 1090,520 814,520 814,345" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arr-brown)"/>
+<text x="952" y="548" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">回流污泥 Q_R=0.75Q；6台4用2备；H=3.0 m</text>
+<polyline points="839,345 839,445 789,445 789,345" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arr-purple)"/>
+<text x="814" y="476" text-anchor="middle" font-size="21" font-weight="700" fill="#000000">混合液内回流 Q_IR=2.50Q；6台4用2备；H=1.2 m</text>
+<rect x="450" y="595" width="225" height="90" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="562.5" y="617" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">甲醇</text>
+<text x="562.5" y="648" text-anchor="middle" font-size="18" font-weight="400" fill="#000000">甲醇加药接口</text>
+<text x="562.5" y="679" text-anchor="middle" font-size="18" font-weight="400" fill="#000000">投加至缺氧区</text>
+<line x1="675" y1="640" x2="799" y2="345" stroke="#000000" stroke-width="3" marker-end="url(#arr-orange)"/>
+<rect x="720" y="595" width="235" height="90" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<text x="837.5" y="617" text-anchor="middle" font-size="23" font-weight="700" fill="#000000">三氯化铁</text>
+<text x="837.5" y="648" text-anchor="middle" font-size="18" font-weight="400" fill="#000000">三氯化铁加药接口</text>
+<text x="837.5" y="679" text-anchor="middle" font-size="18" font-weight="400" fill="#000000">A²/O后、二沉前</text>
+<line x1="840" y1="595" x2="883" y2="345" stroke="#000000" stroke-width="3" marker-end="url(#arr-orange)"/>
+<polyline points="676,345 676,700 1010,700" fill="none" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)" stroke-dasharray="9 6"/>
+<text x="1018" y="707" text-anchor="start" font-size="21" font-weight="400" fill="#000000">初沉污泥与剩余污泥至排泥边界</text>
+<line x1="55" y1="754" x2="1545" y2="754" stroke="#000000" stroke-width="2"/>
+<text x="60" y="783" text-anchor="start" font-size="19" font-weight="400" fill="#000000">流程顺序唯一化：粗格栅→提升→细格栅→沉砂→初沉→A²/O→二沉→接触消毒→计量→东厂界。</text>
+</svg>
