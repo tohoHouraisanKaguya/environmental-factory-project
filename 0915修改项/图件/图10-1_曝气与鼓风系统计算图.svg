@@ -44,7 +44,7 @@
 <line x1="1210" y1="253" x2="1210" y2="300" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)" stroke-dasharray="8 5"/>
 <text x="800" y="282" text-anchor="middle" font-size="22" font-weight="400" fill="#000000"></text>
 <rect x="130" y="315" width="1340" height="330" rx="18" fill="none" stroke="#000000" stroke-width="5"/>
-<text x="800" y="615" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">DN1200环状空气母管（常态最远154 m；单段隔离绕行826 m）</text>
+<text x="800" y="615" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">DN1200环状空气母管（常态最远154 m；隔离绕行长度另行核定）</text>
 <line x1="340" y1="315" x2="340" y2="420" stroke="#000000" stroke-width="4" marker-end="url(#arr-blue)"/>
 <rect x="220" y="420" width="240" height="160" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
 <text x="340" y="449" text-anchor="middle" font-size="25" font-weight="700" fill="#000000">A²/O系列1</text>
