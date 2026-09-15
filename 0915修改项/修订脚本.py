@@ -301,6 +301,11 @@ for f in sorted(svg_src.glob('*.svg')):
             if etree.QName(e).localname=='text' and e.text=='净径D=37 m':e.set('y','675')
     (svg_out/f.name).write_bytes(etree.tostring(root,encoding='utf-8',xml_declaration=True))
 
+# Keep the figure interface points and labels aligned with the September 15 text
+# when the report is regenerated from its source DOCX.
+from 校正图件 import correct_svg_dir
+correct_svg_dir(svg_out)
+
 # Clear annotations/highlights and use the reference's black engineering-book typography.
 for p in doc.paragraphs:
     p.paragraph_format.widow_control=True

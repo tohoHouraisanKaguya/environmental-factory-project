@@ -54,7 +54,7 @@
 <line x1="1310" y1="420" x2="1160" y2="515" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)"/>
 <rect x="90" y="540" width="260" height="100" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
 <text x="220" y="567" text-anchor="middle" font-size="24" font-weight="700" fill="#000000">次氯酸钠</text>
-<text x="220" y="598" text-anchor="middle" font-size="19" font-weight="400" fill="#000000">5 mg/L名义剂量</text>
+<text x="220" y="598" text-anchor="middle" font-size="19" font-weight="400" fill="#000000">以有效氯计5 mg/L</text>
 <text x="220" y="629" text-anchor="middle" font-size="19" font-weight="400" fill="#000000">唯一消毒剂→接触池</text>
 <text x="800" y="700" text-anchor="middle" font-size="21" font-weight="700" fill="#000000">生物固体库存220500 kg；20 d泥龄对应排固11025 kg/d；峰时生物SLR=118.471 kg/(m²·d)。</text>
 <line x1="55" y1="754" x2="1545" y2="754" stroke="#000000" stroke-width="2"/>

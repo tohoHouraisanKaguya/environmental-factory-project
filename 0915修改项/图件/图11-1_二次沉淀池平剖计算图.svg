@@ -21,7 +21,7 @@
 <circle cx="385" cy="390" r="225" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
 <circle cx="385" cy="390" r="36" fill="white" stroke="#000000" stroke-width="3"/>
 <line x1="385" y1="390" x2="585" y2="390" stroke="#000000" stroke-width="4" marker-end="url(#arr-brown)"/>
-<text x="470" y="370" text-anchor="middle" font-size="21" font-weight="700" fill="#000000">刮吸泥机旋转</text>
+<text x="500" y="365" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">刮吸泥机旋转</text>
 <line x1="160" y1="655" x2="610" y2="655" stroke="#000000" stroke-width="1.5"/>
 <line x1="160" y1="647" x2="160" y2="663" stroke="#000000" stroke-width="1.5"/>
 <line x1="610" y1="647" x2="610" y2="663" stroke="#000000" stroke-width="1.5"/>

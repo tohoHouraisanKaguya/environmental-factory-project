@@ -155,7 +155,7 @@
 <text x="322.2" y="646.9" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">MAINT</text>
 <text x="533.1" y="646.9" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">NAOCL</text>
 <text x="628.1" y="647.85" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">CT</text>
-<text x="702.2" y="646.9" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">METER</text>
+<text x="702.2" y="646.9" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">计</text>
 <text x="231" y="177.6" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">FUT</text>
 <text x="155" y="272.6" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">C1</text>
 <text x="345" y="272.6" text-anchor="middle" font-size="16" font-weight="700" fill="#000000">C2</text>
@@ -176,7 +176,7 @@
 <line x1="744" y1="105" x2="744" y2="130" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
 <text x="744" y="97" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">北界进水(360,300)</text>
 <line x1="775" y1="639.9" x2="816" y2="639.9" stroke="#000000" stroke-width="3" marker-end="url(#arr-blue)"/>
-<text x="765" y="629.9" text-anchor="end" font-size="18" font-weight="700" fill="#000000">东界出水</text>
+<text x="790" y="629.9" text-anchor="end" font-size="16" font-weight="700" fill="#000000">东界出水</text>
 <text x="85" y="155" text-anchor="start" font-size="16" font-weight="700" fill="#000000">连续发展用地</text>
 <text x="850" y="185" text-anchor="middle" font-size="22" font-weight="700" fill="#000000">N</text>
 <line x1="850" y1="225" x2="850" y2="193" stroke="#000000" stroke-width="3" marker-end="url(#arr-dark)"/>
@@ -193,12 +193,12 @@
 <text x="985" y="366" text-anchor="start" font-size="22" font-weight="400" fill="#000000">排泥边界</text>
 <line x1="890" y1="400" x2="965" y2="400" stroke="#000000" stroke-width="4" stroke-dasharray="7 5"/>
 <text x="985" y="408" text-anchor="start" font-size="22" font-weight="400" fill="#000000">事故超越</text>
-<text x="890" y="470" text-anchor="start" font-size="22" font-weight="400" fill="#000000">水线：2条并行</text>
+<text x="890" y="470" text-anchor="start" font-size="22" font-weight="400" fill="#000000">水线：2条并行；计=长喉计量渠</text>
 <text x="890" y="500" text-anchor="start" font-size="22" font-weight="400" fill="#000000">平流初沉池：4座58×14.5 m</text>
 <text x="890" y="530" text-anchor="start" font-size="22" font-weight="400" fill="#000000">A²/O：4系列70×45×5 m</text>
 <text x="890" y="560" text-anchor="start" font-size="22" font-weight="400" fill="#000000">二沉：2配水井×4池；8座D37</text>
 <text x="890" y="590" text-anchor="start" font-size="22" font-weight="400" fill="#000000">接触池：2格45×8×4.8 m</text>
-<text x="890" y="620" text-anchor="start" font-size="22" font-weight="400" fill="#000000">道路：6 m环路＋4 m次通道</text>
+<text x="890" y="620" text-anchor="start" font-size="22" font-weight="400" fill="#000000">道路：6 m环路＋3条6 m横向路＋4 m次通道</text>
 <text x="890" y="650" text-anchor="start" font-size="22" font-weight="400" fill="#000000">最不利主水线：826 m</text>
 <text x="890" y="680" text-anchor="start" font-size="22" font-weight="400" fill="#000000">最不利RAS：86 m；空气常态最远154 m</text>
 <text x="890" y="710" text-anchor="start" font-size="22" font-weight="400" fill="#000000">夏季东南来风，无风频风玫瑰</text>
