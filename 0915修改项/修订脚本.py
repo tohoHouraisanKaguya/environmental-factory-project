@@ -358,6 +358,8 @@ for shape,key in zip(doc.inline_shapes,figure_keys):
         rid=shape._inline.graphic.graphicData.pic.blipFill.blip.embed
         doc.part.related_parts[rid]._blob=found[0].read_bytes()
 doc.save(OUTPUT)
+from 原生公式 import apply as apply_native_equations
+apply_native_equations(OUTPUT)
 audit={'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'changed_body_indices':sorted(set(changed)),
  'oxygen_method':'HJ 576—2010表5单位BOD₅需氧量法初算，非完整氮物料衡算',
  'AOR_kg_h':aor,'SOR_kg_h':sor,'air_required_Nm3_h':gn,'air_adopted_Nm3_h':30000,
@@ -366,5 +368,9 @@ audit={'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'changed_
  'solution_effective_chlorine_g_L':100,'solution_peak_m3_h':.3375,'pump_m3_h':.4,'storage_working_m3':40,
  'layout_areas_m2':{'water':37990,'auxiliary_management':5008,'future':2800,'roads':16240,'other':57962,'total':120000},
  'limits':['缺少TKN、进水氨氮、可利用碳源和碱度；未完成氮动力学及定量加药计算','供氧采用原稿转移参数作初算，非厂家性能保证','二沉固体校核不包括未确定的化学固体','厂外水力边界未给，不作厂外假设管线计算']}
+(OUT/'数值核对.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+native=Document(OUTPUT)
+audit['word_equations']={k:len(native.element.xpath('.//m:'+k)) for k in ['oMath','f','sSub','sSup','rad']}
+audit['numbered_formula_blocks']=28
 (OUT/'数值核对.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(str(OUTPUT))
