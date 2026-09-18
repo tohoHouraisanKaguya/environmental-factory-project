@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy": {"permitted_licenses": ["CC0", "CC-BY"], "no_unknown_license": true, "default_texture_resolution": "2k"},
+  "assets": [
+    {"asset_id":"PIPES_PACK_01","name":"Industrial Pipes Pack","source":"https://sketchfab.com/3d-models/industrial-pipes-pack-116baf2d9f3949c482737b08b8e00a75","license":"CC-BY","local_path":"assets/piping/","status":"NEEDS_USER_API_KEY"},
+    {"asset_id":"VALVE_GENERIC_01","name":"Industrial Valve","source":"https://sketchfab.com/3d-models/industrial-valve-cea67369ae50485c9f06ea44cb608b92","license":"CC-BY","local_path":"assets/equipment/valves/","status":"NEEDS_USER_API_KEY"},
+    {"asset_id":"PUMP_CENTRIFUGAL_01","name":"Centrifugal Pump","source":"https://sketchfab.com/3d-models/centrifugal-pump-bomba-centrifuga-a49b7e1567714040826fc6a24c4e8a7d","license":"CC-BY","local_path":"assets/equipment/pumps/","status":"NEEDS_USER_API_KEY","notes":"Not a submersible influent pump."},
+    {"asset_id":"BLOWER_PROXY_01","name":"Industrial Fan","source":"https://sketchfab.com/3d-models/industrial-fan-e6bf7e338b9f4f4e974ae97a9b5542df","license":"CC-BY","local_path":"assets/equipment/blowers/","status":"NEEDS_USER_API_KEY"},
+    {"asset_id":"CHEMICAL_TANK_01","name":"Chemical Tank","source":"https://sketchfab.com/3d-models/chemical-tank-63c001e74ff5402fbcf1338479c9c0c5","license":"CC-BY","local_path":"assets/equipment/chemical_tanks/","status":"NEEDS_USER_API_KEY"},
+    {"asset_id":"STREET_LIGHT_01","name":"Street Light","source":"https://sketchfab.com/3d-models/street-light-lamp-78339c366835415fbc58032e99268590","license":"CC-BY","local_path":"assets/street/","status":"NEEDS_USER_API_KEY"},
+    {"asset_id":"MAT_CONCRETE_01","name":"Concrete","source":"https://polyhaven.com/a/concrete","license":"CC0","local_path":"assets/materials/concrete/polyhaven_concrete_2k/","raw_path":"assets/raw_downloads/polyhaven_concrete_2k/","status":"downloaded","resolution":"2k"},
+    {"asset_id":"MAT_ASPHALT_01","name":"Asphalt Floor","source":"https://polyhaven.com/a/asphalt_floor","license":"CC0","local_path":"assets/materials/asphalt/polyhaven_asphalt_floor_2k/","raw_path":"assets/raw_downloads/polyhaven_asphalt_floor_2k/","status":"downloaded","resolution":"2k"},
+    {"asset_id":"MAT_METAL_01","name":"Metal Plate","source":"https://polyhaven.com/a/metal_plate","license":"CC0","local_path":"assets/materials/metal/polyhaven_metal_plate_2k/","raw_path":"assets/raw_downloads/polyhaven_metal_plate_2k/","status":"downloaded","resolution":"2k"},
+    {"asset_id":"MAT_GRASS_01","name":"Grass Ground","source":"https://polyhaven.com/a/grass_ground","license":"CC0","local_path":"assets/materials/grass/polyhaven_grass_ground_2k/","raw_path":"assets/raw_downloads/polyhaven_grass_ground_2k/","status":"downloaded","resolution":"2k"},
+    {"asset_id":"KENNEY_FACTORY_KIT_01","name":"Factory Kit 3.0","author":"Kenney","source":"https://kenney.nl/assets/factory-kit","license":"CC0","local_path":["assets/equipment/misc/kenney_factory_kit/","assets/equipment/valves/kenney_factory_kit/","assets/piping/kenney_factory_kit/"],"raw_path":"assets/raw_downloads/kenney_factory_kit/","status":"downloaded","notes":"Selected GLB files used as generic industrial visual proxies; not manufacturer-specific equipment."},
+    {"asset_id":"STREET_LIGHT_CC0_01","name":"Street Lamp 02","author":"Josh Dean","source":"https://polyhaven.com/a/street_lamp_02","license":"CC0","local_path":"assets/street/polyhaven_street_lamp_02/","raw_path":"assets/raw_downloads/polyhaven_street_lamp_02/","status":"downloaded","resolution":"1k","notes":"Scaled for plant-road visual use and instanced."}
+  ]
+}

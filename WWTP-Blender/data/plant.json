@@ -1,0 +1,10 @@
+{
+  "project": "CAU Environmental Engineering WWTP Course Design",
+  "units": "m",
+  "site": {"area_hectares": 12.0, "coordinate_system": "local engineering"},
+  "process_flow": ["coarse_screen", "influent_well_pump_station", "fine_screen", "aerated_grit", "primary_clarifier", "a2o", "secondary_distribution", "secondary_clarifier", "contact_tank", "parshall_flume", "outfall"],
+  "excluded_scope": ["sludge_thickening", "sludge_digestion", "sludge_dewatering", "sludge_disposal"],
+  "design_basis": "references/drawings/WWTP_Factory_Plan_R2010_2.dxf",
+  "vertical_data_status": "provisional_white_model_pending_detailed_design_documents",
+  "status": "approved_for_generation"
+}

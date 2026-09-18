@@ -1,0 +1,10 @@
+{
+  "units": "m",
+  "structures": [
+    {"id": "COARSE_SCREEN", "generator": "channels", "count": 2, "status": "pending_dimensions"},
+    {"id": "AERATED_GRIT", "generator": "rectangular_tank", "count": 2, "status": "pending_dimensions"},
+    {"id": "PRIMARY_CLARIFIER", "generator": "rectangular_tank", "count": 4, "status": "pending_dimensions"},
+    {"id": "A2O", "generator": "a2o_basin", "count": 4, "status": "pending_dimensions"},
+    {"id": "SECONDARY_CLARIFIER", "generator": "circular_clarifier", "count": 8, "status": "pending_dimensions"}
+  ]
+}

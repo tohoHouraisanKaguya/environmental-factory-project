@@ -1,0 +1,17 @@
+# Blender backups and temporary data
+*.blend1
+*.blend2
+*.blend@
+*.tmp
+__pycache__/
+*.py[cod]
+
+# Generated deliverables and large sources
+renders/
+exports/
+assets/raw_downloads/
+*.cache
+*.blend.cache
+# Keep the original high-poly download and intermediate LOD outside GitHub.
+assets/vegetation/jacaranda_tree/jacaranda_tree.bin
+assets/vegetation/jacaranda_tree/jacaranda_tree_optimized_95k.blend

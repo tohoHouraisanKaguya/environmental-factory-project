@@ -1,0 +1,475 @@
+{
+  "units": "m",
+  "source": "WWTP_Factory_Plan_R2010_2.dxf",
+  "status": "course_visual_model_not_hydraulic_design",
+  "structures": [
+    {
+      "id": "G1",
+      "kind": "coarse_screen",
+      "bounds": [
+        349.92,
+        278.96,
+        370.08,
+        285.04
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "P",
+      "kind": "wet_well",
+      "bounds": [
+        352.0,
+        252.0,
+        368.0,
+        272.0
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "G2",
+      "kind": "fine_screen",
+      "bounds": [
+        312.24,
+        255.68,
+        335.76,
+        266.32
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "SA",
+      "kind": "grit",
+      "bounds": [
+        192.0,
+        272.1,
+        222.0,
+        275.9
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "SB",
+      "kind": "grit",
+      "bounds": [
+        242.0,
+        272.1,
+        272.0,
+        275.9
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "PDA",
+      "kind": "distribution",
+      "bounds": [
+        95.8,
+        255.2,
+        104.2,
+        262.8
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "PDB",
+      "kind": "distribution",
+      "bounds": [
+        295.8,
+        255.2,
+        304.2,
+        262.8
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "C1",
+      "kind": "primary",
+      "bounds": [
+        21.0,
+        218.75,
+        79.0,
+        233.25
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "C2",
+      "kind": "primary",
+      "bounds": [
+        121.0,
+        218.75,
+        179.0,
+        233.25
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "C3",
+      "kind": "primary",
+      "bounds": [
+        221.0,
+        218.75,
+        279.0,
+        233.25
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "C4",
+      "kind": "primary",
+      "bounds": [
+        321.0,
+        218.75,
+        379.0,
+        233.25
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "B1",
+      "kind": "a2o",
+      "bounds": [
+        15.0,
+        140.5,
+        85.0,
+        185.5
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "B2",
+      "kind": "a2o",
+      "bounds": [
+        115.0,
+        140.5,
+        185.0,
+        185.5
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "B3",
+      "kind": "a2o",
+      "bounds": [
+        215.0,
+        140.5,
+        285.0,
+        185.5
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "B4",
+      "kind": "a2o",
+      "bounds": [
+        315.0,
+        140.5,
+        385.0,
+        185.5
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "DWA",
+      "kind": "distribution",
+      "bounds": [
+        92.44,
+        119.44,
+        107.56,
+        128.56
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "DWB",
+      "kind": "distribution",
+      "bounds": [
+        292.44,
+        119.44,
+        307.56,
+        128.56
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "AIR",
+      "kind": "blower_building",
+      "bounds": [
+        179.84,
+        118.16,
+        220.16,
+        131.84
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "CHEM",
+      "kind": "chemical_building",
+      "bounds": [
+        333.36,
+        118.16,
+        368.64,
+        131.84
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "ADMIN",
+      "kind": "admin",
+      "bounds": [
+        36.08,
+        20.64,
+        99.92,
+        37.36
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "MAINT",
+      "kind": "maintenance",
+      "bounds": [
+        119.52,
+        20.64,
+        156.48,
+        37.36
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "NAOCL",
+      "kind": "dosing",
+      "bounds": [
+        234.72,
+        20.64,
+        263.28,
+        37.36
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "CT",
+      "kind": "contact",
+      "bounds": [
+        276.5,
+        20.5,
+        321.5,
+        36.5
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "METER",
+      "kind": "meter",
+      "bounds": [
+        331.28,
+        20.64,
+        344.72,
+        37.36
+      ],
+      "source": "DXF STRUCT-OUT + text label",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T1",
+      "kind": "secondary",
+      "center": [
+        34.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T2",
+      "kind": "secondary",
+      "center": [
+        78.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T3",
+      "kind": "secondary",
+      "center": [
+        122.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T4",
+      "kind": "secondary",
+      "center": [
+        166.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T5",
+      "kind": "secondary",
+      "center": [
+        234.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T6",
+      "kind": "secondary",
+      "center": [
+        278.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T7",
+      "kind": "secondary",
+      "center": [
+        322.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    },
+    {
+      "id": "T8",
+      "kind": "secondary",
+      "center": [
+        366.0,
+        80.0
+      ],
+      "radius": 18.5,
+      "source": "DXF STRUCT-OUT",
+      "vertical_status": "provisional"
+    }
+  ],
+  "defaults": {
+    "tank_top": 2.0,
+    "tank_bottom": -2.8,
+    "water_level": 1.3,
+    "wall": 0.35,
+    "walkway": 0.8,
+    "rail_height": 1.1,
+    "rail_post_spacing": 2.5,
+    "building_height": 6.5,
+    "admin_height": 9.5
+  },
+  "biology": {
+    "lane_roles": [
+      "anaerobic",
+      "anoxic",
+      "aerobic",
+      "aerobic",
+      "aerobic",
+      "aerobic"
+    ],
+    "lane_partition_status": "provisional teaching interpretation of six DXF lanes; confirm against process design",
+    "diffusers_per_series": 1500,
+    "diameter": 0.229
+  },
+  "render": {
+    "width": 1920,
+    "height": 1280,
+    "samples": 48
+  },
+  "assets": {
+    "tree": "assets/vegetation/jacaranda_tree/jacaranda_tree_1k.gltf",
+    "shrub": "assets/vegetation/shrub_03/shrub_03_1k.gltf",
+    "lamp": "assets/street/polyhaven_street_lamp_02/street_lamp_02_1k.gltf"
+  },
+  "detail": {
+    "window_spacing": 4.5,
+    "window_width": 2.1,
+    "window_height": 1.5,
+    "curb_width": 0.22,
+    "curb_height": 0.18,
+    "fence_height": 1.8,
+    "tree_height": 7.0,
+    "shrub_height": 0.85
+  },
+  "equipment_layout": {
+    "blowers": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "host": "AIR"
+    },
+    "influent_pumps": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "host": "P"
+    },
+    "ras_pumps": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "hosts": [
+        "DWA",
+        "DWB"
+      ]
+    },
+    "internal_recycle_pumps": {
+      "count": 6,
+      "duty": 4,
+      "standby": 2,
+      "hosts": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "allocation": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "allocation_status": "temporary visual allocation; no design duty assignment per series"
+    },
+    "chemical_tanks": {
+      "count": 2,
+      "working_volume": 20,
+      "radius": 1.6,
+      "total_height": 3.2,
+      "host": "NAOCL"
+    }
+  }
+}

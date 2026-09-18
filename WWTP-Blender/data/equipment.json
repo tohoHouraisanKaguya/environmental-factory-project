@@ -1,0 +1,11 @@
+{
+  "units": "m",
+  "equipment": [
+    {"id": "INFLUENT_PUMP", "count": 6, "duty": 4, "standby": 2, "asset_role": "not_submersible_proxy"},
+    {"id": "RAS_PUMP", "count": 6, "duty": 4, "standby": 2},
+    {"id": "INTERNAL_RECYCLE_PUMP", "count": 6, "duty": 4, "standby": 2},
+    {"id": "DISC_AERATOR_229MM", "count": 6000, "series": 4, "per_series": 1500, "instance_required": true},
+    {"id": "CENTRIFUGAL_BLOWER_PROXY", "count": 6, "duty": 4, "standby": 2},
+    {"id": "SODIUM_HYPOCHLORITE_TANK", "count": 2, "working_volume_m3": 20}
+  ]
+}

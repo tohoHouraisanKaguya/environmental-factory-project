@@ -1,0 +1,6 @@
+{
+  "units": "m",
+  "systems": ["WASTEWATER", "SLUDGE_RETURN", "INTERNAL_RECYCLE", "AIR", "CHEMICAL"],
+  "routes": [],
+  "status": "pending_plan_and_hydraulic_design"
+}

@@ -1,0 +1,5 @@
+{
+  "units": "m",
+  "defaults": {"concrete": "MAT_Concrete_Default", "asphalt": "MAT_Asphalt_Default", "metal": "MAT_Metal_Default", "grass": "MAT_Grass_Default"},
+  "external_texture_policy": {"default_resolution": "2k", "closeup_resolution": "4k", "max_default": "2k"}
+}
