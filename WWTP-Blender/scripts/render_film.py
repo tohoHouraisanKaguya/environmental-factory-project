@@ -10,8 +10,12 @@ def arguments():
     p.add_argument('--start',type=int,default=1);p.add_argument('--end',type=int,default=D['frames'])
     p.add_argument('--shot',choices=[s['id'] for s in D['shots']])
     p.add_argument('--qa',action='store_true');p.add_argument('--samples',type=int)
+    p.add_argument('--fast-render',action='store_true',help='Reuse scene data and use OptiX GPU denoising; does not modify the blend file')
+    p.add_argument('--engine',choices=['CYCLES','BLENDER_EEVEE'],default='CYCLES')
+    p.add_argument('--frame-step',type=int,choices=[1,2,3,4],default=1,help='Render every Nth frame and linearly blend missing frames within each shot')
     p.add_argument('--scale',type=int,default=100);p.add_argument('--output',type=Path)
     p.add_argument('--encode',action='store_true');p.add_argument('--ffmpeg',default='ffmpeg')
+    p.add_argument('--encode-preset',choices=['veryfast','fast','medium','slow'],default='slow')
     p.add_argument('--worker',action='store_true')
     a=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else None)
     if not 1<=a.start<=a.end<=D['frames']:p.error('Invalid frame interval')
@@ -23,12 +27,21 @@ def arguments():
 def selected(a):
     shots=[s for s in D['shots'] if not a.shot or s['id']==a.shot]
     if a.qa:return sorted({round(s['start']+(s['end']-s['start'])*.2) for s in shots}|{round((s['dry_start']+s['dry_end'])/2) for s in shots})
-    return [f for s in shots for f in range(max(a.start,s['start']),min(a.end,s['end'])+1)]
+    frames=[]
+    for s in shots:
+        lo=max(a.start,s['start']);hi=min(a.end,s['end'])
+        if lo<=hi:frames.extend(sorted(set(range(lo,hi+1,a.frame_step))|{hi}))
+    return frames
+
+def output_frames(a):
+    if a.qa:return selected(a)
+    return [f for s in D['shots'] if not a.shot or s['id']==a.shot for f in range(max(a.start,s['start']),min(a.end,s['end'])+1)]
 
 def worker(a):
     import bpy
     bpy.ops.wm.open_mainfile(filepath=str(R/'blender/plant_film.blend'))
     s=bpy.context.scene
+    s.render.engine=a.engine
     if a.device!='CPU':
         prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type=a.device;prefs.refresh_devices()
         devices=[d for d in prefs.devices if d.type==a.device]
@@ -37,14 +50,32 @@ def worker(a):
         s.cycles.device='GPU'
     else:s.cycles.device='CPU'
     s.cycles.samples=a.samples or (12 if a.qa else D['samples'])
+    if a.engine=='BLENDER_EEVEE':s.eevee.taa_render_samples=s.cycles.samples
+    if a.fast_render:
+        if a.device!='OPTIX':raise RuntimeError('--fast-render requires OPTIX')
+        s.render.use_persistent_data=True
+        s.cycles.denoiser='OPTIX'
+        s.cycles.denoising_use_gpu=True
+        s.render.image_settings.compression=0
     s.render.resolution_percentage= a.scale if not a.qa else 17
-    # Set camera explicitly per shot even when rendering a disjoint frame subset.
-    for f in selected(a):
-        path=a.output/'raw'/f'{f:06}.png'
-        if path.exists():continue
-        sh=next(x for x in D['shots'] if x['start']<=f<=x['end'])
-        s.frame_set(f);s.camera=bpy.data.objects['FILM_CAM_'+sh['id']]
-        s.render.filepath=str(path);bpy.ops.render.render(write_still=True)
+    # Group adjacent missing frames within each shot. Animation rendering avoids
+    # rebuilding the render session for every still, without skipping any frames.
+    pending=[f for f in selected(a) if not (a.output/'raw'/f'{f:06}.png').exists()]
+    if a.fast_render and not a.qa:
+        from itertools import groupby
+        for sh in D['shots']:
+            shot_frames=[f for f in pending if sh['start']<=f<=sh['end']]
+            for _,group in groupby(enumerate(shot_frames),lambda pair:pair[1]-pair[0]*a.frame_step):
+                batch=[f for _,f in group]
+                s.frame_start=batch[0];s.frame_end=batch[-1];s.frame_step=a.frame_step
+                s.frame_set(batch[0]);s.camera=bpy.data.objects['FILM_CAM_'+sh['id']]
+                s.render.filepath=str(a.output/'raw'/'######')
+                bpy.ops.render.render(animation=True)
+    else:
+        for f in pending:
+            sh=next(x for x in D['shots'] if x['start']<=f<=x['end'])
+            s.frame_set(f);s.camera=bpy.data.objects['FILM_CAM_'+sh['id']]
+            s.render.filepath=str(a.output/'raw'/f'{f:06}.png');bpy.ops.render.render(write_still=True)
     # Audit after reopening, including paths and moving mechanisms in later shots.
     missing=[im.name for im in bpy.data.images if im.source=='FILE' and not im.packed_file and not Path(bpy.path.abspath(im.filepath)).exists()]
     motion={}
@@ -62,7 +93,7 @@ def worker(a):
             if any(o.name.startswith(prefix) for prefix in sh['water']) and o.type=='MESH' and not o.hide_render:
                 factors=[n.inputs[0].default_value for m in o.data.materials if m and m.use_nodes for n in m.node_tree.nodes if n.type=='MIX_SHADER' and any(link.from_node.type=='BSDF_TRANSPARENT' for link in n.inputs[2].links)]
                 reveals.append({'shot':sh['id'],'object':o.name,'fully_hidden':bool(factors) and all(v>.999 for v in factors)})
-    audit={'invalid_drivers':invalid_drivers,'water_reveals':reveals,'missing_images':missing,'motion_objects':len(motion),'stationary_motion_objects':stuck,'frames':D['frames'],'fps':s.render.fps,'device':a.device,'samples':s.cycles.samples,'rendered_frames':selected(a)}
+    audit={'invalid_drivers':invalid_drivers,'water_reveals':reveals,'missing_images':missing,'motion_objects':len(motion),'stationary_motion_objects':stuck,'frames':D['frames'],'fps':s.render.fps,'device':a.device,'engine':s.render.engine,'resolution':[s.render.resolution_x*s.render.resolution_percentage//100,s.render.resolution_y*s.render.resolution_percentage//100],'samples':s.cycles.samples,'rendered_frames':selected(a)}
     (a.output/'validation.json').write_text(json.dumps(audit,indent=2),encoding='utf8')
     assert not missing and not stuck and not invalid_drivers and all(x['fully_hidden'] for x in reveals),audit
 
@@ -71,6 +102,9 @@ def main():
     if a.worker:return worker(a)
     from PIL import Image,ImageDraw
     settings={'qa':a.qa,'scale':a.scale,'samples':a.samples or (12 if a.qa else D['samples']),'blend_sha256':hashlib.sha256((R/'blender/plant_film.blend').read_bytes()).hexdigest(),'config_sha256':hashlib.sha256((R/'data/film.json').read_bytes()).hexdigest()}
+    if a.fast_render:settings['fast_render']={'persistent_data':True,'denoiser':'OPTIX','denoising_use_gpu':True,'png_compression':0}
+    if a.engine!='CYCLES':settings['engine']=a.engine
+    if a.frame_step!=1:settings['temporal_sampling']={'frame_step':a.frame_step,'interpolation':'linear_within_shot'}
     settings_file=a.output/'settings.json'
     if settings_file.exists() and json.loads(settings_file.read_text())!=settings:raise RuntimeError('Output contains a different render configuration. Choose another --output directory.')
     settings_file.write_text(json.dumps(settings,indent=2))
@@ -85,15 +119,29 @@ def main():
         cmd=[a.blender,'-b','--factory-startup','--python-exit-code','1','--python',str(Path(__file__).resolve()),'--']+sys.argv[1:]+['--worker']
         subprocess.run(cmd,check=True)
         frames=a.output/'frames';frames.mkdir(exist_ok=True)
-        for f in selected(a):
+        from bisect import bisect_left
+        available=selected(a)
+        def caption_frame(f):
             sh=next(s for s in D['shots'] if s['start']<=f<=s['end'])
             mode='dry' if sh['dry_start']<=f<=sh['dry_end'] else 'wet'
-            with Image.open(a.output/'raw'/f'{f:06}.png') as source:
-                im=source.convert('RGBA');ratio=im.width/3840
-                with Image.open(R/'assets/video_captions'/f'{sh["id"]}_{mode}.png') as cap:
-                    cap=cap.resize((round(cap.width*ratio),round(cap.height*ratio)),Image.Resampling.LANCZOS)
-                    im.alpha_composite(cap,(round(90*ratio),im.height-cap.height-round(70*ratio)))
-                temp=frames/f'{f:06}.tmp.png';im.convert('RGB').save(temp);temp.replace(frames/f'{f:06}.png')
+            pos=bisect_left(available,f)
+            if pos<len(available) and available[pos]==f:
+                with Image.open(a.output/'raw'/f'{f:06}.png') as source:im=source.convert('RGBA')
+            else:
+                lo,hi=available[pos-1],available[pos]
+                assert sh['start']<=lo<f<hi<=sh['end'],'Cannot interpolate across a shot cut'
+                with Image.open(a.output/'raw'/f'{lo:06}.png') as left,Image.open(a.output/'raw'/f'{hi:06}.png') as right:
+                    im=Image.blend(left.convert('RGBA'),right.convert('RGBA'),(f-lo)/(hi-lo))
+            ratio=im.width/3840
+            with Image.open(R/'assets/video_captions'/f'{sh["id"]}_{mode}.png') as cap:
+                cap=cap.resize((round(cap.width*ratio),round(cap.height*ratio)),Image.Resampling.LANCZOS)
+                im.alpha_composite(cap,(round(90*ratio),im.height-cap.height-round(70*ratio)))
+            temp=frames/f'{f:06}.tmp.png';im.convert('RGB').save(temp,compress_level=1 if a.fast_render else 6);temp.replace(frames/f'{f:06}.png')
+        if a.fast_render:
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(caption_frame,output_frames(a)))
+        else:
+            for f in output_frames(a):caption_frame(f)
         if a.qa:
             files=[frames/f'{f:06}.png' for f in selected(a)]
             sheet=Image.new('RGB',(960,290*((len(files)+1)//2)),(20,24,27));draw=ImageDraw.Draw(sheet)
@@ -106,5 +154,5 @@ def main():
         if absent:raise RuntimeError(f'Cannot encode: {len(absent)} frames missing, first {absent[:5]}')
         for f in range(1,D['frames']+1):
             with Image.open(a.output/'frames'/f'{f:06}.png') as im:im.verify()
-        subprocess.run([a.ffmpeg,'-n','-framerate','24','-start_number','1','-i',str(a.output/'frames/%06d.png'),'-frames:v','6480','-c:v','libx264','-preset','slow','-crf','17','-pix_fmt','yuv420p','-movflags','+faststart',str(a.output/'wwtp-process-4m30s.mp4')],check=True)
+        subprocess.run([a.ffmpeg,'-n','-framerate','24','-start_number','1','-i',str(a.output/'frames/%06d.png'),'-frames:v','6480','-c:v','libx264','-preset',a.encode_preset,'-crf','17','-pix_fmt','yuv420p','-movflags','+faststart',str(a.output/'wwtp-process-4m30s.mp4')],check=True)
 if __name__=='__main__':main()
