@@ -1,0 +1,11 @@
+{
+  "schema_version":1,
+  "local_water_z":1.3,
+  "absolute_elevations_status":"Pending plant-wide datum reconciliation; local water level retained from previous model.",
+  "construction":{"wall":0.35,"slab":0.3,"freeboard":0.7,"walkway":1.0,"rail_height":1.1,"rail_spacing":2.0,"rail_radius":0.025,"post_radius":0.035,"bridge_width":1.2,"bridge_depth":0.25,"stair_width":1.2,"stair_tread":0.28,"stair_max_rise":0.18},
+  "a2o":{"length":70,"width":45,"water_depth":5,"lanes":6,"baffle_thickness":0.25,"turn_opening":2.5,"zone_paths":[45,144,231],"diffusers_per_series":1500,"diffuser_diameter":0.229,"diffuser_thickness":0.045,"diffuser_floor_clearance":0.25,"air_lateral_radius":0.025,"air_header_radius":0.08,"mixers_per_nonoxic_segment":2,"mixer_radius":0.35,"source":"Revised group04 2026-09-13; 70x45x5; 45/144/231 m equivalent zone paths. Baffle geometry and mixer arrangement are provisional."},
+  "primary":{"water_depth":3.5,"floor_slope":0.01,"hopper_length":3,"hopper_bottom_length":0.8,"hopper_depth":2,"bridge_fraction":0.55,"bridge_panels":8,"outlet_trough_width":0.7,"weir_pitch":0.25,"source":"Revised group05 2026-09-13; 58x14.5; transverse full-width sludge hopper; travelling width-spanning bridge."},
+  "contact":{"cells":2,"length":45,"net_lane_width":2,"lanes_per_cell":4,"water_depth":4.8,"baffle_thickness":0.2,"turn_opening":2,"source":"Revised group06 2026-09-13; 2 cells of 45x8 net; 3 baffles per cell require 8.6 m internal structural width."},
+  "zone_opening":{"width":1.5,"height":1.2,"bottom_clearance":0.3},
+  "visual_detail_status":"Railings, drive housings, gratings, access stairs, mixers, turn openings and local pipe routing are schematic presentation details, not fabrication drawings. No manufacturer claims."
+}

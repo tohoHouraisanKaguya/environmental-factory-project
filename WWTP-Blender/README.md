@@ -24,3 +24,7 @@ exec(open(r"E:\AI\WWTP-Blender\scripts\build_test_scene.py", encoding="utf-8").r
 ```
 
 The test script creates, previews, saves the project file, then removes its `TEST` collection. `build_plant.py` is deliberately a scaffold until formal design data is supplied.
+
+## 流程电影渲染工程
+
+最新视频入口为 `blender/plant_film.blend`，详见 [跨终端渲染说明](docs/FILM_RENDER_GUIDE.md)。运行 `python scripts/render_film.py --qa` 检查镜头，再在目标 GPU 终端渲染全片。成片规格为 4 分 30 秒、4K、24 fps；使用 PNG 序列续渲，最后合成 MP4。

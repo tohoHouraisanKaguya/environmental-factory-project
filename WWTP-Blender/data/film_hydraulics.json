@@ -1,0 +1,3450 @@
+{
+  "units": "m",
+  "revision": "PDF-v2 corrected",
+  "status": "PDF main topology, labelled DN sizes and systems; unlabelled diameters and all pipe elevations remain presentation assumptions. NAOCL/main-line graphic overlap separated; no flow through chemical storage.",
+  "channel_wall": 0.22,
+  "channel_depth": 1.8,
+  "freeboard": 0.55,
+  "pipe_wall": 0.035,
+  "routes": [
+    {
+      "id": "inlet",
+      "source": "INLET",
+      "target": "G1",
+      "points": [
+        [
+          360,
+          300,
+          0.2
+        ],
+        [
+          360,
+          284.15,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF north inlet DN1200"
+    },
+    {
+      "id": "coarse_to_pump",
+      "source": "G1",
+      "target": "P",
+      "points": [
+        [
+          360,
+          279.85,
+          0.2
+        ],
+        [
+          360,
+          271.8,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_to_fine",
+      "source": "P",
+      "target": "G2",
+      "points": [
+        [
+          357.2,
+          262,
+          0.2
+        ],
+        [
+          343,
+          262,
+          0.2
+        ],
+        [
+          343,
+          261,
+          0.2
+        ],
+        [
+          334.9,
+          261,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "fine_split",
+      "source": "G2",
+      "target": "SPLIT",
+      "points": [
+        [
+          313.1,
+          261,
+          0.2
+        ],
+        [
+          286,
+          261,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "split_riser",
+      "source": "SPLIT",
+      "target": "PRE_HEADER",
+      "points": [
+        [
+          286,
+          261,
+          0.2
+        ],
+        [
+          286,
+          261,
+          -1
+        ],
+        [
+          286,
+          282,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SA_feed",
+      "source": "PRE_HEADER",
+      "target": "SA",
+      "points": [
+        [
+          286,
+          282,
+          -1
+        ],
+        [
+          224,
+          282,
+          -1
+        ],
+        [
+          224,
+          274,
+          -1
+        ],
+        [
+          221.8,
+          274,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SA_out",
+      "source": "SA",
+      "target": "PDA",
+      "points": [
+        [
+          192.2,
+          274,
+          -1
+        ],
+        [
+          180,
+          274,
+          -1
+        ],
+        [
+          180,
+          264,
+          -1
+        ],
+        [
+          100,
+          264,
+          -1
+        ],
+        [
+          100,
+          262.5,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF A/B DN1200; envelope endpoints extended to actual walls"
+    },
+    {
+      "id": "SB_feed",
+      "source": "PRE_HEADER",
+      "target": "SB",
+      "points": [
+        [
+          286,
+          282,
+          -1
+        ],
+        [
+          274,
+          282,
+          -1
+        ],
+        [
+          274,
+          274,
+          -1
+        ],
+        [
+          271.8,
+          274,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SB_out",
+      "source": "SB",
+      "target": "PDB",
+      "points": [
+        [
+          242.2,
+          274,
+          -1
+        ],
+        [
+          240,
+          274,
+          -1
+        ],
+        [
+          240,
+          264,
+          -1
+        ],
+        [
+          300,
+          264,
+          -1
+        ],
+        [
+          300,
+          261,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF A/B DN1200; envelope endpoints extended to actual walls"
+    },
+    {
+      "id": "C1_feed",
+      "source": "PDA",
+      "target": "C1",
+      "points": [
+        [
+          100,
+          255.4,
+          -1
+        ],
+        [
+          100,
+          250,
+          -1
+        ],
+        [
+          50,
+          250,
+          -1
+        ],
+        [
+          50,
+          233,
+          -1
+        ],
+        [
+          22.2,
+          233,
+          -1
+        ],
+        [
+          22.2,
+          226,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C1_to_B1",
+      "source": "C1",
+      "target": "B1",
+      "points": [
+        [
+          77.7,
+          226,
+          -1
+        ],
+        [
+          50,
+          226,
+          -1
+        ],
+        [
+          50,
+          218.5,
+          -1
+        ],
+        [
+          50,
+          185.2,
+          -1
+        ],
+        [
+          83.8,
+          185.2,
+          -1
+        ],
+        [
+          83.8,
+          181.75,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B1_out",
+      "source": "B1",
+      "target": "DWA",
+      "points": [
+        [
+          83.8,
+          144.25,
+          -1
+        ],
+        [
+          83.8,
+          140.8,
+          -1
+        ],
+        [
+          50,
+          140.8,
+          -1
+        ],
+        [
+          50,
+          134,
+          -1
+        ],
+        [
+          100,
+          134,
+          -1
+        ],
+        [
+          100,
+          126,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_1",
+      "source": "DWA",
+      "target": "B1",
+      "points": [
+        [
+          100,
+          124,
+          -1.7
+        ],
+        [
+          100,
+          191,
+          -1.7
+        ],
+        [
+          83.8,
+          191,
+          -1.7
+        ],
+        [
+          83.8,
+          181.75,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_1",
+      "source": "B1",
+      "target": "B1",
+      "points": [
+        [
+          16.200000000000003,
+          141.5,
+          -1.8
+        ],
+        [
+          16.200000000000003,
+          141.5,
+          2.7
+        ],
+        [
+          13,
+          141.5,
+          2.7
+        ],
+        [
+          13,
+          174,
+          2.7
+        ],
+        [
+          22,
+          174,
+          2.7
+        ],
+        [
+          22,
+          174,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [
+        "recycle"
+      ],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_1",
+      "source": "C1",
+      "target": "SL_PRIMARY",
+      "points": [
+        [
+          22.2,
+          226,
+          -4.2
+        ],
+        [
+          22.2,
+          212,
+          -4.2
+        ],
+        [
+          0,
+          212,
+          -4.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C2_feed",
+      "source": "PDA",
+      "target": "C2",
+      "points": [
+        [
+          100,
+          255.4,
+          -1
+        ],
+        [
+          100,
+          250,
+          -1
+        ],
+        [
+          150,
+          250,
+          -1
+        ],
+        [
+          150,
+          233,
+          -1
+        ],
+        [
+          122.2,
+          233,
+          -1
+        ],
+        [
+          122.2,
+          226,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C2_to_B2",
+      "source": "C2",
+      "target": "B2",
+      "points": [
+        [
+          177.7,
+          226,
+          -1
+        ],
+        [
+          150,
+          226,
+          -1
+        ],
+        [
+          150,
+          218.5,
+          -1
+        ],
+        [
+          150,
+          185.2,
+          -1
+        ],
+        [
+          183.8,
+          185.2,
+          -1
+        ],
+        [
+          183.8,
+          181.75,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B2_out",
+      "source": "B2",
+      "target": "DWA",
+      "points": [
+        [
+          183.8,
+          144.25,
+          -1
+        ],
+        [
+          183.8,
+          140.8,
+          -1
+        ],
+        [
+          150,
+          140.8,
+          -1
+        ],
+        [
+          150,
+          134,
+          -1
+        ],
+        [
+          100,
+          134,
+          -1
+        ],
+        [
+          100,
+          126,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_2",
+      "source": "DWA",
+      "target": "B2",
+      "points": [
+        [
+          100,
+          124,
+          -1.7
+        ],
+        [
+          100,
+          191,
+          -1.7
+        ],
+        [
+          183.8,
+          191,
+          -1.7
+        ],
+        [
+          183.8,
+          181.75,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_2",
+      "source": "B2",
+      "target": "B2",
+      "points": [
+        [
+          116.2,
+          141.5,
+          -1.8
+        ],
+        [
+          116.2,
+          141.5,
+          2.7
+        ],
+        [
+          113,
+          141.5,
+          2.7
+        ],
+        [
+          113,
+          174,
+          2.7
+        ],
+        [
+          122,
+          174,
+          2.7
+        ],
+        [
+          122,
+          174,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [
+        "recycle"
+      ],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_2",
+      "source": "C2",
+      "target": "SL_PRIMARY",
+      "points": [
+        [
+          122.2,
+          226,
+          -4.2
+        ],
+        [
+          122.2,
+          212,
+          -4.2
+        ],
+        [
+          0,
+          212,
+          -4.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C3_feed",
+      "source": "PDB",
+      "target": "C3",
+      "points": [
+        [
+          300,
+          255.4,
+          -1
+        ],
+        [
+          300,
+          250,
+          -1
+        ],
+        [
+          250,
+          250,
+          -1
+        ],
+        [
+          250,
+          233,
+          -1
+        ],
+        [
+          222.2,
+          233,
+          -1
+        ],
+        [
+          222.2,
+          226,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C3_to_B3",
+      "source": "C3",
+      "target": "B3",
+      "points": [
+        [
+          277.7,
+          226,
+          -1
+        ],
+        [
+          250,
+          226,
+          -1
+        ],
+        [
+          250,
+          218.5,
+          -1
+        ],
+        [
+          250,
+          185.2,
+          -1
+        ],
+        [
+          283.8,
+          185.2,
+          -1
+        ],
+        [
+          283.8,
+          181.75,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B3_out",
+      "source": "B3",
+      "target": "DWB",
+      "points": [
+        [
+          283.8,
+          144.25,
+          -1
+        ],
+        [
+          283.8,
+          140.8,
+          -1
+        ],
+        [
+          250,
+          140.8,
+          -1
+        ],
+        [
+          250,
+          134,
+          -1
+        ],
+        [
+          300,
+          134,
+          -1
+        ],
+        [
+          300,
+          126,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_3",
+      "source": "DWB",
+      "target": "B3",
+      "points": [
+        [
+          300,
+          124,
+          -1.7
+        ],
+        [
+          300,
+          191,
+          -1.7
+        ],
+        [
+          283.8,
+          191,
+          -1.7
+        ],
+        [
+          283.8,
+          181.75,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_3",
+      "source": "B3",
+      "target": "B3",
+      "points": [
+        [
+          216.2,
+          141.5,
+          -1.8
+        ],
+        [
+          216.2,
+          141.5,
+          2.7
+        ],
+        [
+          213,
+          141.5,
+          2.7
+        ],
+        [
+          213,
+          174,
+          2.7
+        ],
+        [
+          222,
+          174,
+          2.7
+        ],
+        [
+          222,
+          174,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [
+        "recycle"
+      ],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_3",
+      "source": "C3",
+      "target": "SL_PRIMARY",
+      "points": [
+        [
+          222.2,
+          226,
+          -4.2
+        ],
+        [
+          222.2,
+          212,
+          -4.2
+        ],
+        [
+          0,
+          212,
+          -4.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C4_feed",
+      "source": "PDB",
+      "target": "C4",
+      "points": [
+        [
+          300,
+          255.4,
+          -1
+        ],
+        [
+          300,
+          250,
+          -1
+        ],
+        [
+          350,
+          250,
+          -1
+        ],
+        [
+          350,
+          233,
+          -1
+        ],
+        [
+          322.2,
+          233,
+          -1
+        ],
+        [
+          322.2,
+          226,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C4_to_B4",
+      "source": "C4",
+      "target": "B4",
+      "points": [
+        [
+          377.7,
+          226,
+          -1
+        ],
+        [
+          350,
+          226,
+          -1
+        ],
+        [
+          350,
+          218.5,
+          -1
+        ],
+        [
+          350,
+          185.2,
+          -1
+        ],
+        [
+          383.8,
+          185.2,
+          -1
+        ],
+        [
+          383.8,
+          181.75,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "primary",
+      "shots": [],
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B4_out",
+      "source": "B4",
+      "target": "DWB",
+      "points": [
+        [
+          383.8,
+          144.25,
+          -1
+        ],
+        [
+          383.8,
+          140.8,
+          -1
+        ],
+        [
+          350,
+          140.8,
+          -1
+        ],
+        [
+          350,
+          134,
+          -1
+        ],
+        [
+          300,
+          134,
+          -1
+        ],
+        [
+          300,
+          126,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_4",
+      "source": "DWB",
+      "target": "B4",
+      "points": [
+        [
+          300,
+          124,
+          -1.7
+        ],
+        [
+          300,
+          191,
+          -1.7
+        ],
+        [
+          383.8,
+          191,
+          -1.7
+        ],
+        [
+          383.8,
+          181.75,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_4",
+      "source": "B4",
+      "target": "B4",
+      "points": [
+        [
+          316.2,
+          141.5,
+          -1.8
+        ],
+        [
+          316.2,
+          141.5,
+          2.7
+        ],
+        [
+          313,
+          141.5,
+          2.7
+        ],
+        [
+          313,
+          174,
+          2.7
+        ],
+        [
+          322,
+          174,
+          2.7
+        ],
+        [
+          322,
+          174,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [
+        "recycle"
+      ],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_4",
+      "source": "C4",
+      "target": "SL_PRIMARY",
+      "points": [
+        [
+          322.2,
+          226,
+          -4.2
+        ],
+        [
+          322.2,
+          212,
+          -4.2
+        ],
+        [
+          0,
+          212,
+          -4.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T1_feed",
+      "source": "DWA",
+      "target": "T1",
+      "points": [
+        [
+          100,
+          121,
+          -1.4
+        ],
+        [
+          100,
+          105,
+          -1.4
+        ],
+        [
+          34,
+          105,
+          -1.4
+        ],
+        [
+          34,
+          80,
+          -1.4
+        ],
+        [
+          34,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T1_out",
+      "source": "T1",
+      "target": "EFF_A",
+      "points": [
+        [
+          34,
+          63.4,
+          0.6
+        ],
+        [
+          34,
+          61,
+          0.6
+        ],
+        [
+          34,
+          61,
+          -1
+        ],
+        [
+          34,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T1_sludge",
+      "source": "T1",
+      "target": "DWA",
+      "points": [
+        [
+          34,
+          80,
+          -3.9
+        ],
+        [
+          34,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T2_feed",
+      "source": "DWA",
+      "target": "T2",
+      "points": [
+        [
+          100,
+          121,
+          -1.4
+        ],
+        [
+          100,
+          105,
+          -1.4
+        ],
+        [
+          78,
+          105,
+          -1.4
+        ],
+        [
+          78,
+          80,
+          -1.4
+        ],
+        [
+          78,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T2_out",
+      "source": "T2",
+      "target": "EFF_A",
+      "points": [
+        [
+          78,
+          63.4,
+          0.6
+        ],
+        [
+          78,
+          61,
+          0.6
+        ],
+        [
+          78,
+          61,
+          -1
+        ],
+        [
+          78,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T2_sludge",
+      "source": "T2",
+      "target": "DWA",
+      "points": [
+        [
+          78,
+          80,
+          -3.9
+        ],
+        [
+          78,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T3_feed",
+      "source": "DWA",
+      "target": "T3",
+      "points": [
+        [
+          100,
+          121,
+          -1.4
+        ],
+        [
+          100,
+          105,
+          -1.4
+        ],
+        [
+          122,
+          105,
+          -1.4
+        ],
+        [
+          122,
+          80,
+          -1.4
+        ],
+        [
+          122,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T3_out",
+      "source": "T3",
+      "target": "EFF_A",
+      "points": [
+        [
+          122,
+          63.4,
+          0.6
+        ],
+        [
+          122,
+          61,
+          0.6
+        ],
+        [
+          122,
+          61,
+          -1
+        ],
+        [
+          122,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T3_sludge",
+      "source": "T3",
+      "target": "DWA",
+      "points": [
+        [
+          122,
+          80,
+          -3.9
+        ],
+        [
+          122,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T4_feed",
+      "source": "DWA",
+      "target": "T4",
+      "points": [
+        [
+          100,
+          121,
+          -1.4
+        ],
+        [
+          100,
+          105,
+          -1.4
+        ],
+        [
+          166,
+          105,
+          -1.4
+        ],
+        [
+          166,
+          80,
+          -1.4
+        ],
+        [
+          166,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T4_out",
+      "source": "T4",
+      "target": "EFF_A",
+      "points": [
+        [
+          166,
+          63.4,
+          0.6
+        ],
+        [
+          166,
+          61,
+          0.6
+        ],
+        [
+          166,
+          61,
+          -1
+        ],
+        [
+          166,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T4_sludge",
+      "source": "T4",
+      "target": "DWA",
+      "points": [
+        [
+          166,
+          80,
+          -3.9
+        ],
+        [
+          166,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          112,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -3.9
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T5_feed",
+      "source": "DWB",
+      "target": "T5",
+      "points": [
+        [
+          300,
+          121,
+          -1.4
+        ],
+        [
+          300,
+          105,
+          -1.4
+        ],
+        [
+          234,
+          105,
+          -1.4
+        ],
+        [
+          234,
+          80,
+          -1.4
+        ],
+        [
+          234,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T5_out",
+      "source": "T5",
+      "target": "EFF_B",
+      "points": [
+        [
+          234,
+          63.4,
+          0.6
+        ],
+        [
+          234,
+          61,
+          0.6
+        ],
+        [
+          234,
+          61,
+          -1
+        ],
+        [
+          234,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T5_sludge",
+      "source": "T5",
+      "target": "DWB",
+      "points": [
+        [
+          234,
+          80,
+          -3.9
+        ],
+        [
+          234,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T6_feed",
+      "source": "DWB",
+      "target": "T6",
+      "points": [
+        [
+          300,
+          121,
+          -1.4
+        ],
+        [
+          300,
+          105,
+          -1.4
+        ],
+        [
+          278,
+          105,
+          -1.4
+        ],
+        [
+          278,
+          80,
+          -1.4
+        ],
+        [
+          278,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T6_out",
+      "source": "T6",
+      "target": "EFF_B",
+      "points": [
+        [
+          278,
+          63.4,
+          0.6
+        ],
+        [
+          278,
+          61,
+          0.6
+        ],
+        [
+          278,
+          61,
+          -1
+        ],
+        [
+          278,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T6_sludge",
+      "source": "T6",
+      "target": "DWB",
+      "points": [
+        [
+          278,
+          80,
+          -3.9
+        ],
+        [
+          278,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T7_feed",
+      "source": "DWB",
+      "target": "T7",
+      "points": [
+        [
+          300,
+          121,
+          -1.4
+        ],
+        [
+          300,
+          105,
+          -1.4
+        ],
+        [
+          322,
+          105,
+          -1.4
+        ],
+        [
+          322,
+          80,
+          -1.4
+        ],
+        [
+          322,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T7_out",
+      "source": "T7",
+      "target": "EFF_B",
+      "points": [
+        [
+          322,
+          63.4,
+          0.6
+        ],
+        [
+          322,
+          61,
+          0.6
+        ],
+        [
+          322,
+          61,
+          -1
+        ],
+        [
+          322,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T7_sludge",
+      "source": "T7",
+      "target": "DWB",
+      "points": [
+        [
+          322,
+          80,
+          -3.9
+        ],
+        [
+          322,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T8_feed",
+      "source": "DWB",
+      "target": "T8",
+      "points": [
+        [
+          300,
+          121,
+          -1.4
+        ],
+        [
+          300,
+          105,
+          -1.4
+        ],
+        [
+          366,
+          105,
+          -1.4
+        ],
+        [
+          366,
+          80,
+          -1.4
+        ],
+        [
+          366,
+          80,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T8_out",
+      "source": "T8",
+      "target": "EFF_B",
+      "points": [
+        [
+          366,
+          63.4,
+          0.6
+        ],
+        [
+          366,
+          61,
+          0.6
+        ],
+        [
+          366,
+          61,
+          -1
+        ],
+        [
+          366,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T8_sludge",
+      "source": "T8",
+      "target": "DWB",
+      "points": [
+        [
+          366,
+          80,
+          -3.9
+        ],
+        [
+          366,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          112,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -3.9
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "effluent_A",
+      "source": "EFF_A",
+      "target": "EFFLUENT",
+      "points": [
+        [
+          34,
+          52,
+          -1
+        ],
+        [
+          270,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF A effluent DN1200"
+    },
+    {
+      "id": "effluent_B",
+      "source": "EFF_B",
+      "target": "EFFLUENT",
+      "points": [
+        [
+          234,
+          52,
+          -1
+        ],
+        [
+          366,
+          52,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.2,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF B effluent DN1200"
+    },
+    {
+      "id": "effluent_to_contact",
+      "source": "EFFLUENT",
+      "target": "CT_IN",
+      "points": [
+        [
+          270,
+          52,
+          -1
+        ],
+        [
+          274,
+          52,
+          -1
+        ],
+        [
+          274,
+          29,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.5,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF merged flow; routed outside NAOCL footprint, dosing is a separate branch"
+    },
+    {
+      "id": "CT1_feed",
+      "source": "CT_IN",
+      "target": "CT",
+      "points": [
+        [
+          274,
+          29,
+          -1
+        ],
+        [
+          274,
+          24,
+          -1
+        ],
+        [
+          278,
+          24,
+          -1
+        ],
+        [
+          278,
+          20.725,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT1_out",
+      "source": "CT",
+      "target": "METER",
+      "points": [
+        [
+          278,
+          27.325,
+          0.2
+        ],
+        [
+          320.5,
+          27.325,
+          0.2
+        ],
+        [
+          320.5,
+          24,
+          0.2
+        ],
+        [
+          329,
+          24,
+          0.2
+        ],
+        [
+          332,
+          24,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "meter_1_out",
+      "source": "METER",
+      "target": "OUTLET_HEADER",
+      "points": [
+        [
+          344.1,
+          24,
+          0.2
+        ],
+        [
+          352,
+          24,
+          0.2
+        ],
+        [
+          352,
+          29,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT2_feed",
+      "source": "CT_IN",
+      "target": "CT",
+      "points": [
+        [
+          274,
+          29,
+          -1
+        ],
+        [
+          274,
+          33,
+          -1
+        ],
+        [
+          278,
+          33,
+          -1
+        ],
+        [
+          278,
+          29.675,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT2_out",
+      "source": "CT",
+      "target": "METER",
+      "points": [
+        [
+          278,
+          36.275,
+          0.2
+        ],
+        [
+          320.5,
+          36.275,
+          0.2
+        ],
+        [
+          320.5,
+          33,
+          0.2
+        ],
+        [
+          329,
+          33,
+          0.2
+        ],
+        [
+          332,
+          33,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "meter_2_out",
+      "source": "METER",
+      "target": "OUTLET_HEADER",
+      "points": [
+        [
+          344.1,
+          33,
+          0.2
+        ],
+        [
+          352,
+          33,
+          0.2
+        ],
+        [
+          352,
+          29,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "outlet",
+      "source": "OUTLET_HEADER",
+      "target": "OUTFALL",
+      "points": [
+        [
+          352,
+          29,
+          0.2
+        ],
+        [
+          400,
+          29,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.5,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF east boundary DN1500 at (400,29)"
+    },
+    {
+      "id": "external_outfall",
+      "source": "OUTFALL",
+      "target": "RIVER",
+      "points": [
+        [
+          400,
+          29,
+          0.2
+        ],
+        [
+          408,
+          29,
+          -1
+        ],
+        [
+          470,
+          29,
+          -7
+        ],
+        [
+          476.85,
+          29,
+          -6.85
+        ]
+      ],
+      "kind": "pipe",
+      "width": 1.5,
+      "system": "W",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "Existing external outfall extension, beyond PDF boundary"
+    },
+    {
+      "id": "sludge_A",
+      "source": "DWA",
+      "target": "SL_BOUNDARY",
+      "points": [
+        [
+          100,
+          124,
+          -2.3
+        ],
+        [
+          0,
+          124,
+          -2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "sludge_B",
+      "source": "DWB",
+      "target": "SL_BOUNDARY",
+      "points": [
+        [
+          300,
+          124,
+          -2.6
+        ],
+        [
+          0,
+          124,
+          -2.6
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.3,
+      "system": "SL",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "emergency_bypass",
+      "source": "G2",
+      "target": "CT_IN",
+      "points": [
+        [
+          286,
+          261,
+          0.2
+        ],
+        [
+          286,
+          261,
+          -2.1
+        ],
+        [
+          386,
+          261,
+          -2.1
+        ],
+        [
+          386,
+          48,
+          -2.1
+        ],
+        [
+          274,
+          48,
+          -2.1
+        ],
+        [
+          274,
+          29,
+          -2.1
+        ],
+        [
+          274,
+          29,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.9,
+      "system": "OV",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "PDF explicitly provisional: G2 after to CT before; normally closed, no active flow"
+    },
+    {
+      "id": "dosing",
+      "source": "NAOCL",
+      "target": "CT_IN",
+      "points": [
+        [
+          263,
+          29,
+          1
+        ],
+        [
+          274,
+          29,
+          1
+        ],
+        [
+          274,
+          29,
+          -1
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.08,
+      "system": "CHEM",
+      "zone": "secondary",
+      "shots": [],
+      "basis": "Separate dosing connection; main water does not enter chemical storage"
+    },
+    {
+      "id": "blower_air_main",
+      "source": "AIR",
+      "target": "AIR_MAIN",
+      "points": [
+        [
+          218,
+          129.3,
+          2.643397
+        ],
+        [
+          222,
+          129.3,
+          2.643397
+        ],
+        [
+          222,
+          136,
+          2.643397
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_distribution",
+      "source": "AIR_MAIN",
+      "target": "AIR_MAIN",
+      "points": [
+        [
+          13,
+          136,
+          2.643397
+        ],
+        [
+          387,
+          136,
+          2.643397
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.4,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_0",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "points": [
+        [
+          87,
+          136,
+          2.643397
+        ],
+        [
+          87,
+          170.025,
+          2.643397
+        ],
+        [
+          35.65,
+          170.025,
+          2.643397
+        ],
+        [
+          35.65,
+          170.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_1",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "points": [
+        [
+          87,
+          136,
+          2.643397
+        ],
+        [
+          87,
+          162.525,
+          2.643397
+        ],
+        [
+          84.65,
+          162.525,
+          2.643397
+        ],
+        [
+          84.65,
+          162.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_2",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "points": [
+        [
+          87,
+          136,
+          2.643397
+        ],
+        [
+          87,
+          155.025,
+          2.643397
+        ],
+        [
+          84.65,
+          155.025,
+          2.643397
+        ],
+        [
+          84.65,
+          155.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_3",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "points": [
+        [
+          87,
+          136,
+          2.643397
+        ],
+        [
+          87,
+          147.525,
+          2.643397
+        ],
+        [
+          84.65,
+          147.525,
+          2.643397
+        ],
+        [
+          84.65,
+          147.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_0",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "points": [
+        [
+          187,
+          136,
+          2.643397
+        ],
+        [
+          187,
+          170.025,
+          2.643397
+        ],
+        [
+          135.65,
+          170.025,
+          2.643397
+        ],
+        [
+          135.65,
+          170.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_1",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "points": [
+        [
+          187,
+          136,
+          2.643397
+        ],
+        [
+          187,
+          162.525,
+          2.643397
+        ],
+        [
+          184.65,
+          162.525,
+          2.643397
+        ],
+        [
+          184.65,
+          162.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_2",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "points": [
+        [
+          187,
+          136,
+          2.643397
+        ],
+        [
+          187,
+          155.025,
+          2.643397
+        ],
+        [
+          184.65,
+          155.025,
+          2.643397
+        ],
+        [
+          184.65,
+          155.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_3",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "points": [
+        [
+          187,
+          136,
+          2.643397
+        ],
+        [
+          187,
+          147.525,
+          2.643397
+        ],
+        [
+          184.65,
+          147.525,
+          2.643397
+        ],
+        [
+          184.65,
+          147.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_0",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "points": [
+        [
+          287,
+          136,
+          2.643397
+        ],
+        [
+          287,
+          170.025,
+          2.643397
+        ],
+        [
+          235.65,
+          170.025,
+          2.643397
+        ],
+        [
+          235.65,
+          170.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_1",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "points": [
+        [
+          287,
+          136,
+          2.643397
+        ],
+        [
+          287,
+          162.525,
+          2.643397
+        ],
+        [
+          284.65,
+          162.525,
+          2.643397
+        ],
+        [
+          284.65,
+          162.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_2",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "points": [
+        [
+          287,
+          136,
+          2.643397
+        ],
+        [
+          287,
+          155.025,
+          2.643397
+        ],
+        [
+          284.65,
+          155.025,
+          2.643397
+        ],
+        [
+          284.65,
+          155.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_3",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "points": [
+        [
+          287,
+          136,
+          2.643397
+        ],
+        [
+          287,
+          147.525,
+          2.643397
+        ],
+        [
+          284.65,
+          147.525,
+          2.643397
+        ],
+        [
+          284.65,
+          147.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_0",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "points": [
+        [
+          387,
+          136,
+          2.643397
+        ],
+        [
+          387,
+          170.025,
+          2.643397
+        ],
+        [
+          335.65,
+          170.025,
+          2.643397
+        ],
+        [
+          335.65,
+          170.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_1",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "points": [
+        [
+          387,
+          136,
+          2.643397
+        ],
+        [
+          387,
+          162.525,
+          2.643397
+        ],
+        [
+          384.65,
+          162.525,
+          2.643397
+        ],
+        [
+          384.65,
+          162.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_2",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "points": [
+        [
+          387,
+          136,
+          2.643397
+        ],
+        [
+          387,
+          155.025,
+          2.643397
+        ],
+        [
+          384.65,
+          155.025,
+          2.643397
+        ],
+        [
+          384.65,
+          155.025,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_3",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "points": [
+        [
+          387,
+          136,
+          2.643397
+        ],
+        [
+          387,
+          147.525,
+          2.643397
+        ],
+        [
+          384.65,
+          147.525,
+          2.643397
+        ],
+        [
+          384.65,
+          147.525,
+          2.3
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.24,
+      "system": "AIR",
+      "zone": "air",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_0",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          354.2,
+          256,
+          -1.6
+        ],
+        [
+          354.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_1",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          357.2,
+          256,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_2",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          360.2,
+          256,
+          -1.6
+        ],
+        [
+          360.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_0",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          354.2,
+          263,
+          -1.6
+        ],
+        [
+          354.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_1",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          357.2,
+          263,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_2",
+      "source": "P",
+      "target": "P",
+      "points": [
+        [
+          360.2,
+          263,
+          -1.6
+        ],
+        [
+          360.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          -1.6
+        ],
+        [
+          357.2,
+          262,
+          0.2
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.45,
+      "system": "W",
+      "zone": "raw",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWA_0",
+      "source": "DWA",
+      "target": "DWA",
+      "points": [
+        [
+          97.8,
+          124,
+          -1.7
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWA_1",
+      "source": "DWA",
+      "target": "DWA",
+      "points": [
+        [
+          102.2,
+          124,
+          -1.7
+        ],
+        [
+          100,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWB_0",
+      "source": "DWB",
+      "target": "DWB",
+      "points": [
+        [
+          297.8,
+          124,
+          -1.7
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWB_1",
+      "source": "DWB",
+      "target": "DWB",
+      "points": [
+        [
+          302.2,
+          124,
+          -1.7
+        ],
+        [
+          300,
+          124,
+          -1.7
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "RAS",
+      "zone": "anaerobic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_second_1",
+      "source": "B1",
+      "target": "B1",
+      "points": [
+        [
+          17.4,
+          141.5,
+          -1.8
+        ],
+        [
+          16.200000000000003,
+          141.5,
+          -1.8
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_second_3",
+      "source": "B3",
+      "target": "B3",
+      "points": [
+        [
+          217.4,
+          141.5,
+          -1.8
+        ],
+        [
+          216.2,
+          141.5,
+          -1.8
+        ]
+      ],
+      "kind": "pipe",
+      "width": 0.35,
+      "system": "IR",
+      "zone": "anoxic",
+      "shots": [],
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "count":6,"duty":4,"standby":2,"flow_each_Nm3_h":7500,
+  "positions":[[185,125,0.1],[190.8,125,0.1],[196.6,125,0.1],[202.4,125,0.1],[208.2,125,0.1],[214,125,0.1]],
+  "package":{"width":3.2,"depth":2.0,"height":2.25,"skid_height":0.20,"panel_thickness":0.035,"panel_gap":0.012,"outlet_height":1.55,"outlet_radius":0.175,"flange_radius":0.25,"bolts":12},
+  "header":{"start_x":183,"end_x":218,"y":129.3,"z":3.6,"radius":0.45,"support_spacing":5.8},
+  "branch":{"elbow_radius":0.5,"riser_y":128.8,"lower_z":1.65,"upper_z":3.1,"valve_y":127.15,"check_valve_y":126.6},
+  "source_design":"0915修改项/数值核对.json: 6 units, 4 duty + 2 standby, 7500 Nm3/h each, 30000 Nm3/h operating total.",
+  "reference":"https://www.aerzen.com/products/turbo-blowers",
+  "limitations":"APG-Neuros NX300 reference mesh by a1call used under CC-BY-4.0 for visual detail only; does not establish manufacturer selection or 7500 Nm3/h rating. Native mesh proportions retained. Pipe diameters and placement provisional pending equipment/general arrangement. Indoor header not yet connected to outdoor network. Four-duty/two-standby describes quantity, not fixed permanent duty assignment.",
+  "downloaded_asset":{"asset_id":"NX300_A1CALL","name":"APG-Neuros NX300 Turbo Blower","author":"a1call","license":"CC-BY-4.0","license_url":"https://creativecommons.org/licenses/by/4.0/","source":"https://sketchfab.com/3d-models/apg-neuros-nx300-turbo-blower-2bebc749c3c2412186340fe8af4a8dcc","local_path":"assets/equipment/blowers/nx300/model.glb","prepared_path":"assets/equipment/blowers/nx300/prepared.blend","sha256":"9a9f7b3b1f5e705f6976ca6661998767095f6242364865b996c4fd217ff4ac53","outlet_local":[0.10341,1.0374817,2.543397],"outlet_radius":0.1212,"native_dimensions":[2.107543,3.578984,2.955071]},
+  "connection":{"header_z":2.643397,"flange_radius":0.178,"flange_thickness":0.028,"branch_radius":0.1212,"bolt_radius":0.009,"bolt_circle":0.155,"bolt_count":8,"support_base_z":0.1,"support_column":0.12,"gauge_radius":0.09,"gauge_rise":0.48,"label_size":0.22,"label_y":122.95},
+  "asset_candidate":{"name":"DGC-220-B - APGN1000D","source":"https://sketchfab.com/3d-models/dgc-220-b-apgn1000d-b30a8eb3d311438fad1ab072e700fa66","author":"a1call","license":"CC-BY","status":"NEEDS_USER_API_KEY","note":"Candidate only; 830.8k triangles. Not downloaded; rating/size not equal to project selection."}
+}

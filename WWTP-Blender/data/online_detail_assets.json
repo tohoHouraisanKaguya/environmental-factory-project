@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {"asset_id":"VALVE_CC0_32344","name":"Flow Control Valve","author":"3D Assets (AI-assisted)","license":"CC0-1.0","source":"https://3dassets.dev/assets/abandoned-tidal-model-testing-hall-flow-control-valve-6644664d","download_url":"https://cdn.3dassets.dev/assets/32344/v1/model.glb","local_path":"assets/equipment/valves/flow_control_valve/model.glb","role":"generic valve visual proxy; not a certified valve selection"},
+    {"asset_id":"PUMP_CC0_29360","name":"Cooling Pump","author":"3D Assets (AI-assisted)","license":"CC0-1.0","source":"https://3dassets.dev/assets/hydroelectric-dam-infiltration-cooling-pump-d6d9c2db","download_url":"https://cdn.3dassets.dev/assets/29360/v1/model.glb","local_path":"assets/equipment/pumps/industrial_centrifugal/model.glb","role":"centrifugal visual reference; not submersible influent equipment or a selected RAS manufacturer"},
+    {"asset_id":"FILTER_CC0_32298","name":"Intake Filter Housing","author":"3D Assets (AI-assisted)","license":"CC0-1.0","source":"https://3dassets.dev/assets/pneumatic-tube-mail-exchange-pneumatic-tube-mail-excha-2aa41a0a","download_url":"https://cdn.3dassets.dev/assets/32298/v1/model.glb","local_path":"assets/equipment/misc/intake_filter/model.glb","role":"generic air inlet filter visual detail; no rated performance"}
+  ],
+  "secondary": {"diameter":37,"feedwell_diameter":6,"water_z":1.3,"peripheral_depth":4,"slope":0.05,"sump_depth":0.5,"wall":0.35,"freeboard":0.7,"walkway":0.85,"rail_height":1.1,"rail_spacing":2,"weir_notches":240,"weir_depth":0.10,"segments":192,"vertical_note":"Keep existing scene local water datum 1.3; depth/slope from revised group05; absolute plant elevations not yet reconciled."},
+  "detail_assumptions":{"bridge_width":1.2,"bridge_truss_height":0.85,"bridge_panels":20,"rail_radius":0.025,"suction_arm_radius":0.10,"valve_scale":1,"pump_scale":1},
+  "source_design":"Revised group05 calculation 2026-09-13; DXF plan footprints"
+}

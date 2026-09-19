@@ -1,0 +1,1072 @@
+{
+  "status": "PDF main topology, labelled DN sizes and systems; unlabelled diameters and all pipe elevations remain presentation assumptions. NAOCL/main-line graphic overlap separated; no flow through chemical storage.",
+  "routes": [
+    {
+      "id": "inlet",
+      "source": "INLET",
+      "target": "G1",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF north inlet DN1200"
+    },
+    {
+      "id": "coarse_to_pump",
+      "source": "G1",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_to_fine",
+      "source": "P",
+      "target": "G2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "fine_split",
+      "source": "G2",
+      "target": "SPLIT",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "split_riser",
+      "source": "SPLIT",
+      "target": "PRE_HEADER",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SA_feed",
+      "source": "PRE_HEADER",
+      "target": "SA",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SA_out",
+      "source": "SA",
+      "target": "PDA",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF A/B DN1200; envelope endpoints extended to actual walls"
+    },
+    {
+      "id": "SB_feed",
+      "source": "PRE_HEADER",
+      "target": "SB",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "SB_out",
+      "source": "SB",
+      "target": "PDB",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF A/B DN1200; envelope endpoints extended to actual walls"
+    },
+    {
+      "id": "C1_feed",
+      "source": "PDA",
+      "target": "C1",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C1_to_B1",
+      "source": "C1",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B1_out",
+      "source": "B1",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_1",
+      "source": "DWA",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "RAS",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_1",
+      "source": "B1",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "IR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_1",
+      "source": "C1",
+      "target": "SL_PRIMARY",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C2_feed",
+      "source": "PDA",
+      "target": "C2",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C2_to_B2",
+      "source": "C2",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B2_out",
+      "source": "B2",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_2",
+      "source": "DWA",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "RAS",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_2",
+      "source": "B2",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "IR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_2",
+      "source": "C2",
+      "target": "SL_PRIMARY",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C3_feed",
+      "source": "PDB",
+      "target": "C3",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C3_to_B3",
+      "source": "C3",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B3_out",
+      "source": "B3",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_3",
+      "source": "DWB",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "RAS",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_3",
+      "source": "B3",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "IR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_3",
+      "source": "C3",
+      "target": "SL_PRIMARY",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "C4_feed",
+      "source": "PDB",
+      "target": "C4",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF north-side DN900; internal inlet leg to existing longitudinal basin"
+    },
+    {
+      "id": "C4_to_B4",
+      "source": "C4",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF same-column north-to-south external connection"
+    },
+    {
+      "id": "B4_out",
+      "source": "B4",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF south biological outlet, paired collection to DWA/DWB"
+    },
+    {
+      "id": "RAS_4",
+      "source": "DWB",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "RAS",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_4",
+      "source": "B4",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 6,
+      "system": "IR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "primary_sludge_4",
+      "source": "C4",
+      "target": "SL_PRIMARY",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T1_feed",
+      "source": "DWA",
+      "target": "T1",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T1_out",
+      "source": "T1",
+      "target": "EFF_A",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T1_sludge",
+      "source": "T1",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T2_feed",
+      "source": "DWA",
+      "target": "T2",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T2_out",
+      "source": "T2",
+      "target": "EFF_A",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T2_sludge",
+      "source": "T2",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T3_feed",
+      "source": "DWA",
+      "target": "T3",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T3_out",
+      "source": "T3",
+      "target": "EFF_A",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T3_sludge",
+      "source": "T3",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T4_feed",
+      "source": "DWA",
+      "target": "T4",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T4_out",
+      "source": "T4",
+      "target": "EFF_A",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T4_sludge",
+      "source": "T4",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T5_feed",
+      "source": "DWB",
+      "target": "T5",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T5_out",
+      "source": "T5",
+      "target": "EFF_B",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T5_sludge",
+      "source": "T5",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T6_feed",
+      "source": "DWB",
+      "target": "T6",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T6_out",
+      "source": "T6",
+      "target": "EFF_B",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T6_sludge",
+      "source": "T6",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T7_feed",
+      "source": "DWB",
+      "target": "T7",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T7_out",
+      "source": "T7",
+      "target": "EFF_B",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T7_sludge",
+      "source": "T7",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T8_feed",
+      "source": "DWB",
+      "target": "T8",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF distribution DN900"
+    },
+    {
+      "id": "T8_out",
+      "source": "T8",
+      "target": "EFF_B",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "T8_sludge",
+      "source": "T8",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "RAS",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "effluent_A",
+      "source": "EFF_A",
+      "target": "EFFLUENT",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF A effluent DN1200"
+    },
+    {
+      "id": "effluent_B",
+      "source": "EFF_B",
+      "target": "EFFLUENT",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.2,
+      "basis": "PDF B effluent DN1200"
+    },
+    {
+      "id": "effluent_to_contact",
+      "source": "EFFLUENT",
+      "target": "CT_IN",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 1.5,
+      "basis": "PDF merged flow; routed outside NAOCL footprint, dosing is a separate branch"
+    },
+    {
+      "id": "CT1_feed",
+      "source": "CT_IN",
+      "target": "CT",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT1_out",
+      "source": "CT",
+      "target": "METER",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "meter_1_out",
+      "source": "METER",
+      "target": "OUTLET_HEADER",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT2_feed",
+      "source": "CT_IN",
+      "target": "CT",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "CT2_out",
+      "source": "CT",
+      "target": "METER",
+      "kind": "pipe",
+      "point_count": 5,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "meter_2_out",
+      "source": "METER",
+      "target": "OUTLET_HEADER",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 0.9,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "outlet",
+      "source": "OUTLET_HEADER",
+      "target": "OUTFALL",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "W",
+      "diameter_m": 1.5,
+      "basis": "PDF east boundary DN1500 at (400,29)"
+    },
+    {
+      "id": "external_outfall",
+      "source": "OUTFALL",
+      "target": "RIVER",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 1.5,
+      "basis": "Existing external outfall extension, beyond PDF boundary"
+    },
+    {
+      "id": "sludge_A",
+      "source": "DWA",
+      "target": "SL_BOUNDARY",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "sludge_B",
+      "source": "DWB",
+      "target": "SL_BOUNDARY",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "SL",
+      "diameter_m": 0.3,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "emergency_bypass",
+      "source": "G2",
+      "target": "CT_IN",
+      "kind": "pipe",
+      "point_count": 7,
+      "system": "OV",
+      "diameter_m": 0.9,
+      "basis": "PDF explicitly provisional: G2 after to CT before; normally closed, no active flow"
+    },
+    {
+      "id": "dosing",
+      "source": "NAOCL",
+      "target": "CT_IN",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "CHEM",
+      "diameter_m": 0.08,
+      "basis": "Separate dosing connection; main water does not enter chemical storage"
+    },
+    {
+      "id": "blower_air_main",
+      "source": "AIR",
+      "target": "AIR_MAIN",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "AIR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_distribution",
+      "source": "AIR_MAIN",
+      "target": "AIR_MAIN",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "AIR",
+      "diameter_m": 0.4,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_0",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_1",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_2",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_1_3",
+      "source": "AIR_MAIN",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_0",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_1",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_2",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_2_3",
+      "source": "AIR_MAIN",
+      "target": "B2",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_0",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_1",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_2",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_3_3",
+      "source": "AIR_MAIN",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_0",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_1",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_2",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "air_4_3",
+      "source": "AIR_MAIN",
+      "target": "B4",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "AIR",
+      "diameter_m": 0.24,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_0",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_1",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_0_2",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_0",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_1",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 3,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "pump_branch_1_2",
+      "source": "P",
+      "target": "P",
+      "kind": "pipe",
+      "point_count": 4,
+      "system": "W",
+      "diameter_m": 0.45,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWA_0",
+      "source": "DWA",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "RAS",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWA_1",
+      "source": "DWA",
+      "target": "DWA",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "RAS",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWB_0",
+      "source": "DWB",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "RAS",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "ras_branch_DWB_1",
+      "source": "DWB",
+      "target": "DWB",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "RAS",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_second_1",
+      "source": "B1",
+      "target": "B1",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "IR",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    },
+    {
+      "id": "IR_second_3",
+      "source": "B3",
+      "target": "B3",
+      "kind": "pipe",
+      "point_count": 2,
+      "system": "IR",
+      "diameter_m": 0.35,
+      "basis": "PDF topology; unlabelled diameter retained as presentation assumption"
+    }
+  ],
+  "blocked_channel_centerlines": [],
+  "civil_objects_opened": [
+    "STRUCT_SecondaryShell_001",
+    "TROUGH_SecondaryDoubleSided_001"
+  ],
+  "reachable_process_nodes": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "CT",
+    "CT_IN",
+    "DWA",
+    "DWB",
+    "EFFLUENT",
+    "EFF_A",
+    "EFF_B",
+    "G1",
+    "G2",
+    "INLET",
+    "METER",
+    "OUTFALL",
+    "OUTLET_HEADER",
+    "P",
+    "PDA",
+    "PDB",
+    "PRE_HEADER",
+    "RIVER",
+    "SA",
+    "SB",
+    "SL_BOUNDARY",
+    "SL_PRIMARY",
+    "SPLIT",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "T8"
+  ],
+  "missing_process_nodes": []
+}

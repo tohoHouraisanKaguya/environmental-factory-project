@@ -1,0 +1,10 @@
+{
+  "checkpoint": "007",
+  "baseplate_size_m": [0.18, 0.18, 0.018],
+  "anchor_radius_m": 0.009,
+  "anchor_projection_m": 0.04,
+  "toe_board_height_m": 0.15,
+  "toe_board_thickness_m": 0.006,
+  "toe_board_clearance_m": 0.01,
+  "status": "Presentation detailing assumptions; not a certified guardrail or fabricated steel design. Keep existing access gate opening."
+}

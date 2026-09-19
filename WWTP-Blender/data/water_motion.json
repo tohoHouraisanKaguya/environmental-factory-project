@@ -1,0 +1,13 @@
+{
+  "fps": 24, "period_frames": 240, "grid_spacing_m": 0.32,
+  "default_depth_m": 2.0,
+  "status": "Presentation water geometry and periodic waves, not CFD. Flow directions, minor basin depths and optical properties are illustrative. Main tank depths come from process_detail and online_detail_assets.",
+  "zones": {
+    "raw": {"color": "#655D40", "amplitude": 0.035, "roughness": 0.19, "transmission": 0.08},
+    "primary": {"color": "#786547", "amplitude": 0.018, "roughness": 0.16, "transmission": 0.12},
+    "anaerobic": {"color": "#49301D", "amplitude": 0.025, "roughness": 0.20, "transmission": 0.03},
+    "anoxic": {"color": "#626039", "amplitude": 0.035, "roughness": 0.22, "transmission": 0.04},
+    "aerobic": {"color": "#92704A", "amplitude": 0.065, "roughness": 0.25, "transmission": 0.02},
+    "secondary": {"color": "#497369", "amplitude": 0.012, "roughness": 0.12, "transmission": 0.42}
+  }
+}

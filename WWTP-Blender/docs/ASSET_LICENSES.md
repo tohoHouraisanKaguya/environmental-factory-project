@@ -1,5 +1,38 @@
 # Asset Licences
 
+## Water environment — 2026-09-19
+
+Kloofendal 38d Partly Cloudy (Pure Sky), Greg Zaal (original), Jarod Guest (sky edits), Poly Haven.
+Source: https://polyhaven.com/a/kloofendal_38d_partly_cloudy_puresky
+Licence: CC0 1.0, https://polyhaven.com/license
+Local: `assets/environment/kloofendal_38d_partly_cloudy_puresky_2k.hdr`.
+Downloaded in the preceding task, verified against provider MD5; SHA256 recorded in ASSET_MANIFEST.json. Packed into the water animation model; lighting strength adjusted. No third-party water mesh or paid addon required.
+
+## Sketchfab asset imported — 2026-09-19
+
+APG-Neuros NX300 Turbo Blower by **a1call**:
+https://sketchfab.com/3d-models/apg-neuros-nx300-turbo-blower-2bebc749c3c2412186340fe8af4a8dcc
+
+Licensed under Creative Commons Attribution 4.0:
+https://creativecommons.org/licenses/by/4.0/
+
+Downloaded with authorized Sketchfab API access. Original: `assets/equipment/blowers/nx300/model.glb`.
+Changes: baked transforms, ground-centered origin, joined 610 mesh components, six shared mesh instances; additional pipework, instruments, supports and labels generated separately. The native proportions are retained. This is visual reference geometry, not a manufacturer selection or confirmation of 7500 Nm3/h capacity. Retain this attribution in distributed project files and subsequent video credits. No endorsement implied.
+
+## New online assets — 2026-09-18
+
+The following public downloads are released by 3D Assets under CC0 1.0. The provider labels them AI-assisted. They are generic visual assets, not certified products or selected manufacturers. Raw files are immutable; SHA256, measured Blender dimensions and triangle counts are in ASSET_MANIFEST.json.
+
+| Asset Name | Author | Source URL | License | Download Date | Original Filename | Local Path | Modifications |
+|---|---|---|---|---|---|---|---|
+| Flow Control Valve | 3D Assets (AI-assisted) | https://3dassets.dev/assets/abandoned-tidal-model-testing-hall-flow-control-valve-6644664d | CC0-1.0 | 2026-09-18 | model.glb | assets/equipment/valves/flow_control_valve/model.glb | Axis conversion, ground-centred origin, recalculated normals, shared instances; currently maintenance spares, not process line replacements |
+| Cooling Pump | 3D Assets (AI-assisted) | https://3dassets.dev/assets/hydroelectric-dam-infiltration-cooling-pump-d6d9c2db | CC0-1.0 | 2026-09-18 | model.glb | assets/equipment/pumps/industrial_centrifugal/model.glb | Axis conversion, ground-centred origin, recalculated normals; maintenance display only, not submersible or certified RAS pump |
+| Intake Filter Housing | 3D Assets (AI-assisted) | https://3dassets.dev/assets/pneumatic-tube-mail-exchange-pneumatic-tube-mail-excha-2aa41a0a | CC0-1.0 | 2026-09-18 | model.glb | assets/equipment/misc/intake_filter/model.glb | Axis conversion, ground-centred origin, recalculated normals; six linked generic visual accessories in blower room |
+
+No licence restriction was bypassed. These three source pages explicitly permit modification and redistribution under CC0; no NoAI condition was listed. Other requested Sketchfab assets remain pending authentication. Educational use is not treated as a substitute for permission.
+
+## Earlier assets
+
 | Asset | Author | Source URL | Licence | Download date | Original filename | Local path | Modifications | Status |
 |---|---|---|---|---|---|---|---|---|
 | Industrial Pipes Pack | Pending source metadata | https://sketchfab.com/3d-models/industrial-pipes-pack-116baf2d9f3949c482737b08b8e00a75 | CC BY (user-provided) | — | — | assets/piping/ | None | NEEDS_USER_API_KEY |

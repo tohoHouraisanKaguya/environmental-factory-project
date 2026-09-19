@@ -1,0 +1,208 @@
+{
+  "invalid_drivers": [],
+  "water_reveals": [
+    {
+      "shot": "coarse",
+      "object": "LIQUID_G1_Connected_000",
+      "fully_hidden": true
+    },
+    {
+      "shot": "coarse",
+      "object": "LIQUID_G1_Connected_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "coarse",
+      "object": "LIQUID_G1_Connected_002",
+      "fully_hidden": true
+    },
+    {
+      "shot": "coarse",
+      "object": "LIQUID_G1_Connected_003",
+      "fully_hidden": true
+    },
+    {
+      "shot": "pumps",
+      "object": "LIQUID_P_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "fine",
+      "object": "LIQUID_G2_Connected_000",
+      "fully_hidden": true
+    },
+    {
+      "shot": "fine",
+      "object": "LIQUID_G2_Connected_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "fine",
+      "object": "LIQUID_G2_Connected_002",
+      "fully_hidden": true
+    },
+    {
+      "shot": "fine",
+      "object": "LIQUID_G2_Connected_003",
+      "fully_hidden": true
+    },
+    {
+      "shot": "grit",
+      "object": "LIQUID_SA_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "primary",
+      "object": "LIQUID_C1_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "anaerobic",
+      "object": "LIQUID_B1_anaerobic_Lane1_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "anoxic",
+      "object": "LIQUID_B1_anoxic_Lane1_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "anoxic",
+      "object": "LIQUID_B1_anoxic_Lane2_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "anoxic",
+      "object": "LIQUID_B1_anoxic_Lane3_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "aerobic",
+      "object": "LIQUID_B1_aerobic_Lane3_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "aerobic",
+      "object": "LIQUID_B1_aerobic_Lane4_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "aerobic",
+      "object": "LIQUID_B1_aerobic_Lane5_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "aerobic",
+      "object": "LIQUID_B1_aerobic_Lane6_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "recycle",
+      "object": "LIQUID_B1_aerobic_Lane3_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "recycle",
+      "object": "LIQUID_B1_aerobic_Lane4_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "recycle",
+      "object": "LIQUID_B1_aerobic_Lane5_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "recycle",
+      "object": "LIQUID_B1_aerobic_Lane6_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "distribution",
+      "object": "LIQUID_DWA_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "secondary",
+      "object": "LIQUID_T1_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "secondary",
+      "object": "LIQUID_T1_Outer_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "secondary",
+      "object": "LIQUID_T1_Launder_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "contact",
+      "object": "LIQUID_CT_Cell1_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "contact",
+      "object": "LIQUID_CT_Cell2_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "meter",
+      "object": "FILM_WaterMeter_001",
+      "fully_hidden": true
+    },
+    {
+      "shot": "meter",
+      "object": "FILM_WaterMeter_002",
+      "fully_hidden": true
+    },
+    {
+      "shot": "outfall",
+      "object": "FILM_WaterOutfall_001",
+      "fully_hidden": true
+    }
+  ],
+  "missing_images": [],
+  "motion_objects": 93,
+  "stationary_motion_objects": [],
+  "frames": 6480,
+  "fps": 24,
+  "device": "CPU",
+  "samples": 12,
+  "rendered_frames": [
+    87,
+    278,
+    500,
+    649,
+    846,
+    1016,
+    1210,
+    1338,
+    1518,
+    1688,
+    1930,
+    2164,
+    2430,
+    2600,
+    2814,
+    2984,
+    3207,
+    3398,
+    3649,
+    3862,
+    4081,
+    4187,
+    4321,
+    4427,
+    4628,
+    4884,
+    5175,
+    5366,
+    5578,
+    5706,
+    5895,
+    6086,
+    6289,
+    6395
+  ]
+}

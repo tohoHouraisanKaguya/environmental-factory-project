@@ -1,0 +1,301 @@
+{
+  "additional_wall_bores": [
+    {
+      "route": "inlet",
+      "wall": "WALL_G1_N"
+    },
+    {
+      "route": "coarse_to_pump",
+      "wall": "WALL_P_N"
+    },
+    {
+      "route": "coarse_to_pump",
+      "wall": "WALL_G1_S"
+    },
+    {
+      "route": "pump_to_fine",
+      "wall": "WALL_P_W"
+    },
+    {
+      "route": "pump_to_fine",
+      "wall": "WALL_G2_E"
+    },
+    {
+      "route": "fine_split",
+      "wall": "WALL_PDB_E"
+    },
+    {
+      "route": "fine_split",
+      "wall": "WALL_PDB_W"
+    },
+    {
+      "route": "fine_split",
+      "wall": "WALL_G2_W"
+    },
+    {
+      "route": "SA_feed",
+      "wall": "WALL_SA_E"
+    },
+    {
+      "route": "SA_out",
+      "wall": "WALL_SA_W"
+    },
+    {
+      "route": "SA_out",
+      "wall": "WALL_PDA_N"
+    },
+    {
+      "route": "SB_feed",
+      "wall": "WALL_SB_E"
+    },
+    {
+      "route": "SB_out",
+      "wall": "WALL_SB_W"
+    },
+    {
+      "route": "SB_out",
+      "wall": "WALL_PDB_N"
+    },
+    {
+      "route": "C1_feed",
+      "wall": "WALL_PDA_S"
+    },
+    {
+      "route": "C1_feed",
+      "wall": "STRUCT_C1_Shell_001"
+    },
+    {
+      "route": "C1_to_B1",
+      "wall": "STRUCT_C1_Shell_001"
+    },
+    {
+      "route": "C1_to_B1",
+      "wall": "STRUCT_C1_Shell_001"
+    },
+    {
+      "route": "C1_to_B1",
+      "wall": "STRUCT_B1_Shell_001"
+    },
+    {
+      "route": "B1_out",
+      "wall": "STRUCT_B1_Shell_001"
+    },
+    {
+      "route": "B1_out",
+      "wall": "WALL_DWA_N"
+    },
+    {
+      "route": "RAS_1",
+      "wall": "WALL_DWA_N"
+    },
+    {
+      "route": "RAS_1",
+      "wall": "STRUCT_B1_Shell_001"
+    },
+    {
+      "route": "primary_sludge_1",
+      "wall": "STRUCT_C1_Shell_001"
+    },
+    {
+      "route": "C2_feed",
+      "wall": "STRUCT_C2_Shell_001"
+    },
+    {
+      "route": "C2_to_B2",
+      "wall": "STRUCT_C2_Shell_001"
+    },
+    {
+      "route": "C2_to_B2",
+      "wall": "STRUCT_C2_Shell_001"
+    },
+    {
+      "route": "C2_to_B2",
+      "wall": "STRUCT_B2_Shell_001"
+    },
+    {
+      "route": "B2_out",
+      "wall": "STRUCT_B2_Shell_001"
+    },
+    {
+      "route": "RAS_2",
+      "wall": "STRUCT_B2_Shell_001"
+    },
+    {
+      "route": "primary_sludge_2",
+      "wall": "STRUCT_C2_Shell_001"
+    },
+    {
+      "route": "C3_feed",
+      "wall": "WALL_PDB_S"
+    },
+    {
+      "route": "C3_feed",
+      "wall": "STRUCT_C3_Shell_001"
+    },
+    {
+      "route": "C3_to_B3",
+      "wall": "STRUCT_C3_Shell_001"
+    },
+    {
+      "route": "C3_to_B3",
+      "wall": "STRUCT_C3_Shell_001"
+    },
+    {
+      "route": "C3_to_B3",
+      "wall": "STRUCT_B3_Shell_001"
+    },
+    {
+      "route": "B3_out",
+      "wall": "STRUCT_B3_Shell_001"
+    },
+    {
+      "route": "B3_out",
+      "wall": "WALL_DWB_N"
+    },
+    {
+      "route": "RAS_3",
+      "wall": "WALL_DWB_N"
+    },
+    {
+      "route": "RAS_3",
+      "wall": "STRUCT_B3_Shell_001"
+    },
+    {
+      "route": "primary_sludge_3",
+      "wall": "STRUCT_C3_Shell_001"
+    },
+    {
+      "route": "C4_feed",
+      "wall": "STRUCT_C4_Shell_001"
+    },
+    {
+      "route": "C4_to_B4",
+      "wall": "STRUCT_C4_Shell_001"
+    },
+    {
+      "route": "C4_to_B4",
+      "wall": "STRUCT_C4_Shell_001"
+    },
+    {
+      "route": "C4_to_B4",
+      "wall": "STRUCT_B4_Shell_001"
+    },
+    {
+      "route": "B4_out",
+      "wall": "STRUCT_B4_Shell_001"
+    },
+    {
+      "route": "RAS_4",
+      "wall": "STRUCT_B4_Shell_001"
+    },
+    {
+      "route": "primary_sludge_4",
+      "wall": "STRUCT_C4_Shell_001"
+    },
+    {
+      "route": "T1_feed",
+      "wall": "WALL_DWA_S"
+    },
+    {
+      "route": "T5_feed",
+      "wall": "WALL_DWB_S"
+    },
+    {
+      "route": "CT1_feed",
+      "wall": "STRUCT_CT_Shell_001"
+    },
+    {
+      "route": "CT1_feed",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT1_out",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT1_out",
+      "wall": "STRUCT_CT_Shell_001"
+    },
+    {
+      "route": "CT1_out",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT1_out",
+      "wall": "WALL_METER_W"
+    },
+    {
+      "route": "meter_1_out",
+      "wall": "WALL_METER_E"
+    },
+    {
+      "route": "CT2_feed",
+      "wall": "STRUCT_CT_Shell_001"
+    },
+    {
+      "route": "CT2_feed",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT2_out",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT2_out",
+      "wall": "STRUCT_CT_Shell_001"
+    },
+    {
+      "route": "CT2_out",
+      "wall": "BAFFLE_CT_Serpentine_001"
+    },
+    {
+      "route": "CT2_out",
+      "wall": "WALL_METER_W"
+    },
+    {
+      "route": "meter_2_out",
+      "wall": "WALL_METER_E"
+    },
+    {
+      "route": "sludge_A",
+      "wall": "WALL_DWA_W"
+    },
+    {
+      "route": "sludge_B",
+      "wall": "WALL_DWA_E"
+    },
+    {
+      "route": "sludge_B",
+      "wall": "WALL_DWA_W"
+    },
+    {
+      "route": "sludge_B",
+      "wall": "WALL_DWB_W"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_P_E"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_P_W"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_PDB_E"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_PDB_W"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_G2_E"
+    },
+    {
+      "route": "emergency_bypass",
+      "wall": "WALL_G2_W"
+    }
+  ],
+  "blocked_pipe_centerlines": []
+}

@@ -1,0 +1,7 @@
+{
+  "qa": true,
+  "scale": 100,
+  "samples": 12,
+  "blend_sha256": "a355b14286be2211f8f515d767516c007ded4f29eedc150d470561156f68a897",
+  "config_sha256": "952288293c1ac2164ede41b5140573c12f8af10f575b1fd0932e78521e54a299"
+}
