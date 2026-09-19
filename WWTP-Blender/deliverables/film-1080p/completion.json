@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "completed_local_date": "2026-09-20",
+  "timezone": "Asia/Shanghai",
+  "video": "wwtp-process-4m30s.mp4",
+  "size_bytes": 380647127,
+  "sha256": "5a76cafcbaf24fdcaf3a35f2963f8557dd6b81a9c959306463937ae4e7a6627a",
+  "source_commit": "c42f5eb12e210999127cc336ad3daf45ed7a2907",
+  "source_blend": "../../blender/plant_film.blend",
+  "source_blend_sha256": "a355b14286be2211f8f515d767516c007ded4f29eedc150d470561156f68a897",
+  "actual_rendered_frames": 3257,
+  "output_frames": 6480,
+  "missing_frames": [],
+  "all_captioned_pngs_verified": true,
+  "full_video_decode_exit_code": 0,
+  "video_info": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration_seconds": 270.0,
+    "decoded_frames": 6480
+  },
+  "render_profile": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 4,
+    "scale": 50,
+    "frame_step": 2,
+    "interpolation": "linear_within_shot",
+    "captions": "original Chinese PNG overlays",
+    "encoder": "libx264",
+    "preset": "veryfast",
+    "crf": 17
+  },
+  "elapsed_seconds": 1532,
+  "note": "User-authorized speed-priority version; not the original Cycles 4K high-sample target. Local absolute paths removed from this archived report."
+}

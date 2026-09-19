@@ -1,6 +1,8 @@
 # 水厂流程电影：跨终端渲染说明
 
-本次交付是可渲染工程，不是已渲完的长片。17 段镜头共 6480 帧，24 fps，4 分 30 秒。默认 3840×2160、Cycles 192 samples、自适应阈值 0.015、AgX、降噪。镜头从鸟瞰沿主工艺水路推进，包含鼓风机房、泵、带水运行与隐藏水体的机构展示。中文名称由附带 PNG 叠加，无需在渲染机安装中文字体。
+已完成的 **1080p 快速交付版**见 [deliverables/film-1080p](../deliverables/film-1080p/README.md)，MP4 通过 Git LFS 保存。它采用用户另行批准的 EEVEE 4 samples、12 fps 实际取样后线性补帧到 24 fps，不能当作下述 Cycles 4K 高采样交付。模型和原来的默认渲染参数不变。
+
+原始高质量交付是可渲染工程，尚未完成 4K 高采样长片。17 段镜头共 6480 帧，24 fps，4 分 30 秒。默认 3840×2160、Cycles 192 samples、自适应阈值 0.015、AgX、降噪。镜头从鸟瞰沿主工艺水路推进，包含鼓风机房、泵、带水运行与隐藏水体的机构展示。中文名称由附带 PNG 叠加，无需在渲染机安装中文字体。
 
 ## 获取工程
 
@@ -67,6 +69,21 @@ python scripts/render_film.py --encode
 输出 `renders/film/wwtp-process-4m30s.mp4`，H.264、24 fps、CRF 17、yuv420p，无配音、无背景音乐。脚本检查缺帧和损坏图像，禁止把不完整序列冒充成片；已有 MP4 不覆盖。自定义输出目录时合成仍须带相同 `--output`、`--scale`、`--samples` 参数。
 
 ## 修改与重建
+
+### 可选的限时快速渲染
+
+仅在接受简化光影、低采样噪点和补帧重影时使用：
+
+```bash
+python scripts/render_film.py --qa --engine BLENDER_EEVEE --device OPTIX --fast-render --samples 4 --scale 50 --frame-step 2 --output renders/fast-qa
+python scripts/render_film_pipeline.py --output renders/film-1080p-fast --blender blender --ffmpeg ffmpeg --ffprobe ffprobe
+```
+
+QA 通过后，运行器依次调用 `render_film.py` 渲染／叠字和 `--encode`，再检查视频时长、解码帧数和完整解码；最多尝试渲染三次，使用相同参数断点续跑。日志、状态和临时缓存位于指定输出目录中。此快速配置目前要求可用的 NVIDIA OptiX 设备；EEVEE 本身并不使用 Cycles 的 OptiX 降噪。
+
+快速模式的 `--frame-step 2` 实际生成 3257 张原始图（包含每个镜头末帧），逐镜头线性补齐为 6480 张后再叠字幕，不跨切镜混合。续跑保持相同参数及帧区间。更换后端、采样或取样间隔必须使用新输出目录。编码时也需传入相同渲染参数；`--encode-preset veryfast` 可缩短编码时间。原默认命令仍是 Cycles、全帧、192 samples。
+
+### 工程重建入口（本次快速交付未执行）
 
 - `data/film.json`：镜头位置、目标、时长、显隐时间、演示速度。
 - `data/film_hydraulics.json`：102 段管道的折点、管径、系统、工段连接关系和图纸依据。

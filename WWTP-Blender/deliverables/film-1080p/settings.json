@@ -1,0 +1,18 @@
+{
+  "qa": false,
+  "scale": 50,
+  "samples": 4,
+  "blend_sha256": "a355b14286be2211f8f515d767516c007ded4f29eedc150d470561156f68a897",
+  "config_sha256": "952288293c1ac2164ede41b5140573c12f8af10f575b1fd0932e78521e54a299",
+  "fast_render": {
+    "persistent_data": true,
+    "denoiser": "OPTIX",
+    "denoising_use_gpu": true,
+    "png_compression": 0
+  },
+  "engine": "BLENDER_EEVEE",
+  "temporal_sampling": {
+    "frame_step": 2,
+    "interpolation": "linear_within_shot"
+  }
+}
