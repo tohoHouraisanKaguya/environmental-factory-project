@@ -1,0 +1,53 @@
+{
+  "biology_rotation_degrees": 180,
+  "screen_header_length": 1.0,
+  "screen_floor_z": -1.12,
+  "screen_top_z": 2.0,
+  "water_z": 1.3,
+  "meter": {
+    "count": 2,
+    "centers_y": [
+      24,
+      33
+    ],
+    "throat_width": 1.5,
+    "floor_z": -0.5,
+    "water_z": 0.5,
+    "top_z": 1.2,
+    "wall": 0.2,
+    "sections": [
+      [
+        331.65,
+        2.0
+      ],
+      [
+        334,
+        2.0
+      ],
+      [
+        336.5,
+        0.75
+      ],
+      [
+        340,
+        0.75
+      ],
+      [
+        344.35,
+        2.0
+      ]
+    ]
+  },
+  "contact": {
+    "centers_y": [
+      24,
+      33
+    ],
+    "lane_width": 2.0,
+    "baffle_thickness": 0.2,
+    "turn_opening": 2.0,
+    "inlet_side": "west",
+    "outlet_side": "east",
+    "single_unit_detail": "Existing four-pass cells retained; submerged outlet collector extends to east-side external connection; detailed hydraulic profile pending"
+  }
+}

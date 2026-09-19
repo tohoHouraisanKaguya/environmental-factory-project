@@ -1,0 +1,113 @@
+{
+  "source": "设计任务书6.doc, pages 2-3 including site diagram",
+  "site": {
+    "width": 400,
+    "length": 300,
+    "datum_elevation": 27.3,
+    "local_ground_z": 0
+  },
+  "river": {
+    "normal_elevation": 19.1,
+    "low_elevation": 18.0,
+    "flood_elevation_as_printed": 25.0,
+    "flood_note": "Document also states 18+0.5*M; group M is not confirmed. Normal water used for presentation.",
+    "width": 34,
+    "bed_z": -11.2,
+    "center_x_base": 460,
+    "bend_coefficient": 0.00095,
+    "bend_y_offset": 170
+  },
+  "landscape": {
+    "y_min": -1500,
+    "y_max": 1800,
+    "x_min": -2000,
+    "x_max": 4500,
+    "bank_top_offset": 52,
+    "seed": 126
+  },
+  "assumptions": "River width, exact alignment, bank profile, vegetation and offsite roads are presentation assumptions, not a surveyed or hydraulically verified design. +Y north, +X east; local Z=0 corresponds to 27.3m.",
+  "access": {
+    "source": "DXF SITE boundary gaps and inward gate symbols",
+    "gates": [
+      {
+        "name": "south_main",
+        "center": [
+          200,
+          0
+        ],
+        "opening": 30
+      },
+      {
+        "name": "east_service",
+        "center": [
+          400,
+          260
+        ],
+        "opening": 20
+      }
+    ],
+    "roads": [
+      {
+        "name": "WestSouthLoop",
+        "width": 9,
+        "points": [
+          [
+            -48,
+            350
+          ],
+          [
+            -48,
+            -48
+          ],
+          [
+            200,
+            -48
+          ]
+        ]
+      },
+      {
+        "name": "SouthGate",
+        "width": 12,
+        "points": [
+          [
+            200,
+            -48
+          ],
+          [
+            200,
+            15
+          ]
+        ]
+      },
+      {
+        "name": "EastGate",
+        "width": 10,
+        "points": [
+          [
+            385,
+            260
+          ],
+          [
+            454.5,
+            260
+          ]
+        ]
+      },
+      {
+        "name": "EastConnector",
+        "width": 11,
+        "points": [
+          [
+            454.5,
+            260
+          ],
+          [
+            454.5,
+            350.5
+          ]
+        ]
+      }
+    ],
+    "landform_relief_m": 4
+  }
+}

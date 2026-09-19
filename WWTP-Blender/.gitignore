@@ -15,3 +15,10 @@ assets/raw_downloads/
 # Keep the original high-poly download and intermediate LOD outside GitHub.
 assets/vegetation/jacaranda_tree/jacaranda_tree.bin
 assets/vegetation/jacaranda_tree/jacaranda_tree_optimized_95k.blend
+
+# Local film diagnostics (review evidence is copied explicitly under docs/film-preview)
+docs/FILM*.log
+scripts/inspect_film_temp.py
+
+tmp/
+blender/debug_ports.blend

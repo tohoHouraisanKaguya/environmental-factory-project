@@ -1,0 +1,13 @@
+{
+  "checkpoint": "006",
+  "weir_centerline_diameter_m": 33.0,
+  "trough_width_m": 0.8,
+  "trough_depth_m": 0.65,
+  "concrete_thickness_m": 0.10,
+  "plate_thickness_m": 0.008,
+  "notches_per_side": 240,
+  "notch_depth_m": 0.10,
+  "support_count": 24,
+  "source": "0915修改项/修订脚本.py paragraph 257: D37 tank, D33 double-sided weir, 207.35 m total nominal weir length",
+  "assumptions": "Trough width, depth, brackets, bolt pitch and notch count are editable presentation assumptions; no fabrication drawing supplied. Absolute elevations and downstream outlet connection remain pending."
+}

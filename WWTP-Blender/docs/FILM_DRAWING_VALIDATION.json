@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "check": "G1_corner_00",
+      "passed": true
+    },
+    {
+      "check": "G1_corner_01",
+      "passed": true
+    },
+    {
+      "check": "G1_corner_10",
+      "passed": true
+    },
+    {
+      "check": "G1_corner_11",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G1_Connected_000_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G1_Connected_001_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G1_Connected_002_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G1_Connected_003_contained",
+      "passed": true
+    },
+    {
+      "check": "G2_corner_00",
+      "passed": true
+    },
+    {
+      "check": "G2_corner_01",
+      "passed": true
+    },
+    {
+      "check": "G2_corner_10",
+      "passed": true
+    },
+    {
+      "check": "G2_corner_11",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G2_Connected_000_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G2_Connected_001_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G2_Connected_002_contained",
+      "passed": true
+    },
+    {
+      "check": "LIQUID_G2_Connected_003_contained",
+      "passed": true
+    },
+    {
+      "check": "meter_1_throat_1_50m",
+      "passed": true,
+      "measured": 1.5
+    },
+    {
+      "check": "meter_2_throat_1_50m",
+      "passed": true,
+      "measured": 1.5
+    },
+    {
+      "check": "no_external_open_channel_network",
+      "passed": true
+    },
+    {
+      "check": "all_102_declared_pipes_exist",
+      "passed": true
+    },
+    {
+      "check": "required_pipe_systems",
+      "passed": true
+    },
+    {
+      "check": "B1_north_in_south_out",
+      "passed": true
+    },
+    {
+      "check": "B2_north_in_south_out",
+      "passed": true
+    },
+    {
+      "check": "B3_north_in_south_out",
+      "passed": true
+    },
+    {
+      "check": "B4_north_in_south_out",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

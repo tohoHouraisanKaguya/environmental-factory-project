@@ -1,0 +1,186 @@
+{
+  "shots": [
+    {
+      "id": "overview",
+      "water_objects": [],
+      "start": 1,
+      "end": 432
+    },
+    {
+      "id": "coarse",
+      "water_objects": [
+        "LIQUID_G1_Connected_000",
+        "LIQUID_G1_Connected_001",
+        "LIQUID_G1_Connected_002",
+        "LIQUID_G1_Connected_003"
+      ],
+      "start": 433,
+      "end": 768
+    },
+    {
+      "id": "pumps",
+      "water_objects": [
+        "LIQUID_P_001"
+      ],
+      "start": 769,
+      "end": 1152
+    },
+    {
+      "id": "fine",
+      "water_objects": [
+        "LIQUID_G2_Connected_000",
+        "LIQUID_G2_Connected_001",
+        "LIQUID_G2_Connected_002",
+        "LIQUID_G2_Connected_003"
+      ],
+      "start": 1153,
+      "end": 1440
+    },
+    {
+      "id": "grit",
+      "water_objects": [
+        "LIQUID_SA_001"
+      ],
+      "start": 1441,
+      "end": 1824
+    },
+    {
+      "id": "primary",
+      "water_objects": [
+        "LIQUID_C1_001"
+      ],
+      "start": 1825,
+      "end": 2352
+    },
+    {
+      "id": "anaerobic",
+      "water_objects": [
+        "LIQUID_B1_anaerobic_Lane1_001"
+      ],
+      "start": 2353,
+      "end": 2736
+    },
+    {
+      "id": "anoxic",
+      "water_objects": [
+        "LIQUID_B1_anoxic_Lane1_001",
+        "LIQUID_B1_anoxic_Lane2_001",
+        "LIQUID_B1_anoxic_Lane3_001"
+      ],
+      "start": 2737,
+      "end": 3120
+    },
+    {
+      "id": "blowers",
+      "water_objects": [],
+      "start": 3121,
+      "end": 3552
+    },
+    {
+      "id": "aerobic",
+      "water_objects": [
+        "LIQUID_B1_aerobic_Lane3_001",
+        "LIQUID_B1_aerobic_Lane4_001",
+        "LIQUID_B1_aerobic_Lane5_001",
+        "LIQUID_B1_aerobic_Lane6_001"
+      ],
+      "start": 3553,
+      "end": 4032
+    },
+    {
+      "id": "recycle",
+      "water_objects": [
+        "LIQUID_B1_aerobic_Lane3_001",
+        "LIQUID_B1_aerobic_Lane4_001",
+        "LIQUID_B1_aerobic_Lane5_001",
+        "LIQUID_B1_aerobic_Lane6_001"
+      ],
+      "start": 4033,
+      "end": 4272
+    },
+    {
+      "id": "distribution",
+      "water_objects": [
+        "LIQUID_DWA_001"
+      ],
+      "start": 4273,
+      "end": 4512
+    },
+    {
+      "id": "secondary",
+      "water_objects": [
+        "LIQUID_T1_001",
+        "LIQUID_T1_Outer_001",
+        "LIQUID_T1_Launder_001"
+      ],
+      "start": 4513,
+      "end": 5088
+    },
+    {
+      "id": "contact",
+      "water_objects": [
+        "LIQUID_CT_Cell1_001",
+        "LIQUID_CT_Cell2_001"
+      ],
+      "start": 5089,
+      "end": 5520
+    },
+    {
+      "id": "meter",
+      "water_objects": [
+        "LIQUID_METER_001",
+        "FILM_WaterMeter_001",
+        "FILM_WaterMeter_002"
+      ],
+      "start": 5521,
+      "end": 5808
+    },
+    {
+      "id": "outfall",
+      "water_objects": [
+        "FILM_WaterOutfall_001"
+      ],
+      "start": 5809,
+      "end": 6240
+    },
+    {
+      "id": "ending",
+      "water_objects": [],
+      "start": 6241,
+      "end": 6480
+    }
+  ],
+  "rotors": [
+    "FILM_ROTOR_PUMP_IR_B1_1",
+    "FILM_ROTOR_PUMP_IR_B1_2",
+    "FILM_ROTOR_PUMP_IR_B2_1",
+    "FILM_ROTOR_PUMP_IR_B3_1",
+    "FILM_ROTOR_PUMP_IR_B3_2",
+    "FILM_ROTOR_PUMP_IR_B4_1",
+    "FILM_ROTOR_PUMP_INFLUENT_01",
+    "FILM_ROTOR_PUMP_INFLUENT_02",
+    "FILM_ROTOR_PUMP_INFLUENT_03",
+    "FILM_ROTOR_PUMP_INFLUENT_04",
+    "FILM_ROTOR_PUMP_INFLUENT_05",
+    "FILM_ROTOR_PUMP_INFLUENT_06",
+    "FILM_ROTOR_PUMP_RAS_DWA_1",
+    "FILM_ROTOR_PUMP_RAS_DWA_2",
+    "FILM_ROTOR_PUMP_RAS_DWA_3",
+    "FILM_ROTOR_PUMP_RAS_DWB_1",
+    "FILM_ROTOR_PUMP_RAS_DWB_2",
+    "FILM_ROTOR_PUMP_RAS_DWB_3",
+    "FILM_ROTOR_BLOWER_NX300_001",
+    "FILM_ROTOR_BLOWER_NX300_002",
+    "FILM_ROTOR_BLOWER_NX300_003",
+    "FILM_ROTOR_BLOWER_NX300_004",
+    "FILM_ROTOR_BLOWER_NX300_005",
+    "FILM_ROTOR_BLOWER_NX300_006"
+  ],
+  "source": "plant_environment_outfall.blend",
+  "assumptions": [
+    "Presentation geometry, not hydraulic simulation or selected manufacturer internals.",
+    "Pump and blower cross-sections are generic explanatory additions.",
+    "All six blower/pump rotors animate for mechanism demonstration; design remains four duty plus two standby.",
+    "Primary and secondary scraper motion is accelerated; rotating impellers slowed for readability."
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "fps": 24,
+  "frames": 6480,
+  "duration_seconds": 270,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "samples": 192,
+  "noise_threshold": 0.015,
+  "shots": [
+    {
+      "id": "overview",
+      "title": "污水处理厂",
+      "seconds": 18,
+      "start": 1,
+      "end": 432,
+      "camera_start": [
+        660,
+        -410,
+        520
+      ],
+      "camera_end": [
+        570,
+        -310,
+        410
+      ],
+      "target_start": [
+        210,
+        150,
+        0
+      ],
+      "target_end": [
+        220,
+        165,
+        0
+      ],
+      "water": [],
+      "lens": 34,
+      "reveal_start": 182,
+      "dry_start": 216,
+      "dry_end": 341,
+      "restore_end": 380
+    },
+    {
+      "id": "coarse",
+      "title": "粗格栅",
+      "seconds": 14,
+      "start": 433,
+      "end": 768,
+      "camera_start": [
+        377,
+        267,
+        24
+      ],
+      "camera_end": [
+        369,
+        270,
+        17
+      ],
+      "target_start": [
+        360,
+        282,
+        1
+      ],
+      "target_end": [
+        360,
+        282,
+        1
+      ],
+      "water": [
+        "LIQUID_G1"
+      ],
+      "lens": 46,
+      "reveal_start": 574,
+      "dry_start": 600,
+      "dry_end": 698,
+      "restore_end": 728
+    },
+    {
+      "id": "pumps",
+      "title": "进水提升泵站",
+      "seconds": 16,
+      "start": 769,
+      "end": 1152,
+      "camera_start": [
+        378,
+        241,
+        23
+      ],
+      "camera_end": [
+        364,
+        249,
+        13
+      ],
+      "target_start": [
+        360,
+        260,
+        0
+      ],
+      "target_end": [
+        357,
+        259,
+        -0.5
+      ],
+      "water": [
+        "LIQUID_P_"
+      ],
+      "lens": 43,
+      "reveal_start": 930,
+      "dry_start": 960,
+      "dry_end": 1072,
+      "restore_end": 1106
+    },
+    {
+      "id": "fine",
+      "title": "细格栅",
+      "seconds": 12,
+      "start": 1153,
+      "end": 1440,
+      "camera_start": [
+        345,
+        244,
+        23
+      ],
+      "camera_end": [
+        335,
+        248,
+        16
+      ],
+      "target_start": [
+        324,
+        261,
+        1
+      ],
+      "target_end": [
+        324,
+        261,
+        1
+      ],
+      "water": [
+        "LIQUID_G2"
+      ],
+      "lens": 46,
+      "reveal_start": 1274,
+      "dry_start": 1296,
+      "dry_end": 1380,
+      "restore_end": 1406
+    },
+    {
+      "id": "grit",
+      "title": "曝气沉砂池",
+      "seconds": 16,
+      "start": 1441,
+      "end": 1824,
+      "camera_start": [
+        226,
+        259,
+        15
+      ],
+      "camera_end": [
+        214,
+        266,
+        11
+      ],
+      "target_start": [
+        208,
+        274,
+        0.5
+      ],
+      "target_end": [
+        203,
+        274,
+        0.2
+      ],
+      "water": [
+        "LIQUID_SA_"
+      ],
+      "lens": 43,
+      "reveal_start": 1602,
+      "dry_start": 1632,
+      "dry_end": 1744,
+      "restore_end": 1778
+    },
+    {
+      "id": "primary",
+      "title": "初沉池",
+      "seconds": 22,
+      "start": 1825,
+      "end": 2352,
+      "camera_start": [
+        90,
+        195,
+        36
+      ],
+      "camera_end": [
+        55,
+        207,
+        22
+      ],
+      "target_start": [
+        50,
+        226,
+        0
+      ],
+      "target_end": [
+        40,
+        226,
+        -0.3
+      ],
+      "water": [
+        "LIQUID_C1_"
+      ],
+      "lens": 42,
+      "reveal_start": 2046,
+      "dry_start": 2088,
+      "dry_end": 2241,
+      "restore_end": 2289
+    },
+    {
+      "id": "anaerobic",
+      "title": "厌氧池",
+      "seconds": 16,
+      "start": 2353,
+      "end": 2736,
+      "camera_start": [
+        57,
+        199,
+        18
+      ],
+      "camera_end": [
+        65,
+        190,
+        10
+      ],
+      "target_start": [
+        65,
+        181.5,
+        -0.2
+      ],
+      "target_end": [
+        70,
+        181.5,
+        -1.2
+      ],
+      "water": [
+        "LIQUID_B1_anaerobic"
+      ],
+      "lens": 43,
+      "reveal_start": 2514,
+      "dry_start": 2544,
+      "dry_end": 2656,
+      "restore_end": 2690
+    },
+    {
+      "id": "anoxic",
+      "title": "缺氧池",
+      "seconds": 16,
+      "start": 2737,
+      "end": 3120,
+      "camera_start": [
+        43,
+        189,
+        17
+      ],
+      "camera_end": [
+        56,
+        181,
+        11
+      ],
+      "target_start": [
+        57,
+        173,
+        -0.2
+      ],
+      "target_end": [
+        61.7,
+        174,
+        -1.2
+      ],
+      "water": [
+        "LIQUID_B1_anoxic"
+      ],
+      "lens": 43,
+      "reveal_start": 2898,
+      "dry_start": 2928,
+      "dry_end": 3040,
+      "restore_end": 3074
+    },
+    {
+      "id": "blowers",
+      "title": "鼓风机房",
+      "seconds": 18,
+      "start": 3121,
+      "end": 3552,
+      "camera_start": [
+        202,
+        118.8,
+        6
+      ],
+      "camera_end": [
+        187,
+        121,
+        3.5
+      ],
+      "target_start": [
+        196.6,
+        125,
+        1.6
+      ],
+      "target_end": [
+        185,
+        125,
+        1.4
+      ],
+      "water": [],
+      "lens": 38,
+      "reveal_start": 3302,
+      "dry_start": 3336,
+      "dry_end": 3461,
+      "restore_end": 3500
+    },
+    {
+      "id": "aerobic",
+      "title": "好氧池 · 曝气系统",
+      "seconds": 20,
+      "start": 3553,
+      "end": 4032,
+      "camera_start": [
+        17,
+        166,
+        26
+      ],
+      "camera_end": [
+        34,
+        157,
+        13
+      ],
+      "target_start": [
+        41,
+        151,
+        0.2
+      ],
+      "target_end": [
+        41,
+        151,
+        -1.2
+      ],
+      "water": [
+        "LIQUID_B1_aerobic"
+      ],
+      "lens": 43,
+      "reveal_start": 3754,
+      "dry_start": 3792,
+      "dry_end": 3931,
+      "restore_end": 3975
+    },
+    {
+      "id": "recycle",
+      "title": "内回流泵",
+      "seconds": 10,
+      "start": 4033,
+      "end": 4272,
+      "camera_start": [
+        9,
+        149,
+        12
+      ],
+      "camera_end": [
+        13,
+        144,
+        7
+      ],
+      "target_start": [
+        16.799999999999997,
+        142,
+        -0.6
+      ],
+      "target_end": [
+        16.799999999999997,
+        142,
+        -1.3
+      ],
+      "water": [
+        "LIQUID_B1_aerobic"
+      ],
+      "lens": 46,
+      "reveal_start": 4133,
+      "dry_start": 4152,
+      "dry_end": 4222,
+      "restore_end": 4243
+    },
+    {
+      "id": "distribution",
+      "title": "二沉配水井 · 污泥回流泵",
+      "seconds": 10,
+      "start": 4273,
+      "end": 4512,
+      "camera_start": [
+        115,
+        110,
+        17
+      ],
+      "camera_end": [
+        107,
+        117,
+        11
+      ],
+      "target_start": [
+        100,
+        124,
+        0
+      ],
+      "target_end": [
+        100,
+        124,
+        -0.6
+      ],
+      "water": [
+        "LIQUID_DWA_"
+      ],
+      "lens": 43,
+      "reveal_start": 4373,
+      "dry_start": 4392,
+      "dry_end": 4462,
+      "restore_end": 4483
+    },
+    {
+      "id": "secondary",
+      "title": "二沉池",
+      "seconds": 24,
+      "start": 4513,
+      "end": 5088,
+      "camera_start": [
+        66,
+        45,
+        34
+      ],
+      "camera_end": [
+        48,
+        58,
+        25
+      ],
+      "target_start": [
+        34,
+        80,
+        0
+      ],
+      "target_end": [
+        34,
+        80,
+        -0.8
+      ],
+      "water": [
+        "LIQUID_T1_"
+      ],
+      "lens": 42,
+      "reveal_start": 4754,
+      "dry_start": 4800,
+      "dry_end": 4967,
+      "restore_end": 5019
+    },
+    {
+      "id": "contact",
+      "title": "接触消毒池",
+      "seconds": 18,
+      "start": 5089,
+      "end": 5520,
+      "camera_start": [
+        328,
+        4,
+        31
+      ],
+      "camera_end": [
+        307,
+        10,
+        23
+      ],
+      "target_start": [
+        300,
+        28.5,
+        0
+      ],
+      "target_end": [
+        297,
+        28.5,
+        -0.5
+      ],
+      "water": [
+        "LIQUID_CT_"
+      ],
+      "lens": 42,
+      "reveal_start": 5270,
+      "dry_start": 5304,
+      "dry_end": 5429,
+      "restore_end": 5468
+    },
+    {
+      "id": "meter",
+      "title": "长喉计量渠 · 双渠",
+      "seconds": 12,
+      "start": 5521,
+      "end": 5808,
+      "camera_start": [
+        351,
+        17,
+        17
+      ],
+      "camera_end": [
+        343,
+        22,
+        11
+      ],
+      "target_start": [
+        338,
+        29,
+        0.5
+      ],
+      "target_end": [
+        338,
+        29,
+        0.5
+      ],
+      "water": [
+        "LIQUID_METER",
+        "FILM_WaterMeter"
+      ],
+      "lens": 46,
+      "reveal_start": 5642,
+      "dry_start": 5664,
+      "dry_end": 5748,
+      "restore_end": 5774
+    },
+    {
+      "id": "outfall",
+      "title": "出水口",
+      "seconds": 18,
+      "start": 5809,
+      "end": 6240,
+      "camera_start": [
+        494,
+        10,
+        3
+      ],
+      "camera_end": [
+        487,
+        20,
+        -1
+      ],
+      "target_start": [
+        477,
+        29,
+        -6.3
+      ],
+      "target_end": [
+        477,
+        29,
+        -6.5
+      ],
+      "water": [
+        "FILM_WaterOutfall"
+      ],
+      "lens": 43,
+      "reveal_start": 5990,
+      "dry_start": 6024,
+      "dry_end": 6149,
+      "restore_end": 6188
+    },
+    {
+      "id": "ending",
+      "title": "净水归河",
+      "seconds": 10,
+      "start": 6241,
+      "end": 6480,
+      "camera_start": [
+        545,
+        -30,
+        100
+      ],
+      "camera_end": [
+        690,
+        -170,
+        310
+      ],
+      "target_start": [
+        450,
+        45,
+        -3
+      ],
+      "target_end": [
+        300,
+        110,
+        0
+      ],
+      "water": [],
+      "lens": 38,
+      "reveal_start": 6341,
+      "dry_start": 6360,
+      "dry_end": 6430,
+      "restore_end": 6451
+    }
+  ],
+  "assumptions": [
+    "Presentation geometry, not hydraulic simulation or selected manufacturer internals.",
+    "Pump and blower cross-sections are generic explanatory additions.",
+    "All six blower/pump rotors animate for mechanism demonstration; design remains four duty plus two standby.",
+    "Primary and secondary scraper motion is accelerated; rotating impellers slowed for readability."
+  ],
+  "geometry": {
+    "pump_rotor_radius_fraction": 0.32,
+    "blower_rotor_radius": 0.48,
+    "blower_internal_offset": [
+      0,
+      -0.35,
+      1.35
+    ],
+    "outfall_start": [
+      476.85,
+      29,
+      -6.85
+    ],
+    "outfall_end": [
+      482.3,
+      29,
+      -8.13
+    ]
+  },
+  "speeds": {
+    "secondary_period_seconds": 100,
+    "primary_period_seconds": 80,
+    "pump_demo_rps": 0.8,
+    "blower_demo_rps": 0.7
+  }
+}

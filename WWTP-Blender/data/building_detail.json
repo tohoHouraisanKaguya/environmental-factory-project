@@ -1,0 +1,7 @@
+{
+  "industrial":{"height":6.5,"roof_rise":1.2,"bay_target":6,"wall_thickness":0.22,"column_size":0.28,"window_width":2.6,"window_sill":2.0,"window_height":1.7,"door_width":3.6,"door_height":4.2,"roof_overhang":0.45,"roof_thickness":0.14,"roof_seam_pitch":0.65},
+  "admin":{"height":9.5,"floors":3,"floor_height":3.0,"window_sill":1.0,"window_height":1.65,"window_width":2.7,"door_width":2.4,"door_height":2.6},
+  "details":{"gutter_radius":0.10,"downpipe_radius":0.055,"window_frame":0.055,"baseplate_size":0.46,"anchor_bolt_radius":0.018,"canopy_depth":1.5,"canopy_thickness":0.12,"stair_width":1.2,"stair_tread":0.25,"stair_rise":0.1666666667},
+  "engineering_status":"Presentation architecture within existing DXF footprint. Building heights, steel sections, facade grids, stairs and openings are provisional; not a structural calculation or certified architectural/fire design. Process equipment counts unchanged.",
+  "fixed_footprints_source":"data/engineering_model.json, user DXF"
+}

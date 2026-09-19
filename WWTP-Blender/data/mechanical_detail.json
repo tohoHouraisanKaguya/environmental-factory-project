@@ -1,0 +1,6 @@
+{
+  "screens":{"coarse":{"channel_width":1.53,"bar_pitch":0.035,"bar_thickness":0.01},"fine":{"channel_width":2.15,"bar_pitch":0.02,"bar_thickness":0.01},"inclination_deg":60,"foot_z":-1.0,"head_z":3.4,"frame_depth":0.15,"rake_spacing":0.65,"frame_margin":0.10,"discharge_chute_length":1.15,"motor_radius":0.18,"drive_height":0.35},
+  "secondary_access":{"stair_width":1.2,"tread":0.28,"maximum_rise":0.18,"rail_height":1.1,"gate_width":1.4},
+  "status":"Mechanical presentation geometry only. Screen nominal channels and 60-degree rake inclination follow available course design; manufacturer details and civil channel integration remain provisional. No new hydraulic certification.",
+  "source":"Course coarse/fine screen calculation and current DXF envelope; all small mechanical details schematic."
+}

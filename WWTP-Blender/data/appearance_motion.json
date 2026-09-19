@@ -1,0 +1,21 @@
+{
+  "source_stage": "secondary_access",
+  "fps": 24,
+  "end_frame": 241,
+  "secondary_demo_revolutions": 1,
+  "secondary_assumed_real_period_s": 1800,
+  "mixer_demo_revolutions": 5,
+  "primary_travel_fractions": [0.20, 0.75],
+  "primary_assumed_speed_m_s": 0.01,
+  "primary_return_lift_m": 0.35,
+  "palette_srgb": {
+    "concrete": "#B9B8AD", "galvanized": "#BFC5C5", "stainless": "#CCD1D0",
+    "paint_blue": "#386D8B", "dark_metal": "#41494D", "facade": "#DFDDD1",
+    "roof": "#536970", "asphalt": "#484B4C", "grass": "#637344",
+    "raw_water": "#625E49", "primary_water": "#6C6951", "mixed_liquor": "#65503A",
+    "aerated_water": "#786249", "effluent": "#536C61", "air_pipe": "#6E99AE",
+    "sludge_pipe": "#796149", "recycle_pipe": "#8A785A", "safety": "#E3AF31"
+  },
+  "appearance_status": "Plausible operating-plant palette, not measured site colours or a mandated pipeline colour standard. Water colour depends on loading, lighting and treatment. Existing licensed equipment textures retained.",
+  "motion_status": "Mechanism demonstration, not CFD or manufacturer-verified speed. Secondary demo 180x assumed speed; mixers slowed for visibility; primary speedup calculated from travel. Fixed bridge with central driven underwater suction assembly is a presentation assumption. No validated equipment selection."
+}

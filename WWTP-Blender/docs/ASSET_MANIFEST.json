@@ -1,18 +1,230 @@
 {
   "schema_version": 1,
-  "policy": {"permitted_licenses": ["CC0", "CC-BY"], "no_unknown_license": true, "default_texture_resolution": "2k"},
+  "policy": {
+    "permitted_licenses": [
+      "CC0",
+      "CC-BY"
+    ],
+    "no_unknown_license": true,
+    "default_texture_resolution": "2k"
+  },
   "assets": [
-    {"asset_id":"PIPES_PACK_01","name":"Industrial Pipes Pack","source":"https://sketchfab.com/3d-models/industrial-pipes-pack-116baf2d9f3949c482737b08b8e00a75","license":"CC-BY","local_path":"assets/piping/","status":"NEEDS_USER_API_KEY"},
-    {"asset_id":"VALVE_GENERIC_01","name":"Industrial Valve","source":"https://sketchfab.com/3d-models/industrial-valve-cea67369ae50485c9f06ea44cb608b92","license":"CC-BY","local_path":"assets/equipment/valves/","status":"NEEDS_USER_API_KEY"},
-    {"asset_id":"PUMP_CENTRIFUGAL_01","name":"Centrifugal Pump","source":"https://sketchfab.com/3d-models/centrifugal-pump-bomba-centrifuga-a49b7e1567714040826fc6a24c4e8a7d","license":"CC-BY","local_path":"assets/equipment/pumps/","status":"NEEDS_USER_API_KEY","notes":"Not a submersible influent pump."},
-    {"asset_id":"BLOWER_PROXY_01","name":"Industrial Fan","source":"https://sketchfab.com/3d-models/industrial-fan-e6bf7e338b9f4f4e974ae97a9b5542df","license":"CC-BY","local_path":"assets/equipment/blowers/","status":"NEEDS_USER_API_KEY"},
-    {"asset_id":"CHEMICAL_TANK_01","name":"Chemical Tank","source":"https://sketchfab.com/3d-models/chemical-tank-63c001e74ff5402fbcf1338479c9c0c5","license":"CC-BY","local_path":"assets/equipment/chemical_tanks/","status":"NEEDS_USER_API_KEY"},
-    {"asset_id":"STREET_LIGHT_01","name":"Street Light","source":"https://sketchfab.com/3d-models/street-light-lamp-78339c366835415fbc58032e99268590","license":"CC-BY","local_path":"assets/street/","status":"NEEDS_USER_API_KEY"},
-    {"asset_id":"MAT_CONCRETE_01","name":"Concrete","source":"https://polyhaven.com/a/concrete","license":"CC0","local_path":"assets/materials/concrete/polyhaven_concrete_2k/","raw_path":"assets/raw_downloads/polyhaven_concrete_2k/","status":"downloaded","resolution":"2k"},
-    {"asset_id":"MAT_ASPHALT_01","name":"Asphalt Floor","source":"https://polyhaven.com/a/asphalt_floor","license":"CC0","local_path":"assets/materials/asphalt/polyhaven_asphalt_floor_2k/","raw_path":"assets/raw_downloads/polyhaven_asphalt_floor_2k/","status":"downloaded","resolution":"2k"},
-    {"asset_id":"MAT_METAL_01","name":"Metal Plate","source":"https://polyhaven.com/a/metal_plate","license":"CC0","local_path":"assets/materials/metal/polyhaven_metal_plate_2k/","raw_path":"assets/raw_downloads/polyhaven_metal_plate_2k/","status":"downloaded","resolution":"2k"},
-    {"asset_id":"MAT_GRASS_01","name":"Grass Ground","source":"https://polyhaven.com/a/grass_ground","license":"CC0","local_path":"assets/materials/grass/polyhaven_grass_ground_2k/","raw_path":"assets/raw_downloads/polyhaven_grass_ground_2k/","status":"downloaded","resolution":"2k"},
-    {"asset_id":"KENNEY_FACTORY_KIT_01","name":"Factory Kit 3.0","author":"Kenney","source":"https://kenney.nl/assets/factory-kit","license":"CC0","local_path":["assets/equipment/misc/kenney_factory_kit/","assets/equipment/valves/kenney_factory_kit/","assets/piping/kenney_factory_kit/"],"raw_path":"assets/raw_downloads/kenney_factory_kit/","status":"downloaded","notes":"Selected GLB files used as generic industrial visual proxies; not manufacturer-specific equipment."},
-    {"asset_id":"STREET_LIGHT_CC0_01","name":"Street Lamp 02","author":"Josh Dean","source":"https://polyhaven.com/a/street_lamp_02","license":"CC0","local_path":"assets/street/polyhaven_street_lamp_02/","raw_path":"assets/raw_downloads/polyhaven_street_lamp_02/","status":"downloaded","resolution":"1k","notes":"Scaled for plant-road visual use and instanced."}
+    {
+      "asset_id": "NX300_A1CALL",
+      "name": "APG-Neuros NX300 Turbo Blower",
+      "author": "a1call",
+      "source": "https://sketchfab.com/3d-models/apg-neuros-nx300-turbo-blower-2bebc749c3c2412186340fe8af4a8dcc",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "local_path": "assets/equipment/blowers/nx300/model.glb",
+      "status": "downloaded_and_instanced",
+      "download_date": "2026-09-19",
+      "sha256": "9a9f7b3b1f5e705f6976ca6661998767095f6242364865b996c4fd217ff4ac53",
+      "triangles": 345516,
+      "dimensions_m": [
+        2.107543,
+        3.578984,
+        2.955071
+      ],
+      "modifications": "World transforms baked, ground-centered, 610 mesh objects joined with materials retained; six objects share one mesh. Added parametric header, branch extensions, gauges, supports and labels. Source file unchanged.",
+      "role": "Visual reference only; manufacturer model does not establish design selection or project flow rating."
+    },
+    {
+      "asset_id": "PIPES_PACK_01",
+      "name": "Industrial Pipes Pack",
+      "source": "https://sketchfab.com/3d-models/industrial-pipes-pack-116baf2d9f3949c482737b08b8e00a75",
+      "license": "CC-BY",
+      "local_path": "assets/piping/",
+      "status": "NEEDS_USER_API_KEY"
+    },
+    {
+      "asset_id": "VALVE_GENERIC_01",
+      "name": "Industrial Valve",
+      "source": "https://sketchfab.com/3d-models/industrial-valve-cea67369ae50485c9f06ea44cb608b92",
+      "license": "CC-BY",
+      "local_path": "assets/equipment/valves/",
+      "status": "NEEDS_USER_API_KEY"
+    },
+    {
+      "asset_id": "PUMP_CENTRIFUGAL_01",
+      "name": "Centrifugal Pump",
+      "source": "https://sketchfab.com/3d-models/centrifugal-pump-bomba-centrifuga-a49b7e1567714040826fc6a24c4e8a7d",
+      "license": "CC-BY",
+      "local_path": "assets/equipment/pumps/",
+      "status": "NEEDS_USER_API_KEY",
+      "notes": "Not a submersible influent pump."
+    },
+    {
+      "asset_id": "BLOWER_PROXY_01",
+      "name": "Industrial Fan",
+      "source": "https://sketchfab.com/3d-models/industrial-fan-e6bf7e338b9f4f4e974ae97a9b5542df",
+      "license": "CC-BY",
+      "local_path": "assets/equipment/blowers/",
+      "status": "NEEDS_USER_API_KEY"
+    },
+    {
+      "asset_id": "CHEMICAL_TANK_01",
+      "name": "Chemical Tank",
+      "source": "https://sketchfab.com/3d-models/chemical-tank-63c001e74ff5402fbcf1338479c9c0c5",
+      "license": "CC-BY",
+      "local_path": "assets/equipment/chemical_tanks/",
+      "status": "NEEDS_USER_API_KEY"
+    },
+    {
+      "asset_id": "STREET_LIGHT_01",
+      "name": "Street Light",
+      "source": "https://sketchfab.com/3d-models/street-light-lamp-78339c366835415fbc58032e99268590",
+      "license": "CC-BY",
+      "local_path": "assets/street/",
+      "status": "NEEDS_USER_API_KEY"
+    },
+    {
+      "asset_id": "MAT_CONCRETE_01",
+      "name": "Concrete",
+      "source": "https://polyhaven.com/a/concrete",
+      "license": "CC0",
+      "local_path": "assets/materials/concrete/polyhaven_concrete_2k/",
+      "raw_path": "assets/raw_downloads/polyhaven_concrete_2k/",
+      "status": "downloaded",
+      "resolution": "2k"
+    },
+    {
+      "asset_id": "MAT_ASPHALT_01",
+      "name": "Asphalt Floor",
+      "source": "https://polyhaven.com/a/asphalt_floor",
+      "license": "CC0",
+      "local_path": "assets/materials/asphalt/polyhaven_asphalt_floor_2k/",
+      "raw_path": "assets/raw_downloads/polyhaven_asphalt_floor_2k/",
+      "status": "downloaded",
+      "resolution": "2k"
+    },
+    {
+      "asset_id": "MAT_METAL_01",
+      "name": "Metal Plate",
+      "source": "https://polyhaven.com/a/metal_plate",
+      "license": "CC0",
+      "local_path": "assets/materials/metal/polyhaven_metal_plate_2k/",
+      "raw_path": "assets/raw_downloads/polyhaven_metal_plate_2k/",
+      "status": "downloaded",
+      "resolution": "2k"
+    },
+    {
+      "asset_id": "MAT_GRASS_01",
+      "name": "Grass Ground",
+      "source": "https://polyhaven.com/a/grass_ground",
+      "license": "CC0",
+      "local_path": "assets/materials/grass/polyhaven_grass_ground_2k/",
+      "raw_path": "assets/raw_downloads/polyhaven_grass_ground_2k/",
+      "status": "downloaded",
+      "resolution": "2k"
+    },
+    {
+      "asset_id": "KENNEY_FACTORY_KIT_01",
+      "name": "Factory Kit 3.0",
+      "author": "Kenney",
+      "source": "https://kenney.nl/assets/factory-kit",
+      "license": "CC0",
+      "local_path": [
+        "assets/equipment/misc/kenney_factory_kit/",
+        "assets/equipment/valves/kenney_factory_kit/",
+        "assets/piping/kenney_factory_kit/"
+      ],
+      "raw_path": "assets/raw_downloads/kenney_factory_kit/",
+      "status": "downloaded",
+      "notes": "Selected GLB files used as generic industrial visual proxies; not manufacturer-specific equipment."
+    },
+    {
+      "asset_id": "STREET_LIGHT_CC0_01",
+      "name": "Street Lamp 02",
+      "author": "Josh Dean",
+      "source": "https://polyhaven.com/a/street_lamp_02",
+      "license": "CC0",
+      "local_path": "assets/street/polyhaven_street_lamp_02/",
+      "raw_path": "assets/raw_downloads/polyhaven_street_lamp_02/",
+      "status": "downloaded",
+      "resolution": "1k",
+      "notes": "Scaled for plant-road visual use and instanced."
+    },
+    {
+      "asset_id": "VALVE_CC0_32344",
+      "name": "Flow Control Valve",
+      "author": "3D Assets (AI-assisted)",
+      "license": "CC0-1.0",
+      "source": "https://3dassets.dev/assets/abandoned-tidal-model-testing-hall-flow-control-valve-6644664d",
+      "download_url": "https://cdn.3dassets.dev/assets/32344/v1/model.glb",
+      "local_path": "assets/equipment/valves/flow_control_valve/model.glb",
+      "role": "generic valve visual proxy; not a certified valve selection",
+      "status": "downloaded",
+      "download_date": "2026-09-18",
+      "original_filename": "model.glb",
+      "raw_path": "assets/raw_downloads/VALVE_CC0_32344/model.glb",
+      "triangles": 4236,
+      "dimensions_m": [
+        0.3240000009536743,
+        0.4790000021457672,
+        0.6520040035247803
+      ],
+      "sha256": "36fc36f98352cf091bd86e1a39f6a8d0c86b12b8d65505d4ddacf87bcbf84112",
+      "modifications": "Blender Y-up conversion; baked transforms; ground-centred origin; recomputed normals; removed cameras/lights; shared collection instances. Raw GLB untouched."
+    },
+    {
+      "asset_id": "PUMP_CC0_29360",
+      "name": "Cooling Pump",
+      "author": "3D Assets (AI-assisted)",
+      "license": "CC0-1.0",
+      "source": "https://3dassets.dev/assets/hydroelectric-dam-infiltration-cooling-pump-d6d9c2db",
+      "download_url": "https://cdn.3dassets.dev/assets/29360/v1/model.glb",
+      "local_path": "assets/equipment/pumps/industrial_centrifugal/model.glb",
+      "role": "centrifugal visual reference; not submersible influent equipment or a selected RAS manufacturer",
+      "status": "downloaded",
+      "download_date": "2026-09-18",
+      "original_filename": "model.glb",
+      "raw_path": "assets/raw_downloads/PUMP_CC0_29360/model.glb",
+      "triangles": 6164,
+      "dimensions_m": [
+        1.6109528541564941,
+        2.231722354888916,
+        0.689022421836853
+      ],
+      "sha256": "cd2b33cfd4c3271ab20afa6addc67d1ec6ae3d864dff4405ad8df67abb7badec",
+      "modifications": "Blender Y-up conversion; baked transforms; ground-centred origin; recomputed normals; removed cameras/lights; shared collection instances. Raw GLB untouched."
+    },
+    {
+      "asset_id": "FILTER_CC0_32298",
+      "name": "Intake Filter Housing",
+      "author": "3D Assets (AI-assisted)",
+      "license": "CC0-1.0",
+      "source": "https://3dassets.dev/assets/pneumatic-tube-mail-exchange-pneumatic-tube-mail-excha-2aa41a0a",
+      "download_url": "https://cdn.3dassets.dev/assets/32298/v1/model.glb",
+      "local_path": "assets/equipment/misc/intake_filter/model.glb",
+      "role": "generic air inlet filter visual detail; no rated performance",
+      "status": "downloaded",
+      "download_date": "2026-09-18",
+      "original_filename": "model.glb",
+      "raw_path": "assets/raw_downloads/FILTER_CC0_32298/model.glb",
+      "triangles": 9644,
+      "dimensions_m": [
+        0.611011266708374,
+        0.4800185263156891,
+        1.1670117378234863
+      ],
+      "sha256": "015ea650edfcab464ca301f66306ec9f8a258495ef929a515853c9fdf7aba1aa",
+      "modifications": "Blender Y-up conversion; baked transforms; ground-centred origin; recomputed normals; removed cameras/lights; shared collection instances. Raw GLB untouched."
+    },
+    {
+      "asset_id": "kloofendal_38d_partly_cloudy_puresky",
+      "name": "Kloofendal 38d Partly Cloudy (Pure Sky)",
+      "author": {
+        "Greg Zaal": "Original",
+        "Jarod Guest": "Sky edits"
+      },
+      "source": "https://polyhaven.com/a/kloofendal_38d_partly_cloudy_puresky",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "local_path": "assets/environment/kloofendal_38d_partly_cloudy_puresky_2k.hdr",
+      "sha256": "a24bde75b46707fb51770626fad7dbd6986eb80754e4b05bc76739d4f3122cd7",
+      "status": "downloaded; packed HDR environment reflection",
+      "modifications": "None; world rotation and lighting strength adjustable in Blender"
+    }
   ]
 }
